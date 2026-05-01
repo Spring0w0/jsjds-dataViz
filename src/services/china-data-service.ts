@@ -2,12 +2,12 @@
 import { DataService } from './data-service'
 
 export class ChinaDataService extends DataService {
-  getIndicators(level: string): any[] {
+  getIndicators(_level: string): any[] {
     // 待实现
     return []
   }
 
-  getData(indicator: string, year?: number): any {
+  getData(_indicator: string, _year?: number): any {
     // 待实现
     return null
   }

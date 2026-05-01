@@ -1,5 +1,5 @@
 // 中国数据状态管理
-import { ref, reactive } from 'vue'
+import { ref } from 'vue'
 
 export const useChinaStore = () => {
   const currentIndicator = ref('')
