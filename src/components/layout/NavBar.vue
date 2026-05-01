@@ -2,7 +2,8 @@
   <nav class="nav-bar">
     <div class="nav-content">
       <div class="logo">
-        <span class="logo-text">🏥 卫生数据可视化平台</span>
+        <span class="logo-icon">🏥</span>
+        <span class="logo-text">卫生数据可视化平台</span>
       </div>
       <div class="nav-tabs">
         <router-link 
@@ -10,14 +11,14 @@
           class="nav-tab"
           :class="{ active: $route.path === '/china' }"
         >
-          🇨🇳 中国
+          中国
         </router-link>
         <router-link 
           to="/world" 
           class="nav-tab"
           :class="{ active: $route.path === '/world' }"
         >
-          🌍 世界
+          世界
         </router-link>
       </div>
     </div>
@@ -29,17 +30,17 @@
 
 <style scoped>
 .nav-bar {
-  height: 60px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  height: 64px;
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
   flex-shrink: 0;
 }
 
 .nav-content {
   height: 100%;
-  max-width: 1400px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -48,38 +49,45 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
+}
+
+.logo-icon {
+  font-size: 24px;
 }
 
 .logo-text {
-  font-size: 20px;
-  font-weight: 600;
-  color: white;
+  font-size: 18px;
+  font-weight: var(--font-semibold);
+  color: var(--color-text-primary);
+  letter-spacing: -0.01em;
 }
 
 .nav-tabs {
   display: flex;
-  gap: 8px;
+  gap: 4px;
+  background: var(--color-bg-secondary);
+  padding: 4px;
+  border-radius: var(--radius-lg);
 }
 
 .nav-tab {
   padding: 8px 24px;
-  border-radius: 8px;
-  color: rgba(255,255,255,0.8);
+  border-radius: var(--radius-md);
+  color: var(--color-text-secondary);
   text-decoration: none;
-  font-size: 16px;
-  font-weight: 500;
-  transition: all 0.3s;
+  font-size: 14px;
+  font-weight: var(--font-medium);
+  transition: all var(--transition-fast);
 }
 
 .nav-tab:hover {
-  background: rgba(255,255,255,0.15);
-  color: white;
+  color: var(--color-text-primary);
 }
 
 .nav-tab.active {
-  background: white;
-  color: #667eea;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  background: var(--color-bg);
+  color: var(--color-primary);
+  box-shadow: var(--shadow-sm);
 }
 </style>

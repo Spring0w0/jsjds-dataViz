@@ -3,16 +3,92 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* ========== 颜色系统 ========== */
+  /* 主色调 - 医疗蓝 */
+  --color-primary: #1890ff;
+  --color-primary-light: #40a9ff;
+  --color-primary-dark: #096dd9;
+  --color-primary-bg: #e6f7ff;
+  
+  /* 四象限配色 - 降低饱和度 */
+  --color-quadrant-collaborative: #52c41a;
+  --color-quadrant-collaborative-bg: #f6ffed;
+  --color-quadrant-inefficient: #faad14;
+  --color-quadrant-inefficient-bg: #fffbe6;
+  --color-quadrant-exemplary: #1890ff;
+  --color-quadrant-exemplary-bg: #e6f7ff;
+  --color-quadrant-deficient: #ff4d4f;
+  --color-quadrant-deficient-bg: #fff1f0;
+  
+  /* 中性色 */
+  --color-neutral-50: #f8f9fa;
+  --color-neutral-100: #f1f3f5;
+  --color-neutral-200: #e8eaed;
+  --color-neutral-300: #dadce0;
+  --color-neutral-400: #bdc1c6;
+  --color-neutral-500: #9aa0a6;
+  --color-neutral-600: #5f6368;
+  --color-neutral-700: #3c4043;
+  --color-neutral-800: #202124;
+  --color-neutral-900: #171717;
+  
+  /* 背景色 */
+  --color-bg: #ffffff;
+  --color-bg-secondary: #f8f9fa;
+  --color-bg-tertiary: #f1f3f5;
+  
+  /* 文字色 */
+  --color-text-primary: #202124;
+  --color-text-secondary: #5f6368;
+  --color-text-tertiary: #9aa0a6;
+  
+  /* 边框色 */
+  --color-border: #e8eaed;
+  --color-border-light: #f1f3f5;
+  
+  /* ========== 阴影系统 ========== */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+  --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.06), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.06), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.06), 0 10px 10px -5px rgba(0, 0, 0, 0.03);
+  
+  /* ========== 圆角系统 ========== */
+  --radius-sm: 4px;
+  --radius: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+  
+  /* ========== 字阶系统 ========== */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  
+  /* ========== 字体系统 ========== */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  
+  /* ========== 间距系统 ========== */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  
+  /* ========== 过渡动画 ========== */
+  --transition-fast: 150ms ease-in-out;
+  --transition-normal: 200ms ease-in-out;
+  --transition-slow: 300ms ease-in-out;
 }
 
 * {
@@ -24,11 +100,63 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: #f5f7fa;
-  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #app {
   width: 100%;
   height: 100vh;
+}
+
+/* ========== 通用组件类 ========== */
+.card {
+  background: var(--color-bg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--color-border);
+  transition: box-shadow var(--transition-normal);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius);
+  font-size: var(--text-sm);
+  font-weight: var(--font-medium);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: var(--color-primary-dark);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--color-text-secondary);
+}
+
+.btn-ghost:hover {
+  background: var(--color-bg-tertiary);
+  color: var(--color-text-primary);
 }
