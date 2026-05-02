@@ -33,9 +33,10 @@
 </template>
 
 <script setup lang="ts">
-import { watch } from 'vue'
+import { watch, onMounted } from 'vue'
 import { useAppStore } from '../../stores/app'
 import { useDataStore } from '../../stores/data'
+import { useMapStore } from '../../stores/map'
 import MetricTreePanel from './MetricTreePanel.vue'
 import MapChart from '../charts/MapChart.vue'
 import DetailPanel from './DetailPanel.vue'
@@ -43,13 +44,27 @@ import TimelineController from './TimelineController.vue'
 
 const appStore = useAppStore()
 const dataStore = useDataStore()
+const mapStore = useMapStore()
 
 const handleRegionClick = (region: string) => {
-  // 处理区域点击
+  mapStore.selectRegion(region)
 }
 
 watch(() => appStore.mode, (newMode) => {
+  dataStore.setMode(newMode)
   if (newMode === 'china') {
+    dataStore.loadChinaData()
+  } else {
+    dataStore.loadWorldData()
+  }
+  // 切换模式时清除选中区域
+  mapStore.selectRegion(null)
+})
+
+onMounted(() => {
+  // 初始化时设置模式
+  dataStore.setMode(appStore.mode)
+  if (appStore.mode === 'china') {
     dataStore.loadChinaData()
   } else {
     dataStore.loadWorldData()
@@ -59,6 +74,7 @@ watch(() => appStore.mode, (newMode) => {
 
 <style scoped>
 .main-layout {
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -84,18 +100,23 @@ watch(() => appStore.mode, (newMode) => {
   flex: 1;
   display: flex;
   overflow: hidden;
+  min-height: 0; /* 关键：允许flex子项收缩 */
 }
 
 .left-panel {
   width: 280px;
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
+  min-height: 0;
 }
 
 .center-panel {
   flex: 1;
   overflow: hidden;
   padding: 16px;
+  min-width: 0;
 }
 
 .map-container {
@@ -110,7 +131,10 @@ watch(() => appStore.mode, (newMode) => {
 .right-panel {
   width: 320px;
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
+  min-height: 0;
 }
 
 .layout-footer {

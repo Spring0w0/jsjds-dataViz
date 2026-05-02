@@ -79,16 +79,19 @@ watch(() => appStore.mode, () => {
 
 <style scoped>
 .metric-panel {
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   background: white;
   border-right: 1px solid #e0e0e0;
+  min-height: 0;
 }
 
 .panel-header {
   padding: 16px;
   border-bottom: 1px solid #e0e0e0;
+  flex-shrink: 0;
 }
 
 .panel-header h3 {
@@ -100,12 +103,34 @@ watch(() => appStore.mode, () => {
 .layer-switch {
   padding: 12px 16px;
   border-bottom: 1px solid #e0e0e0;
+  flex-shrink: 0;
 }
 
 .metric-tree {
   flex: 1;
   overflow-y: auto;
+  overflow-x: hidden;
   padding: 8px;
+}
+
+/* 自定义滚动条样式 */
+.metric-tree::-webkit-scrollbar {
+  width: 8px;
+}
+
+.metric-tree::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.metric-tree::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.metric-tree::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .category-title {

@@ -69,6 +69,16 @@
       <div class="chart-card">
         <RankChart height="250px" :showTop="true" />
       </div>
+      
+      <!-- Bottom 10 -->
+      <div class="chart-card">
+        <RankChart height="250px" :showTop="false" />
+      </div>
+      
+      <!-- 四象限分布图 -->
+      <div class="chart-card" v-if="appStore.mode === 'china'">
+        <QuadrantChart height="250px" />
+      </div>
     </div>
   </div>
 </template>
@@ -80,6 +90,7 @@ import { useDataStore } from '../../stores/data'
 import { useMapStore } from '../../stores/map'
 import TrendChart from '../charts/TrendChart.vue'
 import RankChart from '../charts/RankChart.vue'
+import QuadrantChart from '../charts/QuadrantChart.vue'
 
 const appStore = useAppStore()
 const dataStore = useDataStore()
@@ -115,16 +126,19 @@ const currentRegionValue = computed(() => {
 
 <style scoped>
 .detail-panel {
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   background: white;
   border-left: 1px solid #e0e0e0;
+  min-height: 0;
 }
 
 .panel-header {
   padding: 16px;
   border-bottom: 1px solid #e0e0e0;
+  flex-shrink: 0;
 }
 
 .panel-header h3 {
@@ -136,16 +150,38 @@ const currentRegionValue = computed(() => {
 .panel-content {
   flex: 1;
   overflow-y: auto;
+  overflow-x: hidden;
   padding: 16px;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
+/* 自定义滚动条样式 */
+.panel-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.panel-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.panel-content::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.panel-content::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .info-card {
   background: #f8f9fa;
   border-radius: 8px;
   padding: 16px;
+  flex-shrink: 0;
 }
 
 .card-title {
@@ -187,5 +223,6 @@ const currentRegionValue = computed(() => {
   background: #f8f9fa;
   border-radius: 8px;
   overflow: hidden;
+  flex-shrink: 0;
 }
 </style>
