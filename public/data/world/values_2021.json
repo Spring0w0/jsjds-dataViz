@@ -1,0 +1,1924 @@
+{
+  "values": {
+    "阿富汗": {
+      "health_expenditure_per_capita": 81.52112579,
+      "fertility_rate": 5.039,
+      "gdp_per_capita": 356.49621411589226,
+      "life_expectancy": 60.417,
+      "mortality_under5": 59.3
+    },
+    "Africa Eastern and Southern": {
+      "health_expenditure_per_capita": 92.38657488094525,
+      "fertility_rate": 4.350682535230697,
+      "gdp_per_capita": 1562.416174777377,
+      "life_expectancy": 62.979999185749385,
+      "mortality_under5": 57.140506182229146
+    },
+    "Africa Western and Central": {
+      "health_expenditure_per_capita": 72.24109467488593,
+      "fertility_rate": 4.637740859759024,
+      "gdp_per_capita": 2112.794076370788,
+      "life_expectancy": 57.36257169102736,
+      "mortality_under5": 95.10617395861358
+    },
+    "阿尔巴尼亚": {
+      "health_expenditure_per_capita": 465.57043457,
+      "fertility_rate": 1.365,
+      "gdp_per_capita": 7242.455131466127,
+      "life_expectancy": 76.844,
+      "mortality_under5": 9.5
+    },
+    "阿尔及利亚": {
+      "health_expenditure_per_capita": 208.52682495,
+      "fertility_rate": 2.87,
+      "gdp_per_capita": 4160.559267369248,
+      "life_expectancy": 75.208,
+      "mortality_under5": 22.6
+    },
+    "American Samoa": {
+      "fertility_rate": 2.327,
+      "gdp_per_capita": 15236.160487557136,
+      "life_expectancy": 72.708
+    },
+    "Andorra": {
+      "health_expenditure_per_capita": 3535.98974609,
+      "fertility_rate": 1.058,
+      "gdp_per_capita": 42425.70664543573,
+      "life_expectancy": 82.331,
+      "mortality_under5": 2.8
+    },
+    "安哥拉": {
+      "health_expenditure_per_capita": 67.04656982,
+      "fertility_rate": 5.304,
+      "gdp_per_capita": 2303.908126627765,
+      "life_expectancy": 62.958,
+      "mortality_under5": 69.0
+    },
+    "Antigua and Barbuda": {
+      "health_expenditure_per_capita": 843.4654541,
+      "fertility_rate": 1.58,
+      "gdp_per_capita": 17348.600698718186,
+      "life_expectancy": 77.197,
+      "mortality_under5": 9.8
+    },
+    "Arab World": {
+      "health_expenditure_per_capita": 334.39670598483144,
+      "fertility_rate": 3.145588427017149,
+      "gdp_per_capita": 6697.41498492196,
+      "life_expectancy": 70.40411448899029,
+      "mortality_under5": 33.362721994634725
+    },
+    "阿根廷": {
+      "health_expenditure_per_capita": 1080.88208008,
+      "fertility_rate": 1.585,
+      "gdp_per_capita": 10738.017922338438,
+      "life_expectancy": 73.948,
+      "mortality_under5": 10.0
+    },
+    "亚美尼亚": {
+      "health_expenditure_per_capita": 595.83544922,
+      "fertility_rate": 1.7,
+      "gdp_per_capita": 4685.179971285085,
+      "life_expectancy": 72.27804878048782,
+      "mortality_under5": 11.0
+    },
+    "Aruba": {
+      "fertility_rate": 1.631,
+      "gdp_per_capita": 26749.329609311764,
+      "life_expectancy": 73.655
+    },
+    "澳大利亚": {
+      "health_expenditure_per_capita": 7039.57763672,
+      "fertility_rate": 1.7,
+      "gdp_per_capita": 60758.9044397144,
+      "life_expectancy": 83.3,
+      "mortality_under5": 3.7
+    },
+    "奥地利": {
+      "health_expenditure_per_capita": 6520.49072266,
+      "fertility_rate": 1.48,
+      "gdp_per_capita": 53648.643797621386,
+      "life_expectancy": 81.19024390243904,
+      "mortality_under5": 3.3
+    },
+    "阿塞拜疆": {
+      "health_expenditure_per_capita": 250.9887085,
+      "fertility_rate": 1.52,
+      "gdp_per_capita": 5408.045351750229,
+      "life_expectancy": 70.999,
+      "mortality_under5": 20.4
+    },
+    "Bahamas, The": {
+      "health_expenditure_per_capita": 2037.53186035,
+      "fertility_rate": 1.382,
+      "gdp_per_capita": 30367.860575770803,
+      "life_expectancy": 70.752,
+      "mortality_under5": 13.1
+    },
+    "Bahrain": {
+      "health_expenditure_per_capita": 1175.28198242,
+      "fertility_rate": 1.852,
+      "gdp_per_capita": 27147.80838822855,
+      "life_expectancy": 78.083,
+      "mortality_under5": 8.2
+    },
+    "孟加拉国": {
+      "health_expenditure_per_capita": 58.53958511,
+      "fertility_rate": 2.173,
+      "gdp_per_capita": 2482.849178433572,
+      "life_expectancy": 71.103,
+      "mortality_under5": 31.0
+    },
+    "Barbados": {
+      "health_expenditure_per_capita": 1391.49853516,
+      "fertility_rate": 1.709,
+      "gdp_per_capita": 21079.614527179096,
+      "life_expectancy": 76.58,
+      "mortality_under5": 10.7
+    },
+    "白俄罗斯": {
+      "health_expenditure_per_capita": 484.03930664,
+      "fertility_rate": 1.371,
+      "gdp_per_capita": 7489.718947138883,
+      "life_expectancy": 72.07146341463415,
+      "mortality_under5": 2.7
+    },
+    "比利时": {
+      "health_expenditure_per_capita": 5743.62109375,
+      "fertility_rate": 1.6,
+      "gdp_per_capita": 51658.23829495799,
+      "life_expectancy": 81.79024390243904,
+      "mortality_under5": 3.8
+    },
+    "Belize": {
+      "health_expenditure_per_capita": 310.2124939,
+      "fertility_rate": 1.837,
+      "gdp_per_capita": 6142.989305570311,
+      "life_expectancy": 70.917,
+      "mortality_under5": 13.0
+    },
+    "贝宁": {
+      "health_expenditure_per_capita": 34.03829193,
+      "fertility_rate": 4.707,
+      "gdp_per_capita": 1318.6515807519838,
+      "life_expectancy": 59.61,
+      "mortality_under5": 83.1
+    },
+    "Bermuda": {
+      "fertility_rate": 1.389,
+      "gdp_per_capita": 112765.08167306028,
+      "life_expectancy": 81.745
+    },
+    "Bhutan": {
+      "health_expenditure_per_capita": 103.67519379,
+      "fertility_rate": 1.488,
+      "gdp_per_capita": 3570.612579808724,
+      "life_expectancy": 72.448,
+      "mortality_under5": 24.7
+    },
+    "玻利维亚": {
+      "health_expenditure_per_capita": 276.20880127,
+      "fertility_rate": 2.618,
+      "gdp_per_capita": 4010.7605368620434,
+      "life_expectancy": 61.427,
+      "mortality_under5": 24.8
+    },
+    "波斯尼亚和黑塞哥维那": {
+      "health_expenditure_per_capita": 697.07427979,
+      "fertility_rate": 1.49,
+      "gdp_per_capita": 7295.34378682258,
+      "life_expectancy": 74.567,
+      "mortality_under5": 6.4
+    },
+    "博茨瓦纳": {
+      "health_expenditure_per_capita": 492.14260864,
+      "fertility_rate": 2.827,
+      "gdp_per_capita": 7807.887945704713,
+      "life_expectancy": 63.303,
+      "mortality_under5": 42.0
+    },
+    "巴西": {
+      "health_expenditure_per_capita": 768.27075195,
+      "fertility_rate": 1.638,
+      "gdp_per_capita": 7972.536960806947,
+      "life_expectancy": 73.038,
+      "mortality_under5": 14.7
+    },
+    "British Virgin Islands": {
+      "fertility_rate": 0.999,
+      "life_expectancy": 75.297,
+      "mortality_under5": 13.5
+    },
+    "Brunei Darussalam": {
+      "health_expenditure_per_capita": 665.54083252,
+      "fertility_rate": 1.778,
+      "gdp_per_capita": 31006.963628978527,
+      "life_expectancy": 74.869,
+      "mortality_under5": 9.6
+    },
+    "保加利亚": {
+      "health_expenditure_per_capita": 1047.45739746,
+      "fertility_rate": 1.8,
+      "gdp_per_capita": 12966.145754339632,
+      "life_expectancy": 71.21219512195123,
+      "mortality_under5": 6.3
+    },
+    "布基纳法索": {
+      "health_expenditure_per_capita": 57.22399521,
+      "fertility_rate": 4.361,
+      "gdp_per_capita": 895.5352884429909,
+      "life_expectancy": 60.046,
+      "mortality_under5": 82.5
+    },
+    "布隆迪": {
+      "health_expenditure_per_capita": 23.21740532,
+      "fertility_rate": 5.078,
+      "gdp_per_capita": 264.98037926965486,
+      "life_expectancy": 62.101,
+      "mortality_under5": 52.6
+    },
+    "Cabo Verde": {
+      "health_expenditure_per_capita": 282.93057251,
+      "fertility_rate": 1.554,
+      "gdp_per_capita": 3971.4440920342254,
+      "life_expectancy": 74.424,
+      "mortality_under5": 12.7
+    },
+    "柬埔寨": {
+      "health_expenditure_per_capita": 119.6354599,
+      "fertility_rate": 2.664,
+      "gdp_per_capita": 2167.403241984992,
+      "life_expectancy": 69.301,
+      "mortality_under5": 24.7
+    },
+    "喀麦隆": {
+      "health_expenditure_per_capita": 72.56921387,
+      "fertility_rate": 4.468,
+      "gdp_per_capita": 1672.3265734087215,
+      "life_expectancy": 61.146,
+      "mortality_under5": 72.1
+    },
+    "加拿大": {
+      "health_expenditure_per_capita": 6483.37695313,
+      "fertility_rate": 1.44,
+      "gdp_per_capita": 52886.66163727032,
+      "life_expectancy": 81.51682926829268,
+      "mortality_under5": 5.1
+    },
+    "Caribbean small states": {
+      "health_expenditure_per_capita": 862.7599540276043,
+      "fertility_rate": 1.8396718940956984,
+      "gdp_per_capita": 13995.269492172776,
+      "life_expectancy": 69.92281074717688,
+      "mortality_under5": 19.576958699698835
+    },
+    "Cayman Islands": {
+      "fertility_rate": 1.551,
+      "gdp_per_capita": 86449.67490373024,
+      "life_expectancy": 79.3
+    },
+    "中非共和国": {
+      "health_expenditure_per_capita": 46.24643707,
+      "fertility_rate": 6.052,
+      "gdp_per_capita": 492.2631428305074,
+      "life_expectancy": 40.279,
+      "mortality_under5": 171.3
+    },
+    "Central Europe and the Baltics": {
+      "health_expenditure_per_capita": 1406.4409842255209,
+      "fertility_rate": 1.5680725375241946,
+      "gdp_per_capita": 19223.92740306512,
+      "life_expectancy": 74.72328278590768,
+      "mortality_under5": 4.69874700617673
+    },
+    "乍得": {
+      "health_expenditure_per_capita": 37.59156799,
+      "fertility_rate": 6.255,
+      "gdp_per_capita": 946.3585002083736,
+      "life_expectancy": 53.136,
+      "mortality_under5": 107.6
+    },
+    "Channel Islands": {
+      "fertility_rate": 1.36,
+      "gdp_per_capita": 66915.39639257225,
+      "life_expectancy": 80.3
+    },
+    "智利": {
+      "health_expenditure_per_capita": 1576.69287109,
+      "fertility_rate": 1.176,
+      "gdp_per_capita": 16206.832549342109,
+      "life_expectancy": 78.876,
+      "mortality_under5": 6.7
+    },
+    "中国": {
+      "health_expenditure_per_capita": 670.25897217,
+      "fertility_rate": 1.117,
+      "gdp_per_capita": 12887.435724294062,
+      "life_expectancy": 78.117,
+      "mortality_under5": 7.0
+    },
+    "哥伦比亚": {
+      "health_expenditure_per_capita": 561.11627197,
+      "fertility_rate": 1.68,
+      "gdp_per_capita": 6222.621643976142,
+      "life_expectancy": 72.698,
+      "mortality_under5": 12.8
+    },
+    "Comoros": {
+      "health_expenditure_per_capita": 100.04210663,
+      "fertility_rate": 3.999,
+      "gdp_per_capita": 1554.9728919015288,
+      "life_expectancy": 65.201,
+      "mortality_under5": 42.4
+    },
+    "刚果民主共和国": {
+      "health_expenditure_per_capita": 21.58848572,
+      "fertility_rate": 6.156,
+      "gdp_per_capita": 595.743074403567,
+      "life_expectancy": 60.044,
+      "mortality_under5": 78.1
+    },
+    "刚果共和国": {
+      "health_expenditure_per_capita": 79.3296051,
+      "fertility_rate": 4.28,
+      "gdp_per_capita": 2516.162551454316,
+      "life_expectancy": 64.192,
+      "mortality_under5": 43.3
+    },
+    "哥斯达黎加": {
+      "health_expenditure_per_capita": 977.14831543,
+      "fertility_rate": 1.353,
+      "gdp_per_capita": 12838.11853589308,
+      "life_expectancy": 78.05,
+      "mortality_under5": 9.7
+    },
+    "科特迪瓦": {
+      "health_expenditure_per_capita": 92.39588928,
+      "fertility_rate": 4.411,
+      "gdp_per_capita": 2455.9812764114818,
+      "life_expectancy": 60.29,
+      "mortality_under5": 71.4
+    },
+    "克罗地亚": {
+      "health_expenditure_per_capita": 1384.11914063,
+      "fertility_rate": 1.62,
+      "gdp_per_capita": 17788.78658166585,
+      "life_expectancy": 76.42439024390245,
+      "mortality_under5": 4.6
+    },
+    "古巴": {
+      "fertility_rate": 1.427,
+      "life_expectancy": 73.201,
+      "mortality_under5": 7.6
+    },
+    "Curacao": {
+      "fertility_rate": 1.4,
+      "gdp_per_capita": 17795.582661618202,
+      "life_expectancy": 75.686
+    },
+    "塞浦路斯": {
+      "health_expenditure_per_capita": 3118.24267578,
+      "fertility_rate": 1.392,
+      "gdp_per_capita": 32937.83984375,
+      "life_expectancy": 80.573,
+      "mortality_under5": 3.4
+    },
+    "Czechia": {
+      "health_expenditure_per_capita": 2538.03344727,
+      "fertility_rate": 1.83,
+      "gdp_per_capita": 27696.461952754424,
+      "life_expectancy": 77.2219512195122,
+      "mortality_under5": 2.8
+    },
+    "丹麦": {
+      "health_expenditure_per_capita": 7465.77294922,
+      "fertility_rate": 1.72,
+      "gdp_per_capita": 69340.73349221384,
+      "life_expectancy": 81.40487804878049,
+      "mortality_under5": 3.6
+    },
+    "吉布提": {
+      "health_expenditure_per_capita": 87.16930389,
+      "fertility_rate": 2.699,
+      "gdp_per_capita": 3025.9112641354923,
+      "life_expectancy": 63.83,
+      "mortality_under5": 53.8
+    },
+    "Dominica": {
+      "health_expenditure_per_capita": 521.84313965,
+      "fertility_rate": 1.484,
+      "gdp_per_capita": 8376.404141411134,
+      "life_expectancy": 69.832,
+      "mortality_under5": 34.5
+    },
+    "多米尼加共和国": {
+      "health_expenditure_per_capita": 416.68310547,
+      "fertility_rate": 2.294,
+      "gdp_per_capita": 8527.075485820502,
+      "life_expectancy": 71.757,
+      "mortality_under5": 33.1
+    },
+    "Early-demographic dividend": {
+      "health_expenditure_per_capita": 185.03617073777824,
+      "fertility_rate": 2.34167487073807,
+      "gdp_per_capita": 3698.9836318784673,
+      "life_expectancy": 68.17909948396337,
+      "mortality_under5": 32.353075149098856
+    },
+    "East Asia & Pacific": {
+      "health_expenditure_per_capita": 879.190528248362,
+      "fertility_rate": 1.4167831912471407,
+      "gdp_per_capita": 13336.484167088303,
+      "life_expectancy": 76.15294131590397,
+      "mortality_under5": 14.9
+    },
+    "East Asia & Pacific (IDA & IBRD countries)": {
+      "health_expenditure_per_capita": 514.7474136424507,
+      "fertility_rate": 1.4359018918690247,
+      "gdp_per_capita": 10086.41760673559,
+      "life_expectancy": 75.3009806060199,
+      "mortality_under5": 15.689788581728177
+    },
+    "East Asia & Pacific (excluding high income)": {
+      "health_expenditure_per_capita": 514.7283462491581,
+      "fertility_rate": 1.4404934680795989,
+      "gdp_per_capita": 9974.578296901753,
+      "life_expectancy": 75.27814184108492,
+      "mortality_under5": 15.717429385599631
+    },
+    "厄瓜多尔": {
+      "health_expenditure_per_capita": 498.60794067,
+      "fertility_rate": 1.909,
+      "gdp_per_capita": 6061.323501817112,
+      "life_expectancy": 72.746,
+      "mortality_under5": 13.4
+    },
+    "埃及": {
+      "health_expenditure_per_capita": 176.93664551,
+      "fertility_rate": 2.75,
+      "gdp_per_capita": 3827.354153743081,
+      "life_expectancy": 68.976,
+      "mortality_under5": 18.7
+    },
+    "萨尔瓦多": {
+      "health_expenditure_per_capita": 470.14025879,
+      "fertility_rate": 1.803,
+      "gdp_per_capita": 4642.607431013421,
+      "life_expectancy": 69.941,
+      "mortality_under5": 11.2
+    },
+    "Equatorial Guinea": {
+      "health_expenditure_per_capita": 236.81486511,
+      "fertility_rate": 4.266,
+      "gdp_per_capita": 6945.630697945393,
+      "life_expectancy": 62.447,
+      "mortality_under5": 76.1
+    },
+    "Eritrea": {
+      "health_expenditure_per_capita": 27.58759499,
+      "fertility_rate": 3.867,
+      "life_expectancy": 66.94,
+      "mortality_under5": 37.9
+    },
+    "爱沙尼亚": {
+      "health_expenditure_per_capita": 2091.15649414,
+      "fertility_rate": 1.61,
+      "gdp_per_capita": 27951.165927774426,
+      "life_expectancy": 76.9439024390244,
+      "mortality_under5": 2.3
+    },
+    "Eswatini": {
+      "health_expenditure_per_capita": 296.82846069,
+      "fertility_rate": 2.841,
+      "gdp_per_capita": 3984.002291743063,
+      "life_expectancy": 58.228,
+      "mortality_under5": 47.6
+    },
+    "埃塞俄比亚": {
+      "health_expenditure_per_capita": 26.06936646,
+      "fertility_rate": 4.177,
+      "gdp_per_capita": 893.0098354490499,
+      "life_expectancy": 65.33,
+      "mortality_under5": 50.0
+    },
+    "Euro area": {
+      "health_expenditure_per_capita": 4786.258658405338,
+      "fertility_rate": 1.5083073043033397,
+      "gdp_per_capita": 42984.56974141536,
+      "life_expectancy": 81.58393304157121,
+      "mortality_under5": 3.681324760920134
+    },
+    "Europe & Central Asia": {
+      "health_expenditure_per_capita": 2853.697008278642,
+      "fertility_rate": 1.6846754677544034,
+      "gdp_per_capita": 27664.89140809183,
+      "life_expectancy": 76.72868649167395,
+      "mortality_under5": 7.9
+    },
+    "Europe & Central Asia (IDA & IBRD countries)": {
+      "health_expenditure_per_capita": 640.0867045882496,
+      "fertility_rate": 1.814917335015705,
+      "gdp_per_capita": 10014.510882383678,
+      "life_expectancy": 72.15064068261718,
+      "mortality_under5": 10.917613739644947
+    },
+    "Europe & Central Asia (excluding high income)": {
+      "health_expenditure_per_capita": 373.0460425176175,
+      "fertility_rate": 2.054122193256397,
+      "gdp_per_capita": 6673.974290356509,
+      "life_expectancy": 72.8823762052943,
+      "mortality_under5": 13.92705144380212
+    },
+    "European Union": {
+      "health_expenditure_per_capita": 4226.051539676037,
+      "fertility_rate": 1.526165204640909,
+      "gdp_per_capita": 39206.97917760844,
+      "life_expectancy": 80.30719644008748,
+      "mortality_under5": 3.857514170206087
+    },
+    "Faroe Islands": {
+      "fertility_rate": 2.325,
+      "gdp_per_capita": 69415.18532545795,
+      "life_expectancy": 82.84390243902439
+    },
+    "Fiji": {
+      "health_expenditure_per_capita": 331.58413696,
+      "fertility_rate": 2.332,
+      "gdp_per_capita": 4536.733121103354,
+      "life_expectancy": 64.904,
+      "mortality_under5": 28.3
+    },
+    "芬兰": {
+      "health_expenditure_per_capita": 5261.90966797,
+      "fertility_rate": 1.46,
+      "gdp_per_capita": 53099.13514001479,
+      "life_expectancy": 81.88536585365854,
+      "mortality_under5": 2.3
+    },
+    "Fragile and conflict affected situations": {
+      "health_expenditure_per_capita": 80.72434833626647,
+      "fertility_rate": 4.275451137471262,
+      "gdp_per_capita": 1711.4012892975802,
+      "life_expectancy": 61.608681043938496,
+      "mortality_under5": 74.67069269496788
+    },
+    "法国": {
+      "health_expenditure_per_capita": 5376.74560547,
+      "fertility_rate": 1.84,
+      "gdp_per_capita": 43725.0999521245,
+      "life_expectancy": 82.32439024390244,
+      "mortality_under5": 4.3
+    },
+    "French Polynesia": {
+      "fertility_rate": 1.532,
+      "gdp_per_capita": 21426.38544498349,
+      "life_expectancy": 79.571
+    },
+    "加蓬": {
+      "health_expenditure_per_capita": 228.84915161,
+      "fertility_rate": 3.776,
+      "gdp_per_capita": 8181.40914134656,
+      "life_expectancy": 67.072,
+      "mortality_under5": 35.2
+    },
+    "冈比亚": {
+      "health_expenditure_per_capita": 25.39263344,
+      "fertility_rate": 4.165,
+      "gdp_per_capita": 781.8909251695309,
+      "life_expectancy": 63.847,
+      "mortality_under5": 47.2
+    },
+    "格鲁吉亚": {
+      "health_expenditure_per_capita": 413.7199707,
+      "fertility_rate": 1.98,
+      "gdp_per_capita": 5083.606954845773,
+      "life_expectancy": 71.635,
+      "mortality_under5": 9.5
+    },
+    "德国": {
+      "health_expenditure_per_capita": 6638.20800781,
+      "fertility_rate": 1.58,
+      "gdp_per_capita": 52349.24599944222,
+      "life_expectancy": 80.79024390243903,
+      "mortality_under5": 3.7
+    },
+    "加纳": {
+      "health_expenditure_per_capita": 94.40388489,
+      "fertility_rate": 3.492,
+      "gdp_per_capita": 2445.18662529344,
+      "life_expectancy": 64.286,
+      "mortality_under5": 40.2
+    },
+    "Gibraltar": {
+      "fertility_rate": 1.899,
+      "life_expectancy": 80.274
+    },
+    "希腊": {
+      "health_expenditure_per_capita": 1846.37304688,
+      "fertility_rate": 1.43,
+      "gdp_per_capita": 20654.7001960815,
+      "life_expectancy": 80.0829268292683,
+      "mortality_under5": 3.9
+    },
+    "Greenland": {
+      "fertility_rate": 1.82,
+      "gdp_per_capita": 58135.993991020296,
+      "life_expectancy": 71.8139024390244
+    },
+    "Grenada": {
+      "health_expenditure_per_capita": 514.32141113,
+      "fertility_rate": 1.517,
+      "gdp_per_capita": 9617.289029053734,
+      "life_expectancy": 74.522,
+      "mortality_under5": 18.7
+    },
+    "Guam": {
+      "fertility_rate": 2.856,
+      "gdp_per_capita": 38074.8793745801,
+      "life_expectancy": 75.434
+    },
+    "危地马拉": {
+      "health_expenditure_per_capita": 341.14865112,
+      "fertility_rate": 2.388,
+      "gdp_per_capita": 4912.622404146814,
+      "life_expectancy": 67.858,
+      "mortality_under5": 22.8
+    },
+    "几内亚": {
+      "health_expenditure_per_capita": 44.10476303,
+      "fertility_rate": 4.399,
+      "gdp_per_capita": 1244.9655047791368,
+      "life_expectancy": 59.373,
+      "mortality_under5": 100.5
+    },
+    "几内亚比绍": {
+      "health_expenditure_per_capita": 68.37879181,
+      "fertility_rate": 3.998,
+      "gdp_per_capita": 926.7809210812331,
+      "life_expectancy": 61.653,
+      "mortality_under5": 74.1
+    },
+    "Guyana": {
+      "health_expenditure_per_capita": 462.59054565,
+      "fertility_rate": 2.462,
+      "gdp_per_capita": 9860.870148343864,
+      "life_expectancy": 64.323,
+      "mortality_under5": 27.5
+    },
+    "海地": {
+      "health_expenditure_per_capita": 57.62987518,
+      "fertility_rate": 2.748,
+      "gdp_per_capita": 1841.33189337222,
+      "life_expectancy": 62.613,
+      "mortality_under5": 58.5
+    },
+    "Heavily indebted poor countries (HIPC)": {
+      "health_expenditure_per_capita": 51.2303480133665,
+      "fertility_rate": 4.617902682274313,
+      "gdp_per_capita": 1061.414149504312,
+      "life_expectancy": 62.53137357006368,
+      "mortality_under5": 65.0250783507001
+    },
+    "High income": {
+      "health_expenditure_per_capita": 5835.83735891291,
+      "fertility_rate": 1.5226211802837375,
+      "gdp_per_capita": 45081.66483484374,
+      "life_expectancy": 78.79998752450922,
+      "mortality_under5": 5.0
+    },
+    "洪都拉斯": {
+      "health_expenditure_per_capita": 253.63349915,
+      "fertility_rate": 2.548,
+      "gdp_per_capita": 2735.1475150397705,
+      "life_expectancy": 69.492,
+      "mortality_under5": 16.6
+    },
+    "中国香港特别行政区": {
+      "fertility_rate": 0.772,
+      "gdp_per_capita": 49770.56423747394,
+      "life_expectancy": 85.53268292682927
+    },
+    "匈牙利": {
+      "health_expenditure_per_capita": 1381.62109375,
+      "fertility_rate": 1.61,
+      "gdp_per_capita": 19030.62813032901,
+      "life_expectancy": 74.06585365853658,
+      "mortality_under5": 4.0
+    },
+    "IBRD only": {
+      "health_expenditure_per_capita": 409.1008377652623,
+      "fertility_rate": 1.772934608868579,
+      "gdp_per_capita": 7314.528364257959,
+      "life_expectancy": 71.974203378406,
+      "mortality_under5": 21.70233602851889
+    },
+    "IDA & IBRD total": {
+      "health_expenditure_per_capita": 314.37183826323087,
+      "fertility_rate": 2.3538110633304146,
+      "gdp_per_capita": 5754.246750799374,
+      "life_expectancy": 69.6679168391603,
+      "mortality_under5": 41.44348046187162
+    },
+    "IDA blend": {
+      "health_expenditure_per_capita": 73.24459450720141,
+      "fertility_rate": 4.011091272987105,
+      "gdp_per_capita": 2142.31172674601,
+      "life_expectancy": 60.87653573817906,
+      "mortality_under5": 77.0507361238951
+    },
+    "IDA only": {
+      "health_expenditure_per_capita": 52.63588202380651,
+      "fertility_rate": 3.895363437113831,
+      "gdp_per_capita": 1256.1929643073531,
+      "life_expectancy": 64.87646341399423,
+      "mortality_under5": 58.00536338634973
+    },
+    "IDA total": {
+      "health_expenditure_per_capita": 59.85139187118762,
+      "fertility_rate": 3.93500283047806,
+      "gdp_per_capita": 1566.1370993678136,
+      "life_expectancy": 63.47737993180607,
+      "mortality_under5": 64.62012114251266
+    },
+    "冰岛": {
+      "health_expenditure_per_capita": 6722.421875,
+      "fertility_rate": 1.82,
+      "gdp_per_capita": 70425.40642772733,
+      "life_expectancy": 83.16585365853659,
+      "mortality_under5": 2.7
+    },
+    "印度": {
+      "health_expenditure_per_capita": 75.54971313,
+      "fertility_rate": 2.014,
+      "gdp_per_capita": 2239.6138436748224,
+      "life_expectancy": 67.282,
+      "mortality_under5": 30.6
+    },
+    "印度尼西亚": {
+      "health_expenditure_per_capita": 158.89761353,
+      "fertility_rate": 2.166,
+      "gdp_per_capita": 4287.173139950984,
+      "life_expectancy": 67.452,
+      "mortality_under5": 22.0
+    },
+    "伊朗伊斯兰共和国": {
+      "health_expenditure_per_capita": 233.74671936,
+      "fertility_rate": 1.709,
+      "gdp_per_capita": 4605.148813189922,
+      "life_expectancy": 73.752,
+      "mortality_under5": 12.6
+    },
+    "伊拉克": {
+      "health_expenditure_per_capita": 251.59538269,
+      "fertility_rate": 3.358,
+      "gdp_per_capita": 4868.494310807826,
+      "life_expectancy": 70.704,
+      "mortality_under5": 24.1
+    },
+    "爱尔兰": {
+      "health_expenditure_per_capita": 6764.25878906,
+      "fertility_rate": 1.78,
+      "gdp_per_capita": 103783.44628447876,
+      "life_expectancy": 82.25365853658538,
+      "mortality_under5": 3.6
+    },
+    "Isle of Man": {
+      "fertility_rate": 1.569,
+      "gdp_per_capita": 94299.96934896502,
+      "life_expectancy": 80.42
+    },
+    "以色列": {
+      "health_expenditure_per_capita": 4190.61328125,
+      "fertility_rate": 3.0,
+      "gdp_per_capita": 52270.904024195625,
+      "life_expectancy": 82.50000000000001,
+      "mortality_under5": 3.5
+    },
+    "意大利": {
+      "health_expenditure_per_capita": 3399.85766602,
+      "fertility_rate": 1.25,
+      "gdp_per_capita": 36852.542541495095,
+      "life_expectancy": 82.64634146341464,
+      "mortality_under5": 2.9
+    },
+    "牙买加": {
+      "health_expenditure_per_capita": 371.14056396,
+      "fertility_rate": 1.378,
+      "gdp_per_capita": 5625.678062712359,
+      "life_expectancy": 69.085,
+      "mortality_under5": 19.1
+    },
+    "日本": {
+      "health_expenditure_per_capita": 4482.61816406,
+      "fertility_rate": 1.3,
+      "gdp_per_capita": 40094.55997952878,
+      "life_expectancy": 84.44560975609757,
+      "mortality_under5": 2.4
+    },
+    "约旦": {
+      "health_expenditure_per_capita": 301.28631592,
+      "fertility_rate": 2.735,
+      "gdp_per_capita": 4183.499983268664,
+      "life_expectancy": 74.204,
+      "mortality_under5": 14.0
+    },
+    "哈萨克斯坦": {
+      "health_expenditure_per_capita": 391.81536865,
+      "fertility_rate": 3.32,
+      "gdp_per_capita": 9983.60103576902,
+      "life_expectancy": 70.131,
+      "mortality_under5": 10.0
+    },
+    "肯尼亚": {
+      "health_expenditure_per_capita": 94.1061554,
+      "fertility_rate": 3.312,
+      "gdp_per_capita": 2061.3562208959406,
+      "life_expectancy": 61.225,
+      "mortality_under5": 41.9
+    },
+    "Kiribati": {
+      "health_expenditure_per_capita": 262.54107666,
+      "fertility_rate": 3.219,
+      "gdp_per_capita": 2222.0481950189733,
+      "life_expectancy": 64.148,
+      "mortality_under5": 57.6
+    },
+    "Korea, Dem. People's Rep.": {
+      "fertility_rate": 1.806,
+      "life_expectancy": 73.437,
+      "mortality_under5": 17.4
+    },
+    "大韩民国": {
+      "health_expenditure_per_capita": 3141.52246094,
+      "fertility_rate": 0.808,
+      "gdp_per_capita": 37518.46353056967,
+      "life_expectancy": 83.52682926829269,
+      "mortality_under5": 2.9
+    },
+    "Kosovo": {
+      "fertility_rate": 1.561,
+      "gdp_per_capita": 5270.432368610179,
+      "life_expectancy": 74.981,
+      "mortality_under5": 10.0
+    },
+    "科威特": {
+      "health_expenditure_per_capita": 1788.77563477,
+      "fertility_rate": 2.148,
+      "gdp_per_capita": 34018.63425929132,
+      "life_expectancy": 78.73658536585367,
+      "mortality_under5": 8.9
+    },
+    "吉尔吉斯共和国": {
+      "health_expenditure_per_capita": 72.58777618,
+      "fertility_rate": 2.89,
+      "gdp_per_capita": 1349.9973065054237,
+      "life_expectancy": 71.9,
+      "mortality_under5": 17.5
+    },
+    "老挝人民民主共和国": {
+      "health_expenditure_per_capita": 68.61697388,
+      "fertility_rate": 2.494,
+      "gdp_per_capita": 2526.0510501852928,
+      "life_expectancy": 67.807,
+      "mortality_under5": 41.9
+    },
+    "Late-demographic dividend": {
+      "health_expenditure_per_capita": 684.8500065070449,
+      "fertility_rate": 1.3546917917714072,
+      "gdp_per_capita": 11759.797499015409,
+      "life_expectancy": 76.3060136977083,
+      "mortality_under5": 9.906684173090827
+    },
+    "Latin America & Caribbean": {
+      "health_expenditure_per_capita": 664.3978463044834,
+      "fertility_rate": 1.8336905709945333,
+      "gdp_per_capita": 8291.071563050244,
+      "life_expectancy": 71.81417621893063,
+      "mortality_under5": 16.5
+    },
+    "Latin America & Caribbean (excluding high income)": {
+      "health_expenditure_per_capita": 641.776602029562,
+      "fertility_rate": 1.8511217849926165,
+      "gdp_per_capita": 7970.616442520602,
+      "life_expectancy": 71.4377016432982,
+      "mortality_under5": 16.394353855087378
+    },
+    "Latin America & the Caribbean (IDA & IBRD countries)": {
+      "health_expenditure_per_capita": 663.5391850741747,
+      "fertility_rate": 1.8440953940432605,
+      "gdp_per_capita": 8075.788166505645,
+      "life_expectancy": 71.7449274626405,
+      "mortality_under5": 16.603190046103546
+    },
+    "拉脱维亚": {
+      "health_expenditure_per_capita": 1897.95275879,
+      "fertility_rate": 1.57,
+      "gdp_per_capita": 20261.88877889164,
+      "life_expectancy": 72.98048780487807,
+      "mortality_under5": 3.5
+    },
+    "Least developed countries: UN classification": {
+      "health_expenditure_per_capita": 46.30734591207707,
+      "fertility_rate": 4.053140502813118,
+      "gdp_per_capita": 1175.5571825113575,
+      "life_expectancy": 64.267342334044,
+      "mortality_under5": 60.75344376365911
+    },
+    "黎巴嫩": {
+      "health_expenditure_per_capita": 311.84085083,
+      "fertility_rate": 2.283,
+      "gdp_per_capita": 4045.3739106623375,
+      "life_expectancy": 73.65,
+      "mortality_under5": 16.3
+    },
+    "莱索托": {
+      "health_expenditure_per_capita": 116.60222626,
+      "fertility_rate": 2.769,
+      "gdp_per_capita": 1066.5864514382265,
+      "life_expectancy": 54.209,
+      "mortality_under5": 64.4
+    },
+    "利比里亚": {
+      "health_expenditure_per_capita": 92.3295517,
+      "fertility_rate": 4.089,
+      "gdp_per_capita": 667.9661051431905,
+      "life_expectancy": 61.166,
+      "mortality_under5": 77.4
+    },
+    "利比亚": {
+      "health_expenditure_per_capita": 306.70458984,
+      "fertility_rate": 2.462,
+      "gdp_per_capita": 4935.827873498015,
+      "life_expectancy": 72.062,
+      "mortality_under5": 10.8
+    },
+    "Liechtenstein": {
+      "fertility_rate": 1.53,
+      "gdp_per_capita": 201944.830335076,
+      "life_expectancy": 84.40243902439025
+    },
+    "立陶宛": {
+      "health_expenditure_per_capita": 1854.28051758,
+      "fertility_rate": 1.36,
+      "gdp_per_capita": 23870.459485172207,
+      "life_expectancy": 74.03658536585367,
+      "mortality_under5": 3.6
+    },
+    "Low & middle income": {
+      "health_expenditure_per_capita": 293.12985616866945,
+      "fertility_rate": 2.3488058762207413,
+      "gdp_per_capita": 5524.243989331188,
+      "life_expectancy": 69.67142241912272,
+      "mortality_under5": 41.81694856937173
+    },
+    "Low income": {
+      "health_expenditure_per_capita": 37.18373359768725,
+      "fertility_rate": 4.776751528625391,
+      "gdp_per_capita": 651.8126376386789,
+      "life_expectancy": 62.37998872274833,
+      "mortality_under5": 66.8
+    },
+    "Lower middle income": {
+      "health_expenditure_per_capita": 91.47705543151304,
+      "fertility_rate": 2.6288400611742047,
+      "gdp_per_capita": 2369.9577651033,
+      "life_expectancy": 66.36629029783059,
+      "mortality_under5": 46.3
+    },
+    "卢森堡": {
+      "health_expenditure_per_capita": 7632.57275391,
+      "fertility_rate": 1.38,
+      "gdp_per_capita": 134965.81544215154,
+      "life_expectancy": 82.59756097560975,
+      "mortality_under5": 2.4
+    },
+    "中国澳门特别行政区": {
+      "fertility_rate": 0.756,
+      "gdp_per_capita": 44884.89616023926,
+      "life_expectancy": 83.72926829268295
+    },
+    "马达加斯加": {
+      "health_expenditure_per_capita": 17.17938805,
+      "fertility_rate": 4.104,
+      "gdp_per_capita": 483.4694633511948,
+      "life_expectancy": 62.516,
+      "mortality_under5": 66.2
+    },
+    "马拉维": {
+      "health_expenditure_per_capita": 47.58463669,
+      "fertility_rate": 3.791,
+      "gdp_per_capita": 617.4469944510071,
+      "life_expectancy": 64.782,
+      "mortality_under5": 41.5
+    },
+    "马来西亚": {
+      "health_expenditure_per_capita": 476.94366455,
+      "fertility_rate": 1.555,
+      "gdp_per_capita": 10903.103748077188,
+      "life_expectancy": 73.917,
+      "mortality_under5": 8.1
+    },
+    "Maldives": {
+      "health_expenditure_per_capita": 1057.34313965,
+      "fertility_rate": 1.599,
+      "gdp_per_capita": 10176.143882547023,
+      "life_expectancy": 78.052,
+      "mortality_under5": 6.4
+    },
+    "马里": {
+      "health_expenditure_per_capita": 30.61906815,
+      "fertility_rate": 5.779,
+      "gdp_per_capita": 1027.2734536535686,
+      "life_expectancy": 59.116,
+      "mortality_under5": 96.9
+    },
+    "马耳他": {
+      "health_expenditure_per_capita": 3641.61938477,
+      "fertility_rate": 1.13,
+      "gdp_per_capita": 38096.83607351193,
+      "life_expectancy": 82.25853658536586,
+      "mortality_under5": 5.8
+    },
+    "Marshall Islands": {
+      "health_expenditure_per_capita": 782.16351318,
+      "fertility_rate": 2.964,
+      "gdp_per_capita": 6315.312796035342,
+      "life_expectancy": 65.421,
+      "mortality_under5": 30.0
+    },
+    "毛里塔尼亚": {
+      "health_expenditure_per_capita": 73.6309433,
+      "fertility_rate": 4.848,
+      "gdp_per_capita": 1947.789183833133,
+      "life_expectancy": 66.762,
+      "mortality_under5": 40.3
+    },
+    "毛里求斯": {
+      "health_expenditure_per_capita": 593.77947998,
+      "fertility_rate": 1.41,
+      "gdp_per_capita": 9177.711959730132,
+      "life_expectancy": 73.68024390243903,
+      "mortality_under5": 15.7
+    },
+    "墨西哥": {
+      "health_expenditure_per_capita": 606.13415527,
+      "fertility_rate": 1.97,
+      "gdp_per_capita": 10314.050672211482,
+      "life_expectancy": 69.75,
+      "mortality_under5": 13.3
+    },
+    "Micronesia, Fed. Sts.": {
+      "health_expenditure_per_capita": 398.76144409,
+      "fertility_rate": 2.818,
+      "gdp_per_capita": 3508.223141976636,
+      "life_expectancy": 66.152,
+      "mortality_under5": 24.7
+    },
+    "Middle East, North Africa, Afghanistan & Pakistan": {
+      "health_expenditure_per_capita": 296.6665571815149,
+      "fertility_rate": 3.0729908593890207,
+      "gdp_per_capita": 5615.911860987263,
+      "life_expectancy": 69.7113193479505,
+      "mortality_under5": 20.7
+    },
+    "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)": {
+      "health_expenditure_per_capita": 134.7015761064494,
+      "fertility_rate": 3.147200354231578,
+      "gdp_per_capita": 2746.968099451827,
+      "life_expectancy": 68.89310322823204,
+      "mortality_under5": 41.60265259508368
+    },
+    "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)": {
+      "health_expenditure_per_capita": 136.3068270229818,
+      "fertility_rate": 3.1492781508572008,
+      "gdp_per_capita": 2753.478580295236,
+      "life_expectancy": 68.92802147826524,
+      "mortality_under5": 41.37283639780205
+    },
+    "Middle income": {
+      "health_expenditure_per_capita": 317.438410136499,
+      "fertility_rate": 2.122193636674297,
+      "gdp_per_capita": 6007.323086581467,
+      "life_expectancy": 70.39535303286542,
+      "mortality_under5": 35.76944529858885
+    },
+    "摩尔多瓦": {
+      "health_expenditure_per_capita": 410.12298584,
+      "fertility_rate": 1.751,
+      "gdp_per_capita": 5274.605821953523,
+      "life_expectancy": 68.991,
+      "mortality_under5": 14.8
+    },
+    "Monaco": {
+      "health_expenditure_per_capita": 8222.6640625,
+      "fertility_rate": 2.122,
+      "gdp_per_capita": 223823.3639602262,
+      "life_expectancy": 85.113,
+      "mortality_under5": 2.9
+    },
+    "蒙古": {
+      "health_expenditure_per_capita": 330.03753662,
+      "fertility_rate": 2.8,
+      "gdp_per_capita": 4517.61578018785,
+      "life_expectancy": 71.64512195121952,
+      "mortality_under5": 14.3
+    },
+    "Montenegro": {
+      "health_expenditure_per_capita": 1024.2565918,
+      "fertility_rate": 1.75,
+      "gdp_per_capita": 9317.155200651565,
+      "life_expectancy": 73.82439024390244,
+      "mortality_under5": 2.8
+    },
+    "摩洛哥": {
+      "health_expenditure_per_capita": 211.94190979,
+      "fertility_rate": 2.288,
+      "gdp_per_capita": 3785.93627929688,
+      "life_expectancy": 73.385,
+      "mortality_under5": 17.9
+    },
+    "莫桑比克": {
+      "health_expenditure_per_capita": 45.22790909,
+      "fertility_rate": 4.905,
+      "gdp_per_capita": 509.90782947555147,
+      "life_expectancy": 60.268,
+      "mortality_under5": 65.8
+    },
+    "缅甸": {
+      "health_expenditure_per_capita": 71.14800262,
+      "fertility_rate": 2.158,
+      "gdp_per_capita": 1242.7213439950965,
+      "life_expectancy": 65.553,
+      "mortality_under5": 41.4
+    },
+    "纳米比亚": {
+      "health_expenditure_per_capita": 413.51190186,
+      "fertility_rate": 3.303,
+      "gdp_per_capita": 4412.835569305204,
+      "life_expectancy": 60.85,
+      "mortality_under5": 43.8
+    },
+    "Nauru": {
+      "health_expenditure_per_capita": 1809.3338623,
+      "fertility_rate": 3.425,
+      "gdp_per_capita": 14979.09989679903,
+      "life_expectancy": 61.331,
+      "mortality_under5": 10.2
+    },
+    "尼泊尔": {
+      "health_expenditure_per_capita": 66.54234314,
+      "fertility_rate": 2.025,
+      "gdp_per_capita": 1252.750767319858,
+      "life_expectancy": 68.385,
+      "mortality_under5": 28.6
+    },
+    "荷兰": {
+      "health_expenditure_per_capita": 6554.96826172,
+      "fertility_rate": 1.62,
+      "gdp_per_capita": 60141.98809114923,
+      "life_expectancy": 81.30975609756098,
+      "mortality_under5": 4.0
+    },
+    "New Caledonia": {
+      "fertility_rate": 2.012,
+      "gdp_per_capita": 35311.5543551452,
+      "life_expectancy": 77.113
+    },
+    "新西兰": {
+      "health_expenditure_per_capita": 4967.38183594,
+      "fertility_rate": 1.64,
+      "gdp_per_capita": 49950.425169131646,
+      "life_expectancy": 82.20731707317074,
+      "mortality_under5": 4.9
+    },
+    "尼加拉瓜": {
+      "health_expenditure_per_capita": 204.21273804,
+      "fertility_rate": 2.265,
+      "gdp_per_capita": 2138.385884694495,
+      "life_expectancy": 70.478,
+      "mortality_under5": 14.5
+    },
+    "尼日尔": {
+      "health_expenditure_per_capita": 35.39406204,
+      "fertility_rate": 6.2,
+      "gdp_per_capita": 608.722439593808,
+      "life_expectancy": 59.542,
+      "mortality_under5": 119.1
+    },
+    "尼日利亚": {
+      "health_expenditure_per_capita": 81.87322235,
+      "fertility_rate": 4.636,
+      "gdp_per_capita": 2787.48779224428,
+      "life_expectancy": 53.455,
+      "mortality_under5": 111.3
+    },
+    "North America": {
+      "health_expenditure_per_capita": 11429.55914053523,
+      "fertility_rate": 1.6408534379995845,
+      "gdp_per_capita": 68424.56003159497,
+      "life_expectancy": 76.86576788905485,
+      "mortality_under5": 6.3
+    },
+    "North Macedonia": {
+      "health_expenditure_per_capita": 636.65447998,
+      "fertility_rate": 1.6,
+      "gdp_per_capita": 7620.802969775082,
+      "life_expectancy": 73.24634146341464,
+      "mortality_under5": 5.0
+    },
+    "Northern Mariana Islands": {
+      "fertility_rate": 2.441,
+      "gdp_per_capita": 19455.50139423998,
+      "life_expectancy": 78.16
+    },
+    "挪威": {
+      "health_expenditure_per_capita": 9163.13867188,
+      "fertility_rate": 1.55,
+      "gdp_per_capita": 93072.89251195708,
+      "life_expectancy": 83.16341463414635,
+      "mortality_under5": 2.3
+    },
+    "Not classified": {},
+    "OECD members": {
+      "health_expenditure_per_capita": 5654.958976602383,
+      "fertility_rate": 1.5872299713612754,
+      "gdp_per_capita": 43027.74942757055,
+      "life_expectancy": 78.58855133031193,
+      "mortality_under5": 6.793159934914117
+    },
+    "阿曼": {
+      "health_expenditure_per_capita": 856.42144775,
+      "fertility_rate": 2.588,
+      "gdp_per_capita": 19403.460016021098,
+      "life_expectancy": 75.969,
+      "mortality_under5": 10.6
+    },
+    "Other small states": {
+      "health_expenditure_per_capita": 1172.494040638572,
+      "fertility_rate": 2.1250769147507382,
+      "gdp_per_capita": 13717.089487735258,
+      "life_expectancy": 71.76997193014157,
+      "mortality_under5": 30.806652452445547
+    },
+    "Pacific island small states": {
+      "health_expenditure_per_capita": 264.30870227757293,
+      "fertility_rate": 3.1097409827950373,
+      "gdp_per_capita": 3600.81254375167,
+      "life_expectancy": 67.48102092407025,
+      "mortality_under5": 24.15299127676447
+    },
+    "巴基斯坦": {
+      "health_expenditure_per_capita": 42.79639816,
+      "fertility_rate": 3.72,
+      "gdp_per_capita": 1455.3192237018598,
+      "life_expectancy": 65.773,
+      "mortality_under5": 62.5
+    },
+    "Palau": {
+      "health_expenditure_per_capita": 1916.50598145,
+      "fertility_rate": 1.95,
+      "gdp_per_capita": 13009.248163021311,
+      "life_expectancy": 68.563,
+      "mortality_under5": 23.0
+    },
+    "巴拿马": {
+      "health_expenditure_per_capita": 1417.1541748,
+      "fertility_rate": 2.152,
+      "gdp_per_capita": 15509.80691241387,
+      "life_expectancy": 77.004,
+      "mortality_under5": 14.5
+    },
+    "巴布亚新几内亚": {
+      "health_expenditure_per_capita": 61.02529907,
+      "fertility_rate": 3.215,
+      "gdp_per_capita": 2607.57861874444,
+      "life_expectancy": 64.358,
+      "mortality_under5": 43.1
+    },
+    "巴拉圭": {
+      "health_expenditure_per_capita": 480.11322021,
+      "fertility_rate": 2.469,
+      "gdp_per_capita": 5976.93179789949,
+      "life_expectancy": 68.108,
+      "mortality_under5": 18.2
+    },
+    "秘鲁": {
+      "health_expenditure_per_capita": 455.69836426,
+      "fertility_rate": 2.029,
+      "gdp_per_capita": 6826.20255614477,
+      "life_expectancy": 71.596,
+      "mortality_under5": 16.4
+    },
+    "菲律宾": {
+      "health_expenditure_per_capita": 208.192276,
+      "fertility_rate": 1.95,
+      "gdp_per_capita": 3484.3859388281885,
+      "life_expectancy": 66.675,
+      "mortality_under5": 27.7
+    },
+    "波兰": {
+      "health_expenditure_per_capita": 1183.30236816,
+      "fertility_rate": 1.33,
+      "gdp_per_capita": 18635.51048957537,
+      "life_expectancy": 75.35121951219514,
+      "mortality_under5": 4.4
+    },
+    "葡萄牙": {
+      "health_expenditure_per_capita": 2760.16503906,
+      "fertility_rate": 1.35,
+      "gdp_per_capita": 24711.451006211093,
+      "life_expectancy": 81.3780487804878,
+      "mortality_under5": 3.3
+    },
+    "Post-demographic dividend": {
+      "health_expenditure_per_capita": 6837.728366242403,
+      "fertility_rate": 1.4893988597981618,
+      "gdp_per_capita": 49855.22693965961,
+      "life_expectancy": 79.79552387884156,
+      "mortality_under5": 4.828223076055576
+    },
+    "Pre-demographic dividend": {
+      "health_expenditure_per_capita": 64.62707700669431,
+      "fertility_rate": 4.7024095295372526,
+      "gdp_per_capita": 1594.1422981329224,
+      "life_expectancy": 60.27525051172592,
+      "mortality_under5": 76.08836712427264
+    },
+    "Puerto Rico (US)": {
+      "fertility_rate": 0.907,
+      "gdp_per_capita": 32619.070460117367,
+      "life_expectancy": 79.77
+    },
+    "卡塔尔": {
+      "health_expenditure_per_capita": 1847.00231934,
+      "fertility_rate": 1.605,
+      "gdp_per_capita": 71751.93633988561,
+      "life_expectancy": 81.083,
+      "mortality_under5": 6.3
+    },
+    "罗马尼亚": {
+      "health_expenditure_per_capita": 963.01287842,
+      "fertility_rate": 1.81,
+      "gdp_per_capita": 14907.980365214296,
+      "life_expectancy": 72.80975609756098,
+      "mortality_under5": 6.5
+    },
+    "俄罗斯联邦": {
+      "health_expenditure_per_capita": 881.75720215,
+      "fertility_rate": 1.505,
+      "gdp_per_capita": 12425.029296875,
+      "life_expectancy": 69.90024390243903,
+      "mortality_under5": 5.1
+    },
+    "卢旺达": {
+      "health_expenditure_per_capita": 60.46223831,
+      "fertility_rate": 3.841,
+      "gdp_per_capita": 829.5448452636966,
+      "life_expectancy": 66.85,
+      "mortality_under5": 41.6
+    },
+    "Samoa": {
+      "health_expenditure_per_capita": 270.41333008,
+      "fertility_rate": 3.94,
+      "gdp_per_capita": 4021.559348942834,
+      "life_expectancy": 71.096,
+      "mortality_under5": 16.6
+    },
+    "San Marino": {
+      "health_expenditure_per_capita": 4033.1027832,
+      "fertility_rate": 1.125,
+      "gdp_per_capita": 54176.47980216276,
+      "life_expectancy": 83.539,
+      "mortality_under5": 1.5
+    },
+    "Sao Tome and Principe": {
+      "health_expenditure_per_capita": 187.06524658,
+      "fertility_rate": 3.759,
+      "gdp_per_capita": 2362.5882724810217,
+      "life_expectancy": 68.026,
+      "mortality_under5": 15.3
+    },
+    "沙特阿拉伯": {
+      "health_expenditure_per_capita": 1654.74353027,
+      "fertility_rate": 2.17,
+      "gdp_per_capita": 31920.765365564308,
+      "life_expectancy": 77.089,
+      "mortality_under5": 6.6
+    },
+    "塞内加尔": {
+      "health_expenditure_per_capita": 71.12162781,
+      "fertility_rate": 3.936,
+      "gdp_per_capita": 1598.1067695227428,
+      "life_expectancy": 66.868,
+      "mortality_under5": 42.5
+    },
+    "塞尔维亚": {
+      "health_expenditure_per_capita": 919.16790771,
+      "fertility_rate": 1.52,
+      "gdp_per_capita": 9680.527980744677,
+      "life_expectancy": 72.78048780487805,
+      "mortality_under5": 5.4
+    },
+    "Seychelles": {
+      "health_expenditure_per_capita": 629.11602783,
+      "fertility_rate": 2.46,
+      "gdp_per_capita": 14982.911148776711,
+      "life_expectancy": 73.39756097560975,
+      "mortality_under5": 14.7
+    },
+    "塞拉利昂": {
+      "health_expenditure_per_capita": 44.90049362,
+      "fertility_rate": 3.978,
+      "gdp_per_capita": 885.3964018853954,
+      "life_expectancy": 60.26,
+      "mortality_under5": 101.4
+    },
+    "新加坡": {
+      "health_expenditure_per_capita": 4044.17333984,
+      "fertility_rate": 1.12,
+      "gdp_per_capita": 80056.12882478436,
+      "life_expectancy": 83.09268292682928,
+      "mortality_under5": 2.2
+    },
+    "Sint Maarten (Dutch part)": {
+      "fertility_rate": 1.456,
+      "gdp_per_capita": 32548.43668549022,
+      "life_expectancy": 74.505
+    },
+    "斯洛伐克共和国": {
+      "health_expenditure_per_capita": 1684.51550293,
+      "fertility_rate": 1.63,
+      "gdp_per_capita": 22123.334211454523,
+      "life_expectancy": 74.61463414634147,
+      "mortality_under5": 6.0
+    },
+    "斯洛文尼亚": {
+      "health_expenditure_per_capita": 2779.56591797,
+      "fertility_rate": 1.64,
+      "gdp_per_capita": 29192.840193301865,
+      "life_expectancy": 80.67560975609756,
+      "mortality_under5": 2.3
+    },
+    "Small states": {
+      "health_expenditure_per_capita": 980.5119806802338,
+      "fertility_rate": 2.188682326242343,
+      "gdp_per_capita": 12428.608767454358,
+      "life_expectancy": 70.77568258913823,
+      "mortality_under5": 27.310256163270218
+    },
+    "所罗门群岛": {
+      "health_expenditure_per_capita": 98.7951355,
+      "fertility_rate": 3.694,
+      "gdp_per_capita": 2043.4441317065823,
+      "life_expectancy": 68.89,
+      "mortality_under5": 21.8
+    },
+    "Somalia, Fed. Rep.": {
+      "health_expenditure_per_capita": 14.63377476,
+      "fertility_rate": 6.353,
+      "gdp_per_capita": 549.0569947562539,
+      "life_expectancy": 55.703,
+      "mortality_under5": 110.9
+    },
+    "南非": {
+      "health_expenditure_per_capita": 592.53417969,
+      "fertility_rate": 2.248,
+      "gdp_per_capita": 6828.756245900167,
+      "life_expectancy": 62.01,
+      "mortality_under5": 34.1
+    },
+    "South Asia": {
+      "health_expenditure_per_capita": 75.07181532711724,
+      "fertility_rate": 2.0310299036198813,
+      "gdp_per_capita": 2273.720557986886,
+      "life_expectancy": 67.82152997675128,
+      "mortality_under5": 37.6
+    },
+    "South Asia (IDA & IBRD)": {
+      "health_expenditure_per_capita": 75.07181532711724,
+      "fertility_rate": 2.0310299036198813,
+      "gdp_per_capita": 2273.720557986886,
+      "life_expectancy": 67.82152997675126,
+      "mortality_under5": 30.31518899078564
+    },
+    "南苏丹": {
+      "health_expenditure_per_capita": 34.53858948,
+      "fertility_rate": 4.047,
+      "life_expectancy": 57.047,
+      "mortality_under5": 98.7
+    },
+    "西班牙": {
+      "health_expenditure_per_capita": 3144.11181641,
+      "fertility_rate": 1.18,
+      "gdp_per_capita": 30799.477593777483,
+      "life_expectancy": 83.1780487804878,
+      "mortality_under5": 3.1
+    },
+    "斯里兰卡": {
+      "health_expenditure_per_capita": 157.13322449,
+      "fertility_rate": 1.995,
+      "gdp_per_capita": 3996.962400149092,
+      "life_expectancy": 76.278,
+      "mortality_under5": 6.6
+    },
+    "St. Kitts and Nevis": {
+      "health_expenditure_per_capita": 1134.47509766,
+      "fertility_rate": 1.531,
+      "gdp_per_capita": 18361.144969788555,
+      "life_expectancy": 69.271,
+      "mortality_under5": 17.2
+    },
+    "St. Lucia": {
+      "health_expenditure_per_capita": 588.36962891,
+      "fertility_rate": 1.399,
+      "gdp_per_capita": 10459.132124809184,
+      "life_expectancy": 69.119,
+      "mortality_under5": 16.0
+    },
+    "St. Martin (French part)": {
+      "fertility_rate": 2.804,
+      "gdp_per_capita": 21668.377652532254,
+      "life_expectancy": 80.206
+    },
+    "St. Vincent and the Grenadines": {
+      "health_expenditure_per_capita": 454.80987549,
+      "fertility_rate": 1.808,
+      "gdp_per_capita": 8641.279040244432,
+      "life_expectancy": 69.132,
+      "mortality_under5": 11.7
+    },
+    "Sub-Saharan Africa": {
+      "health_expenditure_per_capita": 84.22225922847821,
+      "fertility_rate": 4.464424448516272,
+      "gdp_per_capita": 1785.4666491661442,
+      "life_expectancy": 60.70343636606722,
+      "mortality_under5": 72.7
+    },
+    "Sub-Saharan Africa (IDA & IBRD countries)": {
+      "health_expenditure_per_capita": 84.22225922847822,
+      "fertility_rate": 4.464424448516271,
+      "gdp_per_capita": 1785.4666491661435,
+      "life_expectancy": 60.70343636606722,
+      "mortality_under5": 72.64043431324295
+    },
+    "Sub-Saharan Africa (excluding high income)": {
+      "health_expenditure_per_capita": 90.76831868759852,
+      "fertility_rate": 4.498097523357382,
+      "gdp_per_capita": 1885.481559659028,
+      "life_expectancy": 60.17747464948582,
+      "mortality_under5": 75.12906186635898
+    },
+    "苏丹": {
+      "health_expenditure_per_capita": 20.4981575,
+      "fertility_rate": 4.457,
+      "gdp_per_capita": 712.122009277344,
+      "life_expectancy": 64.46,
+      "mortality_under5": 53.6
+    },
+    "苏里南": {
+      "health_expenditure_per_capita": 294.25476074,
+      "fertility_rate": 2.295,
+      "gdp_per_capita": 5029.848385439529,
+      "life_expectancy": 68.943,
+      "mortality_under5": 17.3
+    },
+    "瑞典": {
+      "health_expenditure_per_capita": 6842.46044922,
+      "fertility_rate": 1.67,
+      "gdp_per_capita": 60647.54163653466,
+      "life_expectancy": 83.05609756097562,
+      "mortality_under5": 2.5
+    },
+    "瑞士": {
+      "health_expenditure_per_capita": 11262.23046875,
+      "fertility_rate": 1.52,
+      "gdp_per_capita": 93664.77366961108,
+      "life_expectancy": 83.75121951219514,
+      "mortality_under5": 4.0
+    },
+    "阿拉伯叙利亚共和国": {
+      "health_expenditure_per_capita": 25.79880524,
+      "fertility_rate": 2.798,
+      "gdp_per_capita": 663.6142457068148,
+      "life_expectancy": 72.418,
+      "mortality_under5": 21.0
+    },
+    "塔吉克斯坦": {
+      "health_expenditure_per_capita": 75.10315704,
+      "fertility_rate": 3.17,
+      "gdp_per_capita": 896.7480533721822,
+      "life_expectancy": 69.594,
+      "mortality_under5": 27.9
+    },
+    "坦桑尼亚": {
+      "health_expenditure_per_capita": 37.56311798,
+      "fertility_rate": 4.734,
+      "gdp_per_capita": 1159.85656738281,
+      "life_expectancy": 66.131,
+      "mortality_under5": 42.2
+    },
+    "泰国": {
+      "health_expenditure_per_capita": 363.72845459,
+      "fertility_rate": 1.234,
+      "gdp_per_capita": 7057.2075480227895,
+      "life_expectancy": 77.606,
+      "mortality_under5": 9.8
+    },
+    "东帝汶": {
+      "health_expenditure_per_capita": 132.07870483,
+      "fertility_rate": 2.892,
+      "gdp_per_capita": 2684.926767742773,
+      "life_expectancy": 66.199,
+      "mortality_under5": 52.8
+    },
+    "多哥": {
+      "health_expenditure_per_capita": 52.72237015,
+      "fertility_rate": 4.324,
+      "gdp_per_capita": 962.0751875158718,
+      "life_expectancy": 61.328,
+      "mortality_under5": 62.2
+    },
+    "汤加": {
+      "health_expenditure_per_capita": 341.50390625,
+      "fertility_rate": 3.198,
+      "gdp_per_capita": 4922.801713783675,
+      "life_expectancy": 72.13,
+      "mortality_under5": 10.5
+    },
+    "特立尼达和多巴哥": {
+      "health_expenditure_per_capita": 1173.39306641,
+      "fertility_rate": 1.559,
+      "gdp_per_capita": 17712.567410465464,
+      "life_expectancy": 71.111,
+      "mortality_under5": 20.1
+    },
+    "突尼斯": {
+      "health_expenditure_per_capita": 270.34024048,
+      "fertility_rate": 1.8,
+      "gdp_per_capita": 3906.939263193908,
+      "life_expectancy": 72.893,
+      "mortality_under5": 15.0
+    },
+    "Turkiye": {
+      "health_expenditure_per_capita": 431.33978271,
+      "fertility_rate": 1.71,
+      "gdp_per_capita": 9981.763984113362,
+      "life_expectancy": 75.722,
+      "mortality_under5": 10.1
+    },
+    "土库曼斯坦": {
+      "health_expenditure_per_capita": 471.86325073,
+      "fertility_rate": 2.754,
+      "gdp_per_capita": 5723.302271579058,
+      "life_expectancy": 69.353,
+      "mortality_under5": 41.8
+    },
+    "Turks and Caicos Islands": {
+      "fertility_rate": 1.501,
+      "gdp_per_capita": 27329.28850871958,
+      "life_expectancy": 77.234,
+      "mortality_under5": 6.0
+    },
+    "Tuvalu": {
+      "health_expenditure_per_capita": 1152.32275391,
+      "fertility_rate": 3.277,
+      "gdp_per_capita": 5905.081980953432,
+      "life_expectancy": 65.824,
+      "mortality_under5": 21.2
+    },
+    "乌干达": {
+      "health_expenditure_per_capita": 51.03484726,
+      "fertility_rate": 4.51,
+      "gdp_per_capita": 882.7917175425043,
+      "life_expectancy": 66.45,
+      "mortality_under5": 41.8
+    },
+    "乌克兰": {
+      "health_expenditure_per_capita": 369.90487671,
+      "fertility_rate": 1.148,
+      "gdp_per_capita": 4775.94580078125,
+      "life_expectancy": 71.631,
+      "mortality_under5": 8.2
+    },
+    "阿拉伯联合酋长国": {
+      "health_expenditure_per_capita": 2249.96313477,
+      "fertility_rate": 1.162,
+      "gdp_per_capita": 44118.50471927712,
+      "life_expectancy": 79.083,
+      "mortality_under5": 5.6
+    },
+    "英国": {
+      "health_expenditure_per_capita": 5612.04931641,
+      "fertility_rate": 1.583,
+      "gdp_per_capita": 47691.37687994039,
+      "life_expectancy": 80.64731707317074,
+      "mortality_under5": 4.4
+    },
+    "美国": {
+      "health_expenditure_per_capita": 11999.09082031,
+      "fertility_rate": 1.664,
+      "gdp_per_capita": 70205.05091602595,
+      "life_expectancy": 76.32926829268293,
+      "mortality_under5": 6.5
+    },
+    "Upper middle income": {
+      "health_expenditure_per_capita": 561.5172114001399,
+      "fertility_rate": 1.5495088511649964,
+      "gdp_per_capita": 9918.699477467102,
+      "life_expectancy": 74.72737132716352,
+      "mortality_under5": 14.3
+    },
+    "乌拉圭": {
+      "health_expenditure_per_capita": 1594.98059082,
+      "fertility_rate": 1.446,
+      "gdp_per_capita": 17881.81872109899,
+      "life_expectancy": 75.434,
+      "mortality_under5": 7.0
+    },
+    "乌兹别克斯坦": {
+      "health_expenditure_per_capita": 156.44789124,
+      "fertility_rate": 3.273,
+      "gdp_per_capita": 2258.519641192782,
+      "life_expectancy": 71.681,
+      "mortality_under5": 14.4
+    },
+    "瓦努阿图": {
+      "health_expenditure_per_capita": 141.28567505,
+      "fertility_rate": 3.696,
+      "gdp_per_capita": 3107.2031285800217,
+      "life_expectancy": 69.952,
+      "mortality_under5": 17.4
+    },
+    "委内瑞拉玻利瓦尔共和国": {
+      "health_expenditure_per_capita": 162.50117493,
+      "fertility_rate": 2.105,
+      "gdp_per_capita": 2004.9339794979207,
+      "life_expectancy": 71.536,
+      "mortality_under5": 24.3
+    },
+    "Viet Nam": {
+      "health_expenditure_per_capita": 168.08033752,
+      "fertility_rate": 1.942,
+      "gdp_per_capita": 3704.193559003796,
+      "life_expectancy": 74.145,
+      "mortality_under5": 20.7
+    },
+    "Virgin Islands (U.S.)": {
+      "fertility_rate": 2.01,
+      "gdp_per_capita": 42571.07773684707,
+      "life_expectancy": 80.06829268292682
+    },
+    "约旦河西岸和加沙地带": {
+      "health_expenditure_per_capita": 364.4173584,
+      "fertility_rate": 3.442,
+      "gdp_per_capita": 3678.63565662194,
+      "life_expectancy": 73.89,
+      "mortality_under5": 14.7
+    },
+    "World": {
+      "health_expenditure_per_capita": 1245.929213182257,
+      "fertility_rate": 2.2457724874803424,
+      "gdp_per_capita": 12390.668671672673,
+      "life_expectancy": 71.2152192461602,
+      "mortality_under5": 38.2
+    },
+    "也门共和国": {
+      "health_expenditure_per_capita": 32.01807785,
+      "fertility_rate": 4.597,
+      "life_expectancy": 66.019,
+      "mortality_under5": 42.4
+    },
+    "赞比亚": {
+      "health_expenditure_per_capita": 74.83802795,
+      "fertility_rate": 4.246,
+      "gdp_per_capita": 1127.1607787285725,
+      "life_expectancy": 62.363,
+      "mortality_under5": 49.2
+    },
+    "津巴布韦": {
+      "health_expenditure_per_capita": 63.51144791,
+      "fertility_rate": 3.765,
+      "gdp_per_capita": 2613.6054208355185,
+      "life_expectancy": 60.135,
+      "mortality_under5": 47.6
+    }
+  },
+  "statistics": {
+    "life_expectancy": {
+      "max": 85.53268292682927,
+      "min": 40.279,
+      "avg": 71.43055089507523,
+      "top10": [
+        "中国香港特别行政区",
+        "Monaco",
+        "日本",
+        "Liechtenstein",
+        "瑞士",
+        "中国澳门特别行政区",
+        "San Marino",
+        "大韩民国",
+        "澳大利亚",
+        "西班牙"
+      ],
+      "bottom10": [
+        "中非共和国",
+        "乍得",
+        "尼日利亚",
+        "莱索托",
+        "Somalia, Fed. Rep.",
+        "南苏丹",
+        "Africa Western and Central",
+        "Eswatini",
+        "马里",
+        "几内亚"
+      ]
+    },
+    "mortality_under5": {
+      "max": 171.3,
+      "min": 1.5,
+      "avg": 27.91569919327076,
+      "top10": [
+        "中非共和国",
+        "尼日尔",
+        "尼日利亚",
+        "Somalia, Fed. Rep.",
+        "乍得",
+        "塞拉利昂",
+        "几内亚",
+        "南苏丹",
+        "马里",
+        "Africa Western and Central"
+      ],
+      "bottom10": [
+        "San Marino",
+        "新加坡",
+        "爱沙尼亚",
+        "芬兰",
+        "挪威",
+        "斯洛文尼亚",
+        "日本",
+        "卢森堡",
+        "瑞典",
+        "白俄罗斯"
+      ]
+    },
+    "gdp_per_capita": {
+      "max": 223823.3639602262,
+      "min": 264.98037926965486,
+      "avg": 18803.437184936807,
+      "top10": [
+        "Monaco",
+        "Liechtenstein",
+        "卢森堡",
+        "Bermuda",
+        "爱尔兰",
+        "Isle of Man",
+        "瑞士",
+        "挪威",
+        "Cayman Islands",
+        "新加坡"
+      ],
+      "bottom10": [
+        "布隆迪",
+        "阿富汗",
+        "马达加斯加",
+        "中非共和国",
+        "莫桑比克",
+        "Somalia, Fed. Rep.",
+        "刚果民主共和国",
+        "尼日尔",
+        "马拉维",
+        "Low income"
+      ]
+    },
+    "health_expenditure_per_capita": {
+      "max": 11999.09082031,
+      "min": 14.63377476,
+      "avg": 1321.0730868353455,
+      "top10": [
+        "美国",
+        "North America",
+        "瑞士",
+        "挪威",
+        "Monaco",
+        "卢森堡",
+        "丹麦",
+        "澳大利亚",
+        "瑞典",
+        "Post-demographic dividend"
+      ],
+      "bottom10": [
+        "Somalia, Fed. Rep.",
+        "马达加斯加",
+        "苏丹",
+        "刚果民主共和国",
+        "布隆迪",
+        "冈比亚",
+        "阿拉伯叙利亚共和国",
+        "埃塞俄比亚",
+        "Eritrea",
+        "马里"
+      ]
+    }
+  }
+}

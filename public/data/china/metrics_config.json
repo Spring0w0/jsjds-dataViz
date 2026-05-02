@@ -1,0 +1,144 @@
+{
+  "原始数据层": {
+    "卫生资源": [
+      {
+        "id": "health_personnel",
+        "name": "卫生人员数量",
+        "unit": "万人",
+        "description": "各省份卫生技术人员总数",
+        "colorRange": [
+          "#E8F4FD",
+          "#003366"
+        ]
+      },
+      {
+        "id": "health_institutions",
+        "name": "医疗机构数量",
+        "unit": "个",
+        "description": "各省份医疗卫生机构总数",
+        "colorRange": [
+          "#E8F4FD",
+          "#003366"
+        ]
+      },
+      {
+        "id": "health_tech_per_1000",
+        "name": "每千人口卫生技术人员数",
+        "unit": "人",
+        "description": "每千人口拥有的卫生技术人员数",
+        "colorRange": [
+          "#E8F4FD",
+          "#003366"
+        ]
+      },
+      {
+        "id": "institutions_per_10000",
+        "name": "万人口医疗机构数",
+        "unit": "个",
+        "description": "每万人口拥有的医疗机构数",
+        "colorRange": [
+          "#E8F4FD",
+          "#003366"
+        ]
+      }
+    ],
+    "健康产出": [
+      {
+        "id": "life_expectancy",
+        "name": "平均预期寿命",
+        "unit": "岁",
+        "description": "各省份人口平均预期寿命",
+        "colorRange": [
+          "#E8F4FD",
+          "#003366"
+        ]
+      },
+      {
+        "id": "population_mortality",
+        "name": "人口死亡率",
+        "unit": "‰",
+        "description": "各省份人口死亡率",
+        "colorRange": [
+          "#FFF5F5",
+          "#991B1B"
+        ]
+      },
+      {
+        "id": "health_expenditure_gdp",
+        "name": "卫生支出占GDP比重",
+        "unit": "%",
+        "description": "各省份卫生支出占GDP的比重",
+        "colorRange": [
+          "#E8F4FD",
+          "#003366"
+        ]
+      }
+    ]
+  },
+  "分析衍生层": {
+    "效率指标": [
+      {
+        "id": "efficiency_life_personnel",
+        "name": "效率评分（寿命/人员）",
+        "unit": "分",
+        "description": "寿命与卫生人员配置的效率评分",
+        "colorRange": [
+          "#FFF5F5",
+          "#003366"
+        ]
+      },
+      {
+        "id": "efficiency_life_institutions",
+        "name": "效率评分（寿命/机构）",
+        "unit": "分",
+        "description": "寿命与医疗机构配置的效率评分",
+        "colorRange": [
+          "#FFF5F5",
+          "#003366"
+        ]
+      },
+      {
+        "id": "efficiency_life_expenditure",
+        "name": "效率评分（寿命/支出）",
+        "unit": "分",
+        "description": "寿命与卫生支出配置的效率评分",
+        "colorRange": [
+          "#FFF5F5",
+          "#003366"
+        ]
+      },
+      {
+        "id": "comprehensive_efficiency",
+        "name": "综合效率评分",
+        "unit": "分",
+        "description": "衡量卫生资源配置效率的综合指标",
+        "colorRange": [
+          "#FFE8E6",
+          "#1A365D"
+        ]
+      }
+    ],
+    "资源分类": [
+      {
+        "id": "resource_type",
+        "name": "资源类型",
+        "unit": "",
+        "description": "根据指标分析得到的资源类型分类",
+        "colorRange": [
+          "#E8F4FD",
+          "#003366"
+        ]
+      },
+      {
+        "id": "quadrant",
+        "name": "所属象限",
+        "unit": "",
+        "description": "基于投入-产出分析的四象限分类",
+        "colorRange": [
+          "#E8F4FD",
+          "#003366"
+        ]
+      }
+    ]
+  }
+}

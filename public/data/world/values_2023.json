@@ -1,0 +1,2232 @@
+{
+  "values": {
+    "阿富汗": {
+      "fertility_rate": 4.84,
+      "gdp_per_capita": 413.7578947053032,
+      "life_expectancy": 66.035,
+      "mortality_under5": 55.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Africa Eastern and Southern": {
+      "fertility_rate": 4.223820003421515,
+      "gdp_per_capita": 1571.4491891898058,
+      "life_expectancy": 65.14615434799589,
+      "mortality_under5": 53.80625164817117,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Africa Western and Central": {
+      "fertility_rate": 4.49770681255146,
+      "gdp_per_capita": 1841.855063548671,
+      "life_expectancy": 58.85572154832766,
+      "mortality_under5": 88.72633518351256,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "阿尔巴尼亚": {
+      "fertility_rate": 1.348,
+      "gdp_per_capita": 9730.869219068934,
+      "life_expectancy": 79.602,
+      "mortality_under5": 9.4,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "阿尔及利亚": {
+      "fertility_rate": 2.766,
+      "gdp_per_capita": 5370.477235078005,
+      "life_expectancy": 76.261,
+      "mortality_under5": 22.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "American Samoa": {
+      "fertility_rate": 2.286,
+      "life_expectancy": 72.852,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Andorra": {
+      "health_expenditure_per_capita": 3654.07470703,
+      "fertility_rate": 1.082,
+      "gdp_per_capita": 46812.42610131024,
+      "life_expectancy": 84.041,
+      "mortality_under5": 2.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "安哥拉": {
+      "fertility_rate": 5.124,
+      "gdp_per_capita": 2916.136632842746,
+      "life_expectancy": 64.617,
+      "mortality_under5": 64.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Antigua and Barbuda": {
+      "fertility_rate": 1.578,
+      "gdp_per_capita": 21494.547400072708,
+      "life_expectancy": 77.598,
+      "mortality_under5": 9.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Arab World": {
+      "fertility_rate": 3.089750837623741,
+      "gdp_per_capita": 7513.899078807491,
+      "life_expectancy": 72.44467835785314,
+      "mortality_under5": 31.779199954701227,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "阿根廷": {
+      "fertility_rate": 1.5,
+      "gdp_per_capita": 14261.84656679479,
+      "life_expectancy": 77.395,
+      "mortality_under5": 9.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "亚美尼亚": {
+      "fertility_rate": 1.9,
+      "gdp_per_capita": 8159.0872096799585,
+      "life_expectancy": 77.4658536585366,
+      "mortality_under5": 10.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Aruba": {
+      "fertility_rate": 1.602,
+      "gdp_per_capita": 35718.75311916344,
+      "life_expectancy": 76.353,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "澳大利亚": {
+      "fertility_rate": 1.5,
+      "gdp_per_capita": 65058.37731466737,
+      "life_expectancy": 83.05121951219513,
+      "mortality_under5": 3.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "奥地利": {
+      "health_expenditure_per_capita": 6208.64453125,
+      "fertility_rate": 1.32,
+      "gdp_per_capita": 56579.50417546799,
+      "life_expectancy": 81.54146341463417,
+      "mortality_under5": 3.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "阿塞拜疆": {
+      "fertility_rate": 1.55,
+      "gdp_per_capita": 7133.028380483284,
+      "life_expectancy": 74.429,
+      "mortality_under5": 18.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Bahamas, The": {
+      "fertility_rate": 1.373,
+      "gdp_per_capita": 38231.77448427799,
+      "life_expectancy": 74.552,
+      "mortality_under5": 12.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Bahrain": {
+      "fertility_rate": 1.824,
+      "gdp_per_capita": 29290.12842150983,
+      "life_expectancy": 81.284,
+      "mortality_under5": 8.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "孟加拉国": {
+      "fertility_rate": 2.163,
+      "gdp_per_capita": 2551.017738273069,
+      "life_expectancy": 74.672,
+      "mortality_under5": 30.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Barbados": {
+      "fertility_rate": 1.708,
+      "gdp_per_capita": 25583.878782726963,
+      "life_expectancy": 76.178,
+      "mortality_under5": 10.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "白俄罗斯": {
+      "fertility_rate": 1.208,
+      "gdp_per_capita": 7896.753882955836,
+      "life_expectancy": 74.18378048780488,
+      "mortality_under5": 2.4,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "比利时": {
+      "fertility_rate": 1.47,
+      "gdp_per_capita": 55291.47545413294,
+      "life_expectancy": 82.39756097560976,
+      "mortality_under5": 3.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Belize": {
+      "fertility_rate": 2.007,
+      "gdp_per_capita": 7424.758213210218,
+      "life_expectancy": 73.566,
+      "mortality_under5": 12.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "贝宁": {
+      "fertility_rate": 4.556,
+      "gdp_per_capita": 1394.1778472183137,
+      "life_expectancy": 60.774,
+      "mortality_under5": 77.9,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Bermuda": {
+      "fertility_rate": 1.401,
+      "gdp_per_capita": 132604.43908621595,
+      "life_expectancy": 82.309,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Bhutan": {
+      "fertility_rate": 1.462,
+      "gdp_per_capita": 3831.325354946087,
+      "life_expectancy": 72.975,
+      "mortality_under5": 23.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "玻利维亚": {
+      "fertility_rate": 2.547,
+      "gdp_per_capita": 4274.70820547613,
+      "life_expectancy": 68.581,
+      "mortality_under5": 23.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "波斯尼亚和黑塞哥维那": {
+      "fertility_rate": 1.486,
+      "gdp_per_capita": 8663.023264586292,
+      "life_expectancy": 77.85,
+      "mortality_under5": 6.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "博茨瓦纳": {
+      "fertility_rate": 2.732,
+      "gdp_per_capita": 7826.353764832983,
+      "life_expectancy": 69.163,
+      "mortality_under5": 39.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "巴西": {
+      "fertility_rate": 1.619,
+      "gdp_per_capita": 10377.58977191948,
+      "life_expectancy": 75.848,
+      "mortality_under5": 14.4,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "British Virgin Islands": {
+      "fertility_rate": 1.045,
+      "life_expectancy": 77.276,
+      "mortality_under5": 12.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Brunei Darussalam": {
+      "fertility_rate": 1.747,
+      "gdp_per_capita": 32890.54918120193,
+      "life_expectancy": 75.327,
+      "mortality_under5": 9.4,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "保加利亚": {
+      "fertility_rate": 1.81,
+      "gdp_per_capita": 15853.208636704016,
+      "life_expectancy": 75.70731707317073,
+      "mortality_under5": 6.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "布基纳法索": {
+      "fertility_rate": 4.186,
+      "gdp_per_capita": 873.4825896510025,
+      "life_expectancy": 61.092,
+      "mortality_under5": 77.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "布隆迪": {
+      "fertility_rate": 4.878,
+      "gdp_per_capita": 250.62725309725457,
+      "life_expectancy": 63.651,
+      "mortality_under5": 49.2,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Cabo Verde": {
+      "fertility_rate": 1.522,
+      "gdp_per_capita": 4794.901219172586,
+      "life_expectancy": 76.059,
+      "mortality_under5": 11.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "柬埔寨": {
+      "fertility_rate": 2.579,
+      "gdp_per_capita": 2429.748534528382,
+      "life_expectancy": 70.668,
+      "mortality_under5": 22.9,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "喀麦隆": {
+      "fertility_rate": 4.322,
+      "gdp_per_capita": 1720.4751015450624,
+      "life_expectancy": 63.7,
+      "mortality_under5": 67.2,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "加拿大": {
+      "health_expenditure_per_capita": 6112.01953125,
+      "fertility_rate": 1.26,
+      "gdp_per_capita": 54220.328503987526,
+      "life_expectancy": 81.64658536585365,
+      "mortality_under5": 5.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Caribbean small states": {
+      "fertility_rate": 1.8316800860028744,
+      "gdp_per_capita": 17596.54042496124,
+      "life_expectancy": 73.17164500130976,
+      "mortality_under5": 18.431395844757205,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Cayman Islands": {
+      "fertility_rate": 1.531,
+      "gdp_per_capita": 99143.5180243123,
+      "life_expectancy": 80.358,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "中非共和国": {
+      "fertility_rate": 6.012,
+      "gdp_per_capita": 495.9788972887206,
+      "life_expectancy": 57.408,
+      "mortality_under5": 92.2,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Central Europe and the Baltics": {
+      "fertility_rate": 1.4072104561575218,
+      "gdp_per_capita": 22690.373617421632,
+      "life_expectancy": 77.89662452564123,
+      "mortality_under5": 4.717981300176118,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "乍得": {
+      "fertility_rate": 6.12,
+      "gdp_per_capita": 949.3334536745924,
+      "life_expectancy": 55.069,
+      "mortality_under5": 101.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Channel Islands": {
+      "fertility_rate": 1.37,
+      "gdp_per_capita": 74585.52240962943,
+      "life_expectancy": 81.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "智利": {
+      "health_expenditure_per_capita": 1714.8927002,
+      "fertility_rate": 1.167,
+      "gdp_per_capita": 17067.036479915365,
+      "life_expectancy": 81.167,
+      "mortality_under5": 7.2,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "中国": {
+      "fertility_rate": 0.999,
+      "gdp_per_capita": 12951.178239704272,
+      "life_expectancy": 77.953,
+      "mortality_under5": 6.2,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "哥伦比亚": {
+      "health_expenditure_per_capita": 534.43713379,
+      "fertility_rate": 1.645,
+      "gdp_per_capita": 7000.836605010462,
+      "life_expectancy": 77.725,
+      "mortality_under5": 12.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Comoros": {
+      "fertility_rate": 3.878,
+      "gdp_per_capita": 1560.2737847685466,
+      "life_expectancy": 66.777,
+      "mortality_under5": 39.8,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "刚果民主共和国": {
+      "fertility_rate": 6.051,
+      "gdp_per_capita": 660.2120523899703,
+      "life_expectancy": 61.895,
+      "mortality_under5": 73.2,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "刚果共和国": {
+      "fertility_rate": 4.157,
+      "gdp_per_capita": 2477.978455448662,
+      "life_expectancy": 65.772,
+      "mortality_under5": 40.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "哥斯达黎加": {
+      "fertility_rate": 1.33,
+      "gdp_per_capita": 16942.026811937547,
+      "life_expectancy": 80.799,
+      "mortality_under5": 10.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "科特迪瓦": {
+      "fertility_rate": 4.283,
+      "gdp_per_capita": 2591.965904811898,
+      "life_expectancy": 61.944,
+      "mortality_under5": 67.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "克罗地亚": {
+      "fertility_rate": 1.46,
+      "gdp_per_capita": 22184.22793048416,
+      "life_expectancy": 78.47317073170733,
+      "mortality_under5": 4.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "古巴": {
+      "fertility_rate": 1.439,
+      "life_expectancy": 78.085,
+      "mortality_under5": 8.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Curacao": {
+      "fertility_rate": 1.2,
+      "gdp_per_capita": 21217.81103217848,
+      "life_expectancy": 76.8,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "塞浦路斯": {
+      "fertility_rate": 1.389,
+      "gdp_per_capita": 36623.69140625,
+      "life_expectancy": 81.648,
+      "mortality_under5": 3.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Czechia": {
+      "health_expenditure_per_capita": 2609.24072266,
+      "fertility_rate": 1.45,
+      "gdp_per_capita": 31761.594410249065,
+      "life_expectancy": 79.87804878048782,
+      "mortality_under5": 2.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "丹麦": {
+      "health_expenditure_per_capita": 6432.37158203,
+      "fertility_rate": 1.5,
+      "gdp_per_capita": 68043.54669712431,
+      "life_expectancy": 81.85365853658539,
+      "mortality_under5": 3.4,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "吉布提": {
+      "fertility_rate": 2.609,
+      "gdp_per_capita": 3381.297797107218,
+      "life_expectancy": 65.987,
+      "mortality_under5": 50.4,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Dominica": {
+      "fertility_rate": 1.484,
+      "gdp_per_capita": 9912.962127666682,
+      "life_expectancy": 71.132,
+      "mortality_under5": 35.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "多米尼加共和国": {
+      "fertility_rate": 2.243,
+      "gdp_per_capita": 10630.431743829022,
+      "life_expectancy": 73.72,
+      "mortality_under5": 31.4,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Early-demographic dividend": {
+      "fertility_rate": 2.29816654586579,
+      "gdp_per_capita": 4252.597334157856,
+      "life_expectancy": 71.79624497958551,
+      "mortality_under5": 30.343116528212228,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "East Asia & Pacific": {
+      "fertility_rate": 1.3355803032975075,
+      "gdp_per_capita": 13176.178605563478,
+      "life_expectancy": 76.65941772678073,
+      "mortality_under5": 14.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "East Asia & Pacific (IDA & IBRD countries)": {
+      "fertility_rate": 1.3561934988665565,
+      "gdp_per_capita": 10239.81621788164,
+      "life_expectancy": 75.90856436038071,
+      "mortality_under5": 15.274488512275257,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "East Asia & Pacific (excluding high income)": {
+      "fertility_rate": 1.361404498891559,
+      "gdp_per_capita": 10125.909520864456,
+      "life_expectancy": 75.8806830895266,
+      "mortality_under5": 15.321549118664308,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "厄瓜多尔": {
+      "fertility_rate": 1.823,
+      "gdp_per_capita": 6737.847483796376,
+      "life_expectancy": 77.392,
+      "mortality_under5": 13.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "埃及": {
+      "fertility_rate": 2.75,
+      "gdp_per_capita": 3456.7896845625296,
+      "life_expectancy": 71.633,
+      "mortality_under5": 17.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "萨尔瓦多": {
+      "fertility_rate": 1.775,
+      "gdp_per_capita": 5365.444913991706,
+      "life_expectancy": 72.099,
+      "mortality_under5": 10.4,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Equatorial Guinea": {
+      "fertility_rate": 4.081,
+      "gdp_per_capita": 6677.793435386001,
+      "life_expectancy": 63.707,
+      "mortality_under5": 70.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Eritrea": {
+      "fertility_rate": 3.713,
+      "life_expectancy": 68.624,
+      "mortality_under5": 35.4,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "爱沙尼亚": {
+      "fertility_rate": 1.31,
+      "gdp_per_capita": 30264.006488505736,
+      "life_expectancy": 78.49024390243902,
+      "mortality_under5": 2.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Eswatini": {
+      "fertility_rate": 2.753,
+      "gdp_per_capita": 3755.5211123246368,
+      "life_expectancy": 64.123,
+      "mortality_under5": 45.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "埃塞俄比亚": {
+      "fertility_rate": 3.989,
+      "gdp_per_capita": 1055.8109159252658,
+      "life_expectancy": 67.315,
+      "mortality_under5": 46.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Euro area": {
+      "fertility_rate": 1.376780996261587,
+      "gdp_per_capita": 45330.1093015768,
+      "life_expectancy": 82.19495248103797,
+      "mortality_under5": 3.6362497344542426,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Europe & Central Asia": {
+      "fertility_rate": 1.5790189694155734,
+      "gdp_per_capita": 29988.90229031083,
+      "life_expectancy": 78.38548160689324,
+      "mortality_under5": 8.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Europe & Central Asia (IDA & IBRD countries)": {
+      "fertility_rate": 1.7278696911570095,
+      "gdp_per_capita": 12129.86411554317,
+      "life_expectancy": 74.72653719942916,
+      "mortality_under5": 11.124402393244926,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Europe & Central Asia (excluding high income)": {
+      "fertility_rate": 1.984012232771246,
+      "gdp_per_capita": 8617.048409863295,
+      "life_expectancy": 74.79230609836472,
+      "mortality_under5": 14.408658490903528,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "European Union": {
+      "fertility_rate": 1.386098858937174,
+      "gdp_per_capita": 41566.57411007852,
+      "life_expectancy": 81.41280637177022,
+      "mortality_under5": 3.832085285461253,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Faroe Islands": {
+      "fertility_rate": 1.8586,
+      "gdp_per_capita": 72465.37696602153,
+      "life_expectancy": 83.14390243902439,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Fiji": {
+      "health_expenditure_per_capita": 212.88697815,
+      "fertility_rate": 2.281,
+      "gdp_per_capita": 5926.205863947629,
+      "life_expectancy": 67.316,
+      "mortality_under5": 29.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "芬兰": {
+      "fertility_rate": 1.26,
+      "gdp_per_capita": 52834.29167527031,
+      "life_expectancy": 81.68536585365854,
+      "mortality_under5": 2.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Fragile and conflict affected situations": {
+      "fertility_rate": 4.181662072727264,
+      "gdp_per_capita": 1682.7505884547568,
+      "life_expectancy": 63.3499447771075,
+      "mortality_under5": 70.21485059896908,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "法国": {
+      "fertility_rate": 1.66,
+      "gdp_per_capita": 44700.138417754366,
+      "life_expectancy": 82.92926829268293,
+      "mortality_under5": 4.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "French Polynesia": {
+      "fertility_rate": 1.501,
+      "gdp_per_capita": 21832.283179556853,
+      "life_expectancy": 84.07,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "加蓬": {
+      "fertility_rate": 3.647,
+      "gdp_per_capita": 7802.824332761382,
+      "life_expectancy": 68.337,
+      "mortality_under5": 33.2,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "冈比亚": {
+      "fertility_rate": 4.006,
+      "gdp_per_capita": 883.0241117198087,
+      "life_expectancy": 65.86,
+      "mortality_under5": 44.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "格鲁吉亚": {
+      "fertility_rate": 1.81,
+      "gdp_per_capita": 8283.669606522612,
+      "life_expectancy": 74.496,
+      "mortality_under5": 9.2,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "德国": {
+      "health_expenditure_per_capita": 6232.59130859,
+      "fertility_rate": 1.39,
+      "gdp_per_capita": 54776.76682354909,
+      "life_expectancy": 80.54146341463417,
+      "mortality_under5": 3.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "加纳": {
+      "fertility_rate": 3.397,
+      "gdp_per_capita": 2383.904104834181,
+      "life_expectancy": 65.498,
+      "mortality_under5": 37.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Gibraltar": {
+      "fertility_rate": 1.888,
+      "life_expectancy": 83.553,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "希腊": {
+      "fertility_rate": 1.32,
+      "gdp_per_capita": 23343.710396456216,
+      "life_expectancy": 81.53658536585367,
+      "mortality_under5": 3.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Greenland": {
+      "fertility_rate": 1.769,
+      "gdp_per_capita": 58498.97079736093,
+      "life_expectancy": 71.54975609756099,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Grenada": {
+      "fertility_rate": 1.487,
+      "gdp_per_capita": 11414.478169118118,
+      "life_expectancy": 75.205,
+      "mortality_under5": 18.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Guam": {
+      "fertility_rate": 2.781,
+      "life_expectancy": 77.209,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "危地马拉": {
+      "fertility_rate": 2.311,
+      "gdp_per_capita": 5758.327608478517,
+      "life_expectancy": 72.602,
+      "mortality_under5": 21.4,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "几内亚": {
+      "fertility_rate": 4.217,
+      "gdp_per_capita": 1555.4937580686064,
+      "life_expectancy": 60.74,
+      "mortality_under5": 95.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "几内亚比绍": {
+      "fertility_rate": 3.836,
+      "gdp_per_capita": 988.087886357022,
+      "life_expectancy": 64.085,
+      "mortality_under5": 69.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Guyana": {
+      "fertility_rate": 2.412,
+      "gdp_per_capita": 20473.70021906172,
+      "life_expectancy": 70.18,
+      "mortality_under5": 25.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "海地": {
+      "fertility_rate": 2.656,
+      "gdp_per_capita": 1705.7580846099909,
+      "life_expectancy": 64.936,
+      "mortality_under5": 55.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Heavily indebted poor countries (HIPC)": {
+      "fertility_rate": 4.477359012623952,
+      "gdp_per_capita": 1155.904452799244,
+      "life_expectancy": 64.71590541774812,
+      "mortality_under5": 60.63063581014621,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "High income": {
+      "fertility_rate": 1.4352896539227658,
+      "gdp_per_capita": 48608.194766589455,
+      "life_expectancy": 80.14988880096614,
+      "mortality_under5": 5.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "洪都拉斯": {
+      "fertility_rate": 2.5,
+      "gdp_per_capita": 3227.457625097757,
+      "life_expectancy": 72.884,
+      "mortality_under5": 15.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "中国香港特别行政区": {
+      "fertility_rate": 0.751,
+      "gdp_per_capita": 50562.3633144379,
+      "life_expectancy": 85.24731707317075,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "匈牙利": {
+      "health_expenditure_per_capita": 1407.48730469,
+      "fertility_rate": 1.51,
+      "gdp_per_capita": 22230.627787518693,
+      "life_expectancy": 76.77073170731708,
+      "mortality_under5": 3.8,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "IBRD only": {
+      "fertility_rate": 1.7172148025040823,
+      "gdp_per_capita": 7925.399241374901,
+      "life_expectancy": 74.52063287793725,
+      "mortality_under5": 20.638848660355613,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "IDA & IBRD total": {
+      "fertility_rate": 2.3080967430754367,
+      "gdp_per_capita": 6149.505545589455,
+      "life_expectancy": 72.00045161792012,
+      "mortality_under5": 39.64375406078248,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "IDA blend": {
+      "fertility_rate": 3.9068998694071824,
+      "gdp_per_capita": 1915.313284334216,
+      "life_expectancy": 62.46216433273492,
+      "mortality_under5": 72.47190204085335,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "IDA only": {
+      "fertility_rate": 3.8084338142331338,
+      "gdp_per_capita": 1333.209719790256,
+      "life_expectancy": 67.05383189031149,
+      "mortality_under5": 54.36355996083146,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "IDA total": {
+      "fertility_rate": 3.842132318715916,
+      "gdp_per_capita": 1536.0871923709838,
+      "life_expectancy": 65.45352231354079,
+      "mortality_under5": 60.617052883260605,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "冰岛": {
+      "health_expenditure_per_capita": 7196.90917969,
+      "fertility_rate": 1.59,
+      "gdp_per_capita": 82138.78929735567,
+      "life_expectancy": 82.60731707317075,
+      "mortality_under5": 2.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "印度": {
+      "fertility_rate": 1.975,
+      "gdp_per_capita": 2530.120312782038,
+      "life_expectancy": 72.003,
+      "mortality_under5": 27.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "印度尼西亚": {
+      "fertility_rate": 2.127,
+      "gdp_per_capita": 4876.3077451225245,
+      "life_expectancy": 71.146,
+      "mortality_under5": 20.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "伊朗伊斯兰共和国": {
+      "fertility_rate": 1.695,
+      "gdp_per_capita": 5049.299316427539,
+      "life_expectancy": 77.654,
+      "mortality_under5": 11.8,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "伊拉克": {
+      "fertility_rate": 3.249,
+      "gdp_per_capita": 5965.318350777613,
+      "life_expectancy": 72.324,
+      "mortality_under5": 22.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "爱尔兰": {
+      "fertility_rate": 1.5,
+      "gdp_per_capita": 106818.9171308039,
+      "life_expectancy": 82.86097560975611,
+      "mortality_under5": 3.8,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Isle of Man": {
+      "fertility_rate": 1.548,
+      "life_expectancy": 80.999,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "以色列": {
+      "fertility_rate": 2.85,
+      "gdp_per_capita": 52003.72007299969,
+      "life_expectancy": 83.19512195121952,
+      "mortality_under5": 3.4,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "意大利": {
+      "health_expenditure_per_capita": 3228.43505859,
+      "fertility_rate": 1.2,
+      "gdp_per_capita": 39277.08387839178,
+      "life_expectancy": 83.70000000000002,
+      "mortality_under5": 2.8,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "牙买加": {
+      "fertility_rate": 1.358,
+      "gdp_per_capita": 7542.400842753452,
+      "life_expectancy": 71.479,
+      "mortality_under5": 19.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "日本": {
+      "fertility_rate": 1.2,
+      "gdp_per_capita": 33836.17562716171,
+      "life_expectancy": 84.04121951219513,
+      "mortality_under5": 2.4,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "约旦": {
+      "fertility_rate": 2.639,
+      "gdp_per_capita": 4466.083142085751,
+      "life_expectancy": 77.814,
+      "mortality_under5": 13.2,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "哈萨克斯坦": {
+      "fertility_rate": 3.012,
+      "gdp_per_capita": 12879.427525797384,
+      "life_expectancy": 74.402,
+      "mortality_under5": 9.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "肯尼亚": {
+      "fertility_rate": 3.208,
+      "gdp_per_capita": 1942.5880275619108,
+      "life_expectancy": 63.646,
+      "mortality_under5": 39.9,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Kiribati": {
+      "fertility_rate": 3.147,
+      "gdp_per_capita": 2177.701258122623,
+      "life_expectancy": 66.473,
+      "mortality_under5": 55.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Korea, Dem. People's Rep.": {
+      "fertility_rate": 1.78,
+      "life_expectancy": 73.642,
+      "mortality_under5": 18.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "大韩民国": {
+      "health_expenditure_per_capita": 3269.70385742,
+      "fertility_rate": 0.721,
+      "gdp_per_capita": 35674.09599563203,
+      "life_expectancy": 83.42926829268293,
+      "mortality_under5": 2.8,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Kosovo": {
+      "fertility_rate": 1.545,
+      "gdp_per_capita": 6221.206188477991,
+      "life_expectancy": 78.033,
+      "mortality_under5": 9.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "科威特": {
+      "fertility_rate": 1.524,
+      "gdp_per_capita": 34075.84901290902,
+      "life_expectancy": 83.1878048780488,
+      "mortality_under5": 8.8,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "吉尔吉斯共和国": {
+      "fertility_rate": 2.7,
+      "gdp_per_capita": 2138.22210211478,
+      "life_expectancy": 72.2487804878049,
+      "mortality_under5": 17.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "老挝人民民主共和国": {
+      "fertility_rate": 2.421,
+      "gdp_per_capita": 2066.9497977695714,
+      "life_expectancy": 68.964,
+      "mortality_under5": 39.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Late-demographic dividend": {
+      "fertility_rate": 1.2692438748329464,
+      "gdp_per_capita": 12437.986172190664,
+      "life_expectancy": 77.1297750439663,
+      "mortality_under5": 9.485978477080096,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Latin America & Caribbean": {
+      "fertility_rate": 1.7950734189087605,
+      "gdp_per_capita": 10508.647254802478,
+      "life_expectancy": 75.64352731740155,
+      "mortality_under5": 15.9,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Latin America & Caribbean (excluding high income)": {
+      "fertility_rate": 1.810336249890921,
+      "gdp_per_capita": 10196.271088969024,
+      "life_expectancy": 75.49860133018666,
+      "mortality_under5": 15.6898942523118,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Latin America & the Caribbean (IDA & IBRD countries)": {
+      "fertility_rate": 1.8041419230078064,
+      "gdp_per_capita": 10260.51969157821,
+      "life_expectancy": 75.5699258379688,
+      "mortality_under5": 15.94455207926664,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "拉脱维亚": {
+      "fertility_rate": 1.36,
+      "gdp_per_capita": 22710.263754419742,
+      "life_expectancy": 75.6780487804878,
+      "mortality_under5": 3.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Least developed countries: UN classification": {
+      "fertility_rate": 3.961274013929117,
+      "gdp_per_capita": 1257.698066993313,
+      "life_expectancy": 66.51610025977877,
+      "mortality_under5": 56.89759304220394,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "黎巴嫩": {
+      "fertility_rate": 2.239,
+      "gdp_per_capita": 3477.7248984268376,
+      "life_expectancy": 77.817,
+      "mortality_under5": 18.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "莱索托": {
+      "fertility_rate": 2.694,
+      "gdp_per_capita": 916.2829769838036,
+      "life_expectancy": 57.375,
+      "mortality_under5": 58.9,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "利比里亚": {
+      "fertility_rate": 3.95,
+      "gdp_per_capita": 799.1944702296419,
+      "life_expectancy": 62.163,
+      "mortality_under5": 72.9,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "利比亚": {
+      "fertility_rate": 2.355,
+      "gdp_per_capita": 6026.515187088119,
+      "life_expectancy": 69.339,
+      "mortality_under5": 30.8,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Liechtenstein": {
+      "fertility_rate": 1.45,
+      "gdp_per_capita": 206780.59035338453,
+      "life_expectancy": 84.84146341463416,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "立陶宛": {
+      "health_expenditure_per_capita": 1988.94665527,
+      "fertility_rate": 1.18,
+      "gdp_per_capita": 27786.00578292757,
+      "life_expectancy": 76.98780487804878,
+      "mortality_under5": 3.4,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Low & middle income": {
+      "fertility_rate": 2.305334450381197,
+      "gdp_per_capita": 5856.294951959217,
+      "life_expectancy": 71.97361259679168,
+      "mortality_under5": 40.01957482677816,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Low income": {
+      "fertility_rate": 4.650416023403535,
+      "gdp_per_capita": 714.1517642427618,
+      "life_expectancy": 64.51789579368526,
+      "mortality_under5": 62.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Lower middle income": {
+      "fertility_rate": 2.586009332729598,
+      "gdp_per_capita": 2493.389852536514,
+      "life_expectancy": 69.59637465715151,
+      "mortality_under5": 43.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "卢森堡": {
+      "health_expenditure_per_capita": 7504.58496094,
+      "fertility_rate": 1.25,
+      "gdp_per_capita": 133230.6191788991,
+      "life_expectancy": 83.35853658536585,
+      "mortality_under5": 2.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "中国澳门特别行政区": {
+      "fertility_rate": 0.586,
+      "gdp_per_capita": 67216.36311121237,
+      "life_expectancy": 83.18048780487806,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "马达加斯加": {
+      "fertility_rate": 3.972,
+      "gdp_per_capita": 508.7184277055908,
+      "life_expectancy": 63.632,
+      "mortality_under5": 64.8,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "马拉维": {
+      "fertility_rate": 3.648,
+      "gdp_per_capita": 633.214767978695,
+      "life_expectancy": 67.353,
+      "mortality_under5": 38.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "马来西亚": {
+      "fertility_rate": 1.55,
+      "gdp_per_capita": 11386.039563652774,
+      "life_expectancy": 76.657,
+      "mortality_under5": 8.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Maldives": {
+      "fertility_rate": 1.575,
+      "gdp_per_capita": 12587.612603865124,
+      "life_expectancy": 81.041,
+      "mortality_under5": 5.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "马里": {
+      "fertility_rate": 5.614,
+      "gdp_per_capita": 1043.9533853528012,
+      "life_expectancy": 60.439,
+      "mortality_under5": 91.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "马耳他": {
+      "fertility_rate": 1.06,
+      "gdp_per_capita": 40905.80595850569,
+      "life_expectancy": 83.50731707317074,
+      "mortality_under5": 5.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Marshall Islands": {
+      "fertility_rate": 2.919,
+      "gdp_per_capita": 6793.244958958559,
+      "life_expectancy": 66.945,
+      "mortality_under5": 28.2,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "毛里塔尼亚": {
+      "fertility_rate": 4.697,
+      "gdp_per_capita": 2135.78187606359,
+      "life_expectancy": 68.484,
+      "mortality_under5": 37.8,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "毛里求斯": {
+      "fertility_rate": 1.39,
+      "gdp_per_capita": 11269.96844621386,
+      "life_expectancy": 73.41219512195123,
+      "mortality_under5": 15.2,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "墨西哥": {
+      "fertility_rate": 1.91,
+      "gdp_per_capita": 13860.95978093256,
+      "life_expectancy": 75.069,
+      "mortality_under5": 12.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Micronesia, Fed. Sts.": {
+      "fertility_rate": 2.748,
+      "gdp_per_capita": 3919.6430791085854,
+      "life_expectancy": 67.198,
+      "mortality_under5": 23.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Middle East, North Africa, Afghanistan & Pakistan": {
+      "fertility_rate": 3.0081011072648725,
+      "gdp_per_capita": 6149.061198934999,
+      "life_expectancy": 72.0839412410497,
+      "mortality_under5": 20.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)": {
+      "fertility_rate": 3.0826668318551587,
+      "gdp_per_capita": 2868.8862650121205,
+      "life_expectancy": 71.31945608881952,
+      "mortality_under5": 39.22998420657787,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)": {
+      "fertility_rate": 3.084299332417371,
+      "gdp_per_capita": 2873.0392930273506,
+      "life_expectancy": 71.27588498845823,
+      "mortality_under5": 39.12073932071269,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Middle income": {
+      "fertility_rate": 2.074876334987437,
+      "gdp_per_capita": 6386.3024638783845,
+      "life_expectancy": 72.74280607226673,
+      "mortality_under5": 34.28362207513973,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "摩尔多瓦": {
+      "fertility_rate": 1.731,
+      "gdp_per_capita": 6799.585946445756,
+      "life_expectancy": 71.198,
+      "mortality_under5": 14.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Monaco": {
+      "fertility_rate": 2.11,
+      "gdp_per_capita": 256799.78861280595,
+      "life_expectancy": 86.372,
+      "mortality_under5": 2.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "蒙古": {
+      "fertility_rate": 2.7,
+      "gdp_per_capita": 5838.631080839024,
+      "life_expectancy": 72.12243902439025,
+      "mortality_under5": 13.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Montenegro": {
+      "fertility_rate": 1.74,
+      "gdp_per_capita": 12259.877503443637,
+      "life_expectancy": 77.58780487804879,
+      "mortality_under5": 2.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "摩洛哥": {
+      "fertility_rate": 2.23,
+      "gdp_per_capita": 3813.72607421875,
+      "life_expectancy": 75.313,
+      "mortality_under5": 16.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "莫桑比克": {
+      "fertility_rate": 4.763,
+      "gdp_per_capita": 622.0002976828226,
+      "life_expectancy": 63.611,
+      "mortality_under5": 61.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "缅甸": {
+      "fertility_rate": 2.115,
+      "gdp_per_capita": 1233.1966620926912,
+      "life_expectancy": 66.889,
+      "mortality_under5": 38.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "纳米比亚": {
+      "fertility_rate": 3.212,
+      "gdp_per_capita": 4187.605003965253,
+      "life_expectancy": 67.385,
+      "mortality_under5": 40.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Nauru": {
+      "fertility_rate": 3.331,
+      "gdp_per_capita": 12752.472385583756,
+      "life_expectancy": 62.109,
+      "mortality_under5": 8.9,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "尼泊尔": {
+      "fertility_rate": 1.984,
+      "gdp_per_capita": 1382.3305576930356,
+      "life_expectancy": 70.354,
+      "mortality_under5": 26.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "荷兰": {
+      "fertility_rate": 1.43,
+      "gdp_per_capita": 63515.60307800192,
+      "life_expectancy": 81.91463414634147,
+      "mortality_under5": 4.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "New Caledonia": {
+      "fertility_rate": 1.98,
+      "gdp_per_capita": 33701.892332278054,
+      "life_expectancy": 78.766,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "新西兰": {
+      "fertility_rate": 1.56,
+      "gdp_per_capita": 49075.95628329268,
+      "life_expectancy": 83.00487804878051,
+      "mortality_under5": 4.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "尼加拉瓜": {
+      "fertility_rate": 2.218,
+      "gdp_per_capita": 2609.444920729308,
+      "life_expectancy": 74.947,
+      "mortality_under5": 13.4,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "尼日尔": {
+      "fertility_rate": 6.061,
+      "gdp_per_capita": 638.336080897887,
+      "life_expectancy": 61.183,
+      "mortality_under5": 114.8,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "尼日利亚": {
+      "fertility_rate": 4.482,
+      "gdp_per_capita": 2138.763837199825,
+      "life_expectancy": 54.462,
+      "mortality_under5": 104.9,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "North America": {
+      "fertility_rate": 1.578420915326553,
+      "gdp_per_capita": 78190.06407355345,
+      "life_expectancy": 78.7328213732191,
+      "mortality_under5": 6.4,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "North Macedonia": {
+      "fertility_rate": 1.5,
+      "gdp_per_capita": 8674.358463274853,
+      "life_expectancy": 75.31609756097562,
+      "mortality_under5": 3.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Northern Mariana Islands": {
+      "fertility_rate": 2.348,
+      "life_expectancy": 78.808,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "挪威": {
+      "fertility_rate": 1.4,
+      "gdp_per_capita": 87497.21796495565,
+      "life_expectancy": 83.11219512195123,
+      "mortality_under5": 2.4,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Not classified": {
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "OECD members": {
+      "fertility_rate": 1.4914070844119762,
+      "gdp_per_capita": 46580.44488072261,
+      "life_expectancy": 80.1614352591851,
+      "mortality_under5": 6.898262158367919,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "阿曼": {
+      "fertility_rate": 2.525,
+      "gdp_per_capita": 21027.73847788864,
+      "life_expectancy": 80.031,
+      "mortality_under5": 10.4,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Other small states": {
+      "fertility_rate": 2.038778332726521,
+      "gdp_per_capita": 15334.104650222818,
+      "life_expectancy": 73.55942147768965,
+      "mortality_under5": 29.53283219269622,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Pacific island small states": {
+      "fertility_rate": 3.028003943391784,
+      "gdp_per_capita": 4173.799647485125,
+      "life_expectancy": 69.27459490358557,
+      "mortality_under5": 23.501679879803085,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "巴基斯坦": {
+      "fertility_rate": 3.605,
+      "gdp_per_capita": 1360.3241775841927,
+      "life_expectancy": 67.649,
+      "mortality_under5": 58.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Palau": {
+      "fertility_rate": 1.907,
+      "gdp_per_capita": 15610.823193103235,
+      "life_expectancy": 69.269,
+      "mortality_under5": 22.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "巴拿马": {
+      "fertility_rate": 2.119,
+      "gdp_per_capita": 18797.193399404456,
+      "life_expectancy": 79.594,
+      "mortality_under5": 13.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "巴布亚新几内亚": {
+      "fertility_rate": 3.099,
+      "gdp_per_capita": 2966.0683043205463,
+      "life_expectancy": 66.134,
+      "mortality_under5": 40.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "巴拉圭": {
+      "fertility_rate": 2.422,
+      "gdp_per_capita": 6299.990265337135,
+      "life_expectancy": 73.844,
+      "mortality_under5": 17.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "秘鲁": {
+      "fertility_rate": 1.98,
+      "gdp_per_capita": 7887.54185920108,
+      "life_expectancy": 77.74,
+      "mortality_under5": 15.8,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "菲律宾": {
+      "health_expenditure_per_capita": 194.05615234,
+      "fertility_rate": 1.916,
+      "gdp_per_capita": 3804.0827413109687,
+      "life_expectancy": 69.833,
+      "mortality_under5": 26.9,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "波兰": {
+      "health_expenditure_per_capita": 1543.71240234,
+      "fertility_rate": 1.158,
+      "gdp_per_capita": 22145.26606474287,
+      "life_expectancy": 78.50731707317074,
+      "mortality_under5": 4.4,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "葡萄牙": {
+      "health_expenditure_per_capita": 2743.57739258,
+      "fertility_rate": 1.44,
+      "gdp_per_capita": 27634.6183139773,
+      "life_expectancy": 82.28048780487806,
+      "mortality_under5": 3.2,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Post-demographic dividend": {
+      "fertility_rate": 1.3963394373123623,
+      "gdp_per_capita": 53813.74183086775,
+      "life_expectancy": 80.82305638376364,
+      "mortality_under5": 4.833965595780229,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Pre-demographic dividend": {
+      "fertility_rate": 4.559289804640739,
+      "gdp_per_capita": 1558.343446934006,
+      "life_expectancy": 62.16362989027908,
+      "mortality_under5": 71.1757086663576,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Puerto Rico (US)": {
+      "fertility_rate": 0.92,
+      "gdp_per_capita": 36980.78847842869,
+      "life_expectancy": 81.69,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "卡塔尔": {
+      "fertility_rate": 1.729,
+      "gdp_per_capita": 81816.97979674811,
+      "life_expectancy": 82.368,
+      "mortality_under5": 6.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "罗马尼亚": {
+      "fertility_rate": 1.71,
+      "gdp_per_capita": 18244.418687632093,
+      "life_expectancy": 76.60731707317075,
+      "mortality_under5": 6.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "俄罗斯联邦": {
+      "fertility_rate": 1.41,
+      "gdp_per_capita": 14159.3876953125,
+      "life_expectancy": 73.25463414634149,
+      "mortality_under5": 4.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "卢旺达": {
+      "fertility_rate": 3.698,
+      "gdp_per_capita": 1027.0344682656455,
+      "life_expectancy": 67.785,
+      "mortality_under5": 40.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Samoa": {
+      "fertility_rate": 3.829,
+      "gdp_per_capita": 4822.740846500188,
+      "life_expectancy": 71.698,
+      "mortality_under5": 15.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "San Marino": {
+      "fertility_rate": 1.149,
+      "gdp_per_capita": 59879.717301565135,
+      "life_expectancy": 85.706,
+      "mortality_under5": 1.4,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Sao Tome and Principe": {
+      "fertility_rate": 3.644,
+      "gdp_per_capita": 2990.6606143534955,
+      "life_expectancy": 69.718,
+      "mortality_under5": 13.9,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "沙特阿拉伯": {
+      "fertility_rate": 2.28,
+      "gdp_per_capita": 36156.848337700976,
+      "life_expectancy": 78.732,
+      "mortality_under5": 6.2,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "塞内加尔": {
+      "fertility_rate": 3.818,
+      "gdp_per_capita": 1698.0338730084263,
+      "life_expectancy": 68.683,
+      "mortality_under5": 38.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "塞尔维亚": {
+      "fertility_rate": 1.61,
+      "gdp_per_capita": 12281.707946166956,
+      "life_expectancy": 76.2209756097561,
+      "mortality_under5": 5.2,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Seychelles": {
+      "fertility_rate": 2.02,
+      "gdp_per_capita": 18262.711584928707,
+      "life_expectancy": 74.95853658536586,
+      "mortality_under5": 14.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "塞拉利昂": {
+      "fertility_rate": 3.791,
+      "gdp_per_capita": 758.3291373782481,
+      "life_expectancy": 61.786,
+      "mortality_under5": 94.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "新加坡": {
+      "fertility_rate": 0.97,
+      "gdp_per_capita": 85412.23034523505,
+      "life_expectancy": 82.89512195121952,
+      "mortality_under5": 2.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Sint Maarten (Dutch part)": {
+      "fertility_rate": 1.447,
+      "gdp_per_capita": 39451.8223361963,
+      "life_expectancy": 76.371,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "斯洛伐克共和国": {
+      "fertility_rate": 1.49,
+      "gdp_per_capita": 24614.87346427939,
+      "life_expectancy": 78.01707317073172,
+      "mortality_under5": 6.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "斯洛文尼亚": {
+      "health_expenditure_per_capita": 3033.32104492,
+      "fertility_rate": 1.51,
+      "gdp_per_capita": 32660.475358134645,
+      "life_expectancy": 81.97804878048781,
+      "mortality_under5": 2.2,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Small states": {
+      "fertility_rate": 2.1233948715043103,
+      "gdp_per_capita": 14346.32027833956,
+      "life_expectancy": 72.89667886538625,
+      "mortality_under5": 26.144854623472803,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "所罗门群岛": {
+      "fertility_rate": 3.557,
+      "gdp_per_capita": 1882.6439414804188,
+      "life_expectancy": 70.528,
+      "mortality_under5": 20.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Somalia, Fed. Rep.": {
+      "fertility_rate": 6.132,
+      "gdp_per_capita": 596.885985135589,
+      "life_expectancy": 58.816,
+      "mortality_under5": 104.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "南非": {
+      "fertility_rate": 2.216,
+      "gdp_per_capita": 6034.272089646732,
+      "life_expectancy": 66.139,
+      "mortality_under5": 34.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "South Asia": {
+      "fertility_rate": 1.995564419989333,
+      "gdp_per_capita": 2532.389889933058,
+      "life_expectancy": 72.3247648783903,
+      "mortality_under5": 34.8,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "South Asia (IDA & IBRD)": {
+      "fertility_rate": 1.995564419989333,
+      "gdp_per_capita": 2532.389889933058,
+      "life_expectancy": 72.3247648783903,
+      "mortality_under5": 27.78173474096093,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "南苏丹": {
+      "fertility_rate": 3.864,
+      "life_expectancy": 57.617,
+      "mortality_under5": 98.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "西班牙": {
+      "fertility_rate": 1.12,
+      "gdp_per_capita": 33493.22254091113,
+      "life_expectancy": 83.8829268292683,
+      "mortality_under5": 3.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "斯里兰卡": {
+      "fertility_rate": 1.974,
+      "gdp_per_capita": 3798.8901657301135,
+      "life_expectancy": 77.483,
+      "mortality_under5": 6.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "St. Kitts and Nevis": {
+      "fertility_rate": 1.505,
+      "gdp_per_capita": 22576.92484391659,
+      "life_expectancy": 72.145,
+      "mortality_under5": 16.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "St. Lucia": {
+      "fertility_rate": 1.379,
+      "gdp_per_capita": 13554.768478493274,
+      "life_expectancy": 72.697,
+      "mortality_under5": 15.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "St. Martin (French part)": {
+      "fertility_rate": 2.718,
+      "life_expectancy": 80.224,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "St. Vincent and the Grenadines": {
+      "fertility_rate": 1.775,
+      "gdp_per_capita": 10582.365672522892,
+      "life_expectancy": 71.23,
+      "mortality_under5": 10.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Sub-Saharan Africa": {
+      "fertility_rate": 4.332450835850015,
+      "gdp_per_capita": 1680.7796667221833,
+      "life_expectancy": 62.602807153695146,
+      "mortality_under5": 68.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Sub-Saharan Africa (IDA & IBRD countries)": {
+      "fertility_rate": 4.332450835850016,
+      "gdp_per_capita": 1680.7796667221826,
+      "life_expectancy": 62.602807153695146,
+      "mortality_under5": 68.0522278916853,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Sub-Saharan Africa (excluding high income)": {
+      "fertility_rate": 4.372842686515809,
+      "gdp_per_capita": 1750.131368369462,
+      "life_expectancy": 62.06535554761546,
+      "mortality_under5": 70.40392028898128,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "苏丹": {
+      "fertility_rate": 4.323,
+      "gdp_per_capita": 797.283447265625,
+      "life_expectancy": 66.331,
+      "mortality_under5": 50.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "苏里南": {
+      "fertility_rate": 2.249,
+      "gdp_per_capita": 5521.97602122638,
+      "life_expectancy": 73.631,
+      "mortality_under5": 16.2,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "瑞典": {
+      "health_expenditure_per_capita": 6152.33300781,
+      "fertility_rate": 1.45,
+      "gdp_per_capita": 54950.28347256223,
+      "life_expectancy": 83.30975609756099,
+      "mortality_under5": 2.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "瑞士": {
+      "fertility_rate": 1.33,
+      "gdp_per_capita": 100623.54962729648,
+      "life_expectancy": 84.05609756097562,
+      "mortality_under5": 3.9,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "阿拉伯叙利亚共和国": {
+      "fertility_rate": 2.712,
+      "life_expectancy": 72.12,
+      "mortality_under5": 20.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "塔吉克斯坦": {
+      "fertility_rate": 3.072,
+      "gdp_per_capita": 1178.4799006024873,
+      "life_expectancy": 71.79,
+      "mortality_under5": 27.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "坦桑尼亚": {
+      "fertility_rate": 4.606,
+      "gdp_per_capita": 1224.00219726563,
+      "life_expectancy": 66.995,
+      "mortality_under5": 38.9,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "泰国": {
+      "fertility_rate": 1.212,
+      "gdp_per_capita": 7195.101309194487,
+      "life_expectancy": 76.412,
+      "mortality_under5": 9.2,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "东帝汶": {
+      "fertility_rate": 2.707,
+      "gdp_per_capita": 1502.4114743821076,
+      "life_expectancy": 67.689,
+      "mortality_under5": 50.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "多哥": {
+      "fertility_rate": 4.192,
+      "gdp_per_capita": 1055.0172787792565,
+      "life_expectancy": 62.739,
+      "mortality_under5": 58.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "汤加": {
+      "fertility_rate": 3.129,
+      "gdp_per_capita": 5651.593730631569,
+      "life_expectancy": 72.895,
+      "mortality_under5": 9.9,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "特立尼达和多巴哥": {
+      "fertility_rate": 1.532,
+      "gdp_per_capita": 18308.453629857464,
+      "life_expectancy": 73.49,
+      "mortality_under5": 19.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "突尼斯": {
+      "fertility_rate": 1.832,
+      "gdp_per_capita": 3951.116833769215,
+      "life_expectancy": 76.508,
+      "mortality_under5": 12.9,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Turkiye": {
+      "fertility_rate": 1.51,
+      "gdp_per_capita": 13375.094728286427,
+      "life_expectancy": 77.156,
+      "mortality_under5": 12.8,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "土库曼斯坦": {
+      "fertility_rate": 2.69,
+      "gdp_per_capita": 6231.913238396981,
+      "life_expectancy": 70.073,
+      "mortality_under5": 40.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Turks and Caicos Islands": {
+      "fertility_rate": 1.463,
+      "gdp_per_capita": 35470.21516082947,
+      "life_expectancy": 78.008,
+      "mortality_under5": 5.6,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Tuvalu": {
+      "fertility_rate": 3.208,
+      "gdp_per_capita": 6344.775018868903,
+      "life_expectancy": 67.105,
+      "mortality_under5": 19.9,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "乌干达": {
+      "fertility_rate": 4.283,
+      "gdp_per_capita": 1002.3091391714248,
+      "life_expectancy": 68.252,
+      "mortality_under5": 38.8,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "乌克兰": {
+      "fertility_rate": 0.977,
+      "gdp_per_capita": 5139.59814453125,
+      "life_expectancy": 73.422,
+      "mortality_under5": 8.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "阿拉伯联合酋长国": {
+      "fertility_rate": 1.2,
+      "gdp_per_capita": 49850.6872175164,
+      "life_expectancy": 82.909,
+      "mortality_under5": 5.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "英国": {
+      "health_expenditure_per_capita": 5366.77685547,
+      "fertility_rate": 1.56,
+      "gdp_per_capita": 49944.47021242014,
+      "life_expectancy": 81.2380975609756,
+      "mortality_under5": 4.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "美国": {
+      "fertility_rate": 1.6165,
+      "gdp_per_capita": 81032.26211754496,
+      "life_expectancy": 78.38536585365854,
+      "mortality_under5": 6.5,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Upper middle income": {
+      "fertility_rate": 1.4747251264104624,
+      "gdp_per_capita": 10657.968611127922,
+      "life_expectancy": 76.19491490288209,
+      "mortality_under5": 14.1,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "乌拉圭": {
+      "fertility_rate": 1.409,
+      "gdp_per_capita": 23019.42215600459,
+      "life_expectancy": 78.138,
+      "mortality_under5": 6.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "乌兹别克斯坦": {
+      "fertility_rate": 3.5,
+      "gdp_per_capita": 2878.9687929245074,
+      "life_expectancy": 72.388,
+      "mortality_under5": 13.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "瓦努阿图": {
+      "fertility_rate": 3.596,
+      "gdp_per_capita": 3482.614582376369,
+      "life_expectancy": 71.477,
+      "mortality_under5": 16.8,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "委内瑞拉玻利瓦尔共和国": {
+      "fertility_rate": 2.079,
+      "gdp_per_capita": 3617.4359457826895,
+      "life_expectancy": 72.514,
+      "mortality_under5": 24.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Viet Nam": {
+      "fertility_rate": 1.913,
+      "gdp_per_capita": 4323.3503198245135,
+      "life_expectancy": 74.588,
+      "mortality_under5": 20.0,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "Virgin Islands (U.S.)": {
+      "fertility_rate": 1.98,
+      "life_expectancy": 80.51951219512196,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "约旦河西岸和加沙地带": {
+      "fertility_rate": 3.311,
+      "gdp_per_capita": 3455.0285291171217,
+      "life_expectancy": 65.17,
+      "mortality_under5": 26.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "World": {
+      "fertility_rate": 2.1959091159313915,
+      "gdp_per_capita": 13236.716396091677,
+      "life_expectancy": 73.32895015448449,
+      "mortality_under5": 36.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "也门共和国": {
+      "fertility_rate": 4.59,
+      "life_expectancy": 69.295,
+      "mortality_under5": 39.3,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "赞比亚": {
+      "fertility_rate": 4.101,
+      "gdp_per_capita": 1330.7278057670908,
+      "life_expectancy": 66.349,
+      "mortality_under5": 44.7,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    },
+    "津巴布韦": {
+      "fertility_rate": 3.724,
+      "gdp_per_capita": 2195.2249207924506,
+      "life_expectancy": 62.775,
+      "mortality_under5": 44.2,
+      "disease_cardiovascular": 3708219.425435018,
+      "disease_cancer": 2150875.167503512
+    }
+  },
+  "statistics": {
+    "life_expectancy": {
+      "max": 86.372,
+      "min": 54.462,
+      "avg": 73.45860005657534,
+      "top10": [
+        "Monaco",
+        "San Marino",
+        "中国香港特别行政区",
+        "Liechtenstein",
+        "French Polynesia",
+        "瑞士",
+        "日本",
+        "Andorra",
+        "西班牙",
+        "意大利"
+      ],
+      "bottom10": [
+        "尼日利亚",
+        "乍得",
+        "莱索托",
+        "中非共和国",
+        "南苏丹",
+        "Somalia, Fed. Rep.",
+        "Africa Western and Central",
+        "马里",
+        "几内亚",
+        "贝宁"
+      ]
+    },
+    "mortality_under5": {
+      "max": 114.8,
+      "min": 1.4,
+      "avg": 26.27614525544225,
+      "top10": [
+        "尼日尔",
+        "尼日利亚",
+        "Somalia, Fed. Rep.",
+        "乍得",
+        "南苏丹",
+        "几内亚",
+        "塞拉利昂",
+        "中非共和国",
+        "马里",
+        "Africa Western and Central"
+      ],
+      "bottom10": [
+        "San Marino",
+        "爱沙尼亚",
+        "新加坡",
+        "斯洛文尼亚",
+        "芬兰",
+        "卢森堡",
+        "白俄罗斯",
+        "日本",
+        "挪威",
+        "瑞典"
+      ]
+    },
+    "gdp_per_capita": {
+      "max": 256799.78861280595,
+      "min": 250.62725309725457,
+      "avg": 20172.185788893985,
+      "top10": [
+        "Monaco",
+        "Liechtenstein",
+        "卢森堡",
+        "Bermuda",
+        "爱尔兰",
+        "瑞士",
+        "Cayman Islands",
+        "挪威",
+        "新加坡",
+        "冰岛"
+      ],
+      "bottom10": [
+        "布隆迪",
+        "阿富汗",
+        "中非共和国",
+        "马达加斯加",
+        "Somalia, Fed. Rep.",
+        "莫桑比克",
+        "马拉维",
+        "尼日尔",
+        "刚果民主共和国",
+        "Low income"
+      ]
+    },
+    "health_expenditure_per_capita": {
+      "max": 7504.58496094,
+      "min": 194.05615234,
+      "avg": 3682.9049079528577,
+      "top10": [
+        "卢森堡",
+        "冰岛",
+        "丹麦",
+        "德国",
+        "奥地利",
+        "瑞典",
+        "加拿大",
+        "英国",
+        "Andorra",
+        "大韩民国"
+      ],
+      "bottom10": [
+        "菲律宾",
+        "Fiji",
+        "哥伦比亚",
+        "匈牙利",
+        "波兰",
+        "智利",
+        "立陶宛",
+        "Czechia",
+        "葡萄牙",
+        "斯洛文尼亚"
+      ]
+    }
+  }
+}
