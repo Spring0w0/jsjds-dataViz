@@ -38,9 +38,9 @@
     "健康风险因素估算数据": [
       {
         "id": "tobacco_use",
-        "name": "烟草使用率",
-        "unit": "%",
-        "description": "15岁以上人口烟草使用比例",
+        "name": "烟草相关死亡数",
+        "unit": "人",
+        "description": "因烟草导致的死亡人数（占所有原因百分比排名）",
         "indicatorCode": "SH.PRV.SMOK",
         "colorRange": [
           "#FFF5F5",
@@ -49,9 +49,9 @@
       },
       {
         "id": "alcohol_consumption",
-        "name": "酒精消费",
-        "unit": "升/人/年",
-        "description": "人均纯酒精消费量（15岁以上）",
+        "name": "酒精相关死亡数",
+        "unit": "人",
+        "description": "因酒精导致的死亡人数",
         "indicatorCode": "SH.ALC.PCAP.LI",
         "colorRange": [
           "#FFF5F5",
