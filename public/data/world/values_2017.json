@@ -9,7 +9,10 @@
       "disease_cardiovascular": 49036.62935911384,
       "disease_cancer": 8276.812010424614,
       "tobacco_use": 6928.844235491744,
-      "alcohol_consumption": 101.47765611102166
+      "alcohol_consumption": 101.47765611102166,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 155.73,
+      "health_inequality": 0.39
     },
     "Africa Eastern and Southern": {
       "health_expenditure_per_capita": 90.01315048625943,
@@ -34,7 +37,10 @@
       "disease_cardiovascular": 12234.369960966906,
       "disease_cancer": 4457.790877169963,
       "tobacco_use": 4110.3383655576445,
-      "alcohol_consumption": 399.67666130527726
+      "alcohol_consumption": 399.67666130527726,
+      "risk_factor_importance": 1.1,
+      "mortality_rate": 95.95,
+      "health_inequality": 0.57
     },
     "Algeria": {
       "health_expenditure_per_capita": 270.93261719,
@@ -45,12 +51,18 @@
       "disease_cardiovascular": 98788.97475621721,
       "disease_cancer": 19481.29063640271,
       "tobacco_use": 24468.318576094105,
-      "alcohol_consumption": 632.2375751083952
+      "alcohol_consumption": 632.2375751083952,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 166.94,
+      "health_inequality": 0.32
     },
     "American Samoa": {
       "fertility_rate": 2.598,
       "gdp_per_capita": 11863.683945256465,
-      "life_expectancy": 72.801
+      "life_expectancy": 72.801,
+      "risk_factor_importance": 1.2,
+      "mortality_rate": 2.87,
+      "health_inequality": 0.43
     },
     "Andorra": {
       "health_expenditure_per_capita": 2876.17871094,
@@ -61,7 +73,10 @@
       "disease_cardiovascular": 135.77246521359615,
       "disease_cancer": 177.87288117509192,
       "tobacco_use": 68.79519410789398,
-      "alcohol_consumption": 18.145262631134077
+      "alcohol_consumption": 18.145262631134077,
+      "risk_factor_importance": 1.2,
+      "mortality_rate": 2.84,
+      "health_inequality": 0.36
     },
     "Angola": {
       "health_expenditure_per_capita": 112.75364685,
@@ -72,14 +87,20 @@
       "disease_cardiovascular": 22899.57712992049,
       "disease_cancer": 13052.970018418524,
       "tobacco_use": 6707.571223551988,
-      "alcohol_consumption": 6499.836528841532
+      "alcohol_consumption": 6499.836528841532,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 178.89,
+      "health_inequality": 0.28
     },
     "Antigua and Barbuda": {
       "health_expenditure_per_capita": 791.12322998,
       "fertility_rate": 1.485,
       "gdp_per_capita": 16965.728827381565,
       "life_expectancy": 77.03,
-      "mortality_under5": 10.6
+      "mortality_under5": 10.6,
+      "risk_factor_importance": 1.5,
+      "mortality_rate": 3.44,
+      "health_inequality": 0.48
     },
     "Arab World": {
       "health_expenditure_per_capita": 304.3055369934247,
@@ -97,7 +118,10 @@
       "disease_cardiovascular": 96254.02112713913,
       "disease_cancer": 79395.7878742432,
       "tobacco_use": 35388.03256016928,
-      "alcohol_consumption": 8942.234918469821
+      "alcohol_consumption": 8942.234918469821,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 187.94,
+      "health_inequality": 0.24
     },
     "Armenia": {
       "health_expenditure_per_capita": 409.80145264,
@@ -108,7 +132,10 @@
       "disease_cardiovascular": 13981.179380514635,
       "disease_cancer": 5590.704464079857,
       "tobacco_use": 5027.429300110141,
-      "alcohol_consumption": 547.3904131630273
+      "alcohol_consumption": 547.3904131630273,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 112.47,
+      "health_inequality": 0.54
     },
     "Aruba": {
       "fertility_rate": 1.785,
@@ -124,7 +151,10 @@
       "disease_cardiovascular": 44192.04828899361,
       "disease_cancer": 50111.344430776735,
       "tobacco_use": 15141.017251405248,
-      "alcohol_consumption": 4472.825522964946
+      "alcohol_consumption": 4472.825522964946,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 172.05,
+      "health_inequality": 0.32
     },
     "Austria": {
       "health_expenditure_per_capita": 4938.92041016,
@@ -135,7 +165,10 @@
       "disease_cardiovascular": 31394.484639349237,
       "disease_cancer": 22681.742022125287,
       "tobacco_use": 9711.228696309461,
-      "alcohol_consumption": 2903.825173033737
+      "alcohol_consumption": 2903.825173033737,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 140.87,
+      "health_inequality": 0.42
     },
     "Azerbaijan": {
       "health_expenditure_per_capita": 167.01565552,
@@ -146,7 +179,10 @@
       "disease_cardiovascular": 34657.3995338619,
       "disease_cancer": 9510.927977466365,
       "tobacco_use": 10940.242642334148,
-      "alcohol_consumption": 1977.1483285911522
+      "alcohol_consumption": 1977.1483285911522,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 139.82,
+      "health_inequality": 0.43
     },
     "Bahamas, The": {
       "health_expenditure_per_capita": 2118.64892578,
@@ -164,7 +200,10 @@
       "disease_cardiovascular": 981.1318846922999,
       "disease_cancer": 640.6301285641958,
       "tobacco_use": 443.0900816397883,
-      "alcohol_consumption": 25.379998020681413
+      "alcohol_consumption": 25.379998020681413,
+      "risk_factor_importance": 1.6,
+      "mortality_rate": 21.75,
+      "health_inequality": 0.59
     },
     "Bangladesh": {
       "health_expenditure_per_capita": 42.17510986,
@@ -175,7 +214,10 @@
       "disease_cardiovascular": 367602.6001356656,
       "disease_cancer": 110716.89248060924,
       "tobacco_use": 176026.89033432273,
-      "alcohol_consumption": 3529.7124559577396
+      "alcohol_consumption": 3529.7124559577396,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 214.1,
+      "health_inequality": 0.13
     },
     "Barbados": {
       "health_expenditure_per_capita": 1182.00366211,
@@ -186,7 +228,10 @@
       "disease_cardiovascular": 816.813489393154,
       "disease_cancer": 677.3204109844496,
       "tobacco_use": 113.69104339838495,
-      "alcohol_consumption": 47.273249397054876
+      "alcohol_consumption": 47.273249397054876,
+      "risk_factor_importance": 1.8,
+      "mortality_rate": 12.53,
+      "health_inequality": 0.6
     },
     "Belarus": {
       "health_expenditure_per_capita": 331.94082642,
@@ -197,7 +242,10 @@
       "disease_cardiovascular": 76340.45249172591,
       "disease_cancer": 19645.36046779513,
       "tobacco_use": 18969.40750194472,
-      "alcohol_consumption": 6465.2546381231505
+      "alcohol_consumption": 6465.2546381231505,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 144.51,
+      "health_inequality": 0.41
     },
     "Belgium": {
       "health_expenditure_per_capita": 4783.80664063,
@@ -208,7 +256,10 @@
       "disease_cardiovascular": 29228.581145366526,
       "disease_cancer": 32775.33423197516,
       "tobacco_use": 13395.515577315842,
-      "alcohol_consumption": 3357.918885770648
+      "alcohol_consumption": 3357.918885770648,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 151.7,
+      "health_inequality": 0.38
     },
     "Belize": {
       "health_expenditure_per_capita": 281.39849854,
@@ -219,7 +270,10 @@
       "disease_cardiovascular": 431.90114007791647,
       "disease_cancer": 263.37969702730175,
       "tobacco_use": 125.37329570425084,
-      "alcohol_consumption": 75.93185817920404
+      "alcohol_consumption": 75.93185817920404,
+      "risk_factor_importance": 1.3,
+      "mortality_rate": 9.06,
+      "health_inequality": 0.49
     },
     "Benin": {
       "health_expenditure_per_capita": 28.14816666,
@@ -230,12 +284,18 @@
       "disease_cardiovascular": 9817.000260647443,
       "disease_cancer": 3881.9892274598474,
       "tobacco_use": 1527.4223394861688,
-      "alcohol_consumption": 897.0390772571953
+      "alcohol_consumption": 897.0390772571953,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 127.06,
+      "health_inequality": 0.41
     },
     "Bermuda": {
       "fertility_rate": 1.419,
       "gdp_per_capita": 112339.42558746737,
-      "life_expectancy": 80.686
+      "life_expectancy": 80.686,
+      "risk_factor_importance": 1.4,
+      "mortality_rate": 2.99,
+      "health_inequality": 0.42
     },
     "Bhutan": {
       "health_expenditure_per_capita": 103.63583374,
@@ -246,7 +306,10 @@
       "disease_cardiovascular": 1227.0963818427674,
       "disease_cancer": 464.7812061788388,
       "tobacco_use": 381.5154536904098,
-      "alcohol_consumption": 81.42779393413927
+      "alcohol_consumption": 81.42779393413927,
+      "risk_factor_importance": 1.4,
+      "mortality_rate": 20.4,
+      "health_inequality": 0.5
     },
     "Bolivia": {
       "health_expenditure_per_capita": 214.58572388,
@@ -257,7 +320,10 @@
       "disease_cardiovascular": 14937.830629665152,
       "disease_cancer": 12923.878710024663,
       "tobacco_use": 3292.5563791809413,
-      "alcohol_consumption": 2153.0341398535065
+      "alcohol_consumption": 2153.0341398535065,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 149.63,
+      "health_inequality": 0.38
     },
     "Bosnia and Herzegovina": {
       "health_expenditure_per_capita": 471.32647705,
@@ -268,7 +334,10 @@
       "disease_cardiovascular": 18941.708680063537,
       "disease_cancer": 9358.789236687397,
       "tobacco_use": 7333.725260211744,
-      "alcohol_consumption": 1231.534957919529
+      "alcohol_consumption": 1231.534957919529,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 118.2,
+      "health_inequality": 0.51
     },
     "Botswana": {
       "health_expenditure_per_capita": 471.05056763,
@@ -279,7 +348,10 @@
       "disease_cardiovascular": 2170.703714647253,
       "disease_cancer": 1097.4774726997045,
       "tobacco_use": 1054.1284379903464,
-      "alcohol_consumption": 390.21487417694374
+      "alcohol_consumption": 390.21487417694374,
+      "risk_factor_importance": 1.8,
+      "mortality_rate": 60.41,
+      "health_inequality": 0.52
     },
     "Brazil": {
       "health_expenditure_per_capita": 954.75012207,
@@ -290,7 +362,10 @@
       "disease_cardiovascular": 355129.13091636385,
       "disease_cancer": 250096.04848890103,
       "tobacco_use": 132297.01736158284,
-      "alcohol_consumption": 45172.50852309677
+      "alcohol_consumption": 45172.50852309677,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 216.88,
+      "health_inequality": 0.1
     },
     "British Virgin Islands": {
       "fertility_rate": 0.873,
@@ -313,7 +388,10 @@
       "disease_cardiovascular": 68526.08095272441,
       "disease_cancer": 20135.766639501624,
       "tobacco_use": 15089.195618208745,
-      "alcohol_consumption": 4589.275350766679
+      "alcohol_consumption": 4589.275350766679,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 135.98,
+      "health_inequality": 0.45
     },
     "Burkina Faso": {
       "health_expenditure_per_capita": 42.94480133,
@@ -324,7 +402,10 @@
       "disease_cardiovascular": 12701.523043303501,
       "disease_cancer": 7125.49640128582,
       "tobacco_use": 2908.390870477826,
-      "alcohol_consumption": 1358.7571280772568
+      "alcohol_consumption": 1358.7571280772568,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 148.84,
+      "health_inequality": 0.37
     },
     "Burundi": {
       "health_expenditure_per_capita": 19.16801643,
@@ -335,7 +416,10 @@
       "disease_cardiovascular": 9080.786384379435,
       "disease_cancer": 5708.619418414842,
       "tobacco_use": 1989.7354875383717,
-      "alcohol_consumption": 1280.7555234256865
+      "alcohol_consumption": 1280.7555234256865,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 130.29,
+      "health_inequality": 0.41
     },
     "Cabo Verde": {
       "health_expenditure_per_capita": 184.75575256,
@@ -346,7 +430,10 @@
       "disease_cardiovascular": 793.4330268416602,
       "disease_cancer": 479.8321708960283,
       "tobacco_use": 108.28108071519262,
-      "alcohol_consumption": 84.3956519575839
+      "alcohol_consumption": 84.3956519575839,
+      "risk_factor_importance": 1.8,
+      "mortality_rate": 12.34,
+      "health_inequality": 0.54
     },
     "Cambodia": {
       "health_expenditure_per_capita": 77.97311401,
@@ -357,7 +444,10 @@
       "disease_cardiovascular": 25506.279852301825,
       "disease_cancer": 8481.258157813689,
       "tobacco_use": 13075.5635789122,
-      "alcohol_consumption": 2442.857562948388
+      "alcohol_consumption": 2442.857562948388,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 160.76,
+      "health_inequality": 0.34
     },
     "Cameroon": {
       "health_expenditure_per_capita": 56.7457695,
@@ -368,7 +458,10 @@
       "disease_cardiovascular": 28058.805721006214,
       "disease_cancer": 12506.887976924181,
       "tobacco_use": 4751.105190539654,
-      "alcohol_consumption": 3118.1836758531294
+      "alcohol_consumption": 3118.1836758531294,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 185.94,
+      "health_inequality": 0.25
     },
     "Canada": {
       "health_expenditure_per_capita": 4899.25390625,
@@ -379,7 +472,10 @@
       "disease_cardiovascular": 75141.57456922089,
       "disease_cancer": 88901.23773781143,
       "tobacco_use": 37209.10967424875,
-      "alcohol_consumption": 6885.206880704616
+      "alcohol_consumption": 6885.206880704616,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 178.45,
+      "health_inequality": 0.29
     },
     "Caribbean small states": {
       "health_expenditure_per_capita": 792.6380160775167,
@@ -402,7 +498,10 @@
       "disease_cardiovascular": 5436.700721578679,
       "disease_cancer": 2253.3600693758317,
       "tobacco_use": 1749.3291336386583,
-      "alcohol_consumption": 1620.5082378636857
+      "alcohol_consumption": 1620.5082378636857,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 118.64,
+      "health_inequality": 0.42
     },
     "Central Europe and the Baltics": {
       "health_expenditure_per_capita": 938.6871484271774,
@@ -420,7 +519,10 @@
       "disease_cardiovascular": 16596.958050074914,
       "disease_cancer": 5791.399780238348,
       "tobacco_use": 3585.5150899604655,
-      "alcohol_consumption": 2099.1216345037396
+      "alcohol_consumption": 2099.1216345037396,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 164.87,
+      "health_inequality": 0.33
     },
     "Channel Islands": {
       "fertility_rate": 1.41,
@@ -436,7 +538,10 @@
       "disease_cardiovascular": 26955.31754078118,
       "disease_cancer": 29307.42822793762,
       "tobacco_use": 9066.157314577835,
-      "alcohol_consumption": 3740.4254608609003
+      "alcohol_consumption": 3740.4254608609003,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 153.37,
+      "health_inequality": 0.35
     },
     "China": {
       "health_expenditure_per_capita": 439.94006348,
@@ -447,7 +552,10 @@
       "disease_cardiovascular": 4322248.903836515,
       "disease_cancer": 2321825.2008932647,
       "tobacco_use": 2262769.7179149427,
-      "alcohol_consumption": 244624.05943723212
+      "alcohol_consumption": 244624.05943723212,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 216.88,
+      "health_inequality": 0.1
     },
     "Colombia": {
       "health_expenditure_per_capita": 497.54016113,
@@ -458,7 +566,10 @@
       "disease_cardiovascular": 68715.32149819226,
       "disease_cancer": 48112.37772500772,
       "tobacco_use": 14929.758177977357,
-      "alcohol_consumption": 3730.5872215037907
+      "alcohol_consumption": 3730.5872215037907,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 179.75,
+      "health_inequality": 0.28
     },
     "Comoros": {
       "health_expenditure_per_capita": 75.01337433,
@@ -469,7 +580,10 @@
       "disease_cardiovascular": 493.23823198735363,
       "disease_cancer": 289.8753904505879,
       "tobacco_use": 165.69781560823702,
-      "alcohol_consumption": 25.228431881207026
+      "alcohol_consumption": 25.228431881207026,
+      "risk_factor_importance": 2.0,
+      "mortality_rate": 14.5,
+      "health_inequality": 0.6
     },
     "Democratic Republic of the Congo": {
       "health_expenditure_per_capita": 18.14648819,
@@ -480,7 +594,10 @@
       "disease_cardiovascular": 80982.34245820637,
       "disease_cancer": 45889.01381925895,
       "tobacco_use": 18205.765271354096,
-      "alcohol_consumption": 10375.292748930862
+      "alcohol_consumption": 10375.292748930862,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 211.09,
+      "health_inequality": 0.16
     },
     "Republic of the Congo": {
       "health_expenditure_per_capita": 52.29982376,
@@ -491,7 +608,10 @@
       "disease_cardiovascular": 5471.845702253144,
       "disease_cancer": 2579.9029963076764,
       "tobacco_use": 1280.6063736955205,
-      "alcohol_consumption": 827.4736209881568
+      "alcohol_consumption": 827.4736209881568,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 107.88,
+      "health_inequality": 0.46
     },
     "Costa Rica": {
       "health_expenditure_per_capita": 867.76733398,
@@ -502,7 +622,10 @@
       "disease_cardiovascular": 5875.155530275076,
       "disease_cancer": 5607.658907366214,
       "tobacco_use": 1545.6154604796127,
-      "alcohol_consumption": 675.3138855806061
+      "alcohol_consumption": 675.3138855806061,
+      "risk_factor_importance": 1.2,
+      "mortality_rate": 89.6,
+      "health_inequality": 0.55
     },
     "Cote d'Ivoire": {
       "health_expenditure_per_capita": 63.77943039,
@@ -513,7 +636,10 @@
       "disease_cardiovascular": 24099.901575526088,
       "disease_cancer": 11273.823333271639,
       "tobacco_use": 5644.9552134846,
-      "alcohol_consumption": 2072.2053702477338
+      "alcohol_consumption": 2072.2053702477338,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 173.07,
+      "health_inequality": 0.29
     },
     "Croatia": {
       "health_expenditure_per_capita": 902.62518311,
@@ -524,7 +650,10 @@
       "disease_cardiovascular": 22988.29991170362,
       "disease_cancer": 14457.102942680373,
       "tobacco_use": 8977.629286544006,
-      "alcohol_consumption": 1578.7262961760282
+      "alcohol_consumption": 1578.7262961760282,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 131.16,
+      "health_inequality": 0.46
     },
     "Cuba": {
       "health_expenditure_per_capita": 987.81030273,
@@ -535,7 +664,10 @@
       "disease_cardiovascular": 39116.88729941264,
       "disease_cancer": 26959.69326370335,
       "tobacco_use": 18579.052888914917,
-      "alcohol_consumption": 3635.1039207560684
+      "alcohol_consumption": 3635.1039207560684,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 146.75,
+      "health_inequality": 0.38
     },
     "Curacao": {
       "fertility_rate": 1.5,
@@ -551,7 +683,10 @@
       "disease_cardiovascular": 3059.650899088612,
       "disease_cancer": 2505.147296016025,
       "tobacco_use": 1164.8479525266257,
-      "alcohol_consumption": 147.71950356240202
+      "alcohol_consumption": 147.71950356240202,
+      "risk_factor_importance": 1.8,
+      "mortality_rate": 43.24,
+      "health_inequality": 0.6
     },
     "Czechia": {
       "health_expenditure_per_capita": 1516.75012207,
@@ -569,7 +704,10 @@
       "disease_cardiovascular": 13012.42621122855,
       "disease_cancer": 18227.726451186845,
       "tobacco_use": 8764.336017471807,
-      "alcohol_consumption": 2165.66317605126
+      "alcohol_consumption": 2165.66317605126,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 128.4,
+      "health_inequality": 0.45
     },
     "Djibouti": {
       "health_expenditure_per_capita": 64.65093994,
@@ -580,7 +718,10 @@
       "disease_cardiovascular": 796.2717781399589,
       "disease_cancer": 715.2071276039933,
       "tobacco_use": 433.38975981603517,
-      "alcohol_consumption": 82.92572983761688
+      "alcohol_consumption": 82.92572983761688,
+      "risk_factor_importance": 1.9,
+      "mortality_rate": 27.92,
+      "health_inequality": 0.6
     },
     "Dominica": {
       "health_expenditure_per_capita": 415.87072754,
@@ -591,7 +732,10 @@
       "disease_cardiovascular": 204.5749953286752,
       "disease_cancer": 135.66274379932958,
       "tobacco_use": 41.7595308326212,
-      "alcohol_consumption": 15.975731257450342
+      "alcohol_consumption": 15.975731257450342,
+      "risk_factor_importance": 1.5,
+      "mortality_rate": 3.64,
+      "health_inequality": 0.48
     },
     "Dominican Republic": {
       "health_expenditure_per_capita": 336.98895264,
@@ -602,7 +746,10 @@
       "disease_cardiovascular": 23387.383056202125,
       "disease_cancer": 9664.76884736007,
       "tobacco_use": 4836.65466364383,
-      "alcohol_consumption": 1599.1184934121302
+      "alcohol_consumption": 1599.1184934121302,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 142.32,
+      "health_inequality": 0.4
     },
     "Early-demographic dividend": {
       "health_expenditure_per_capita": 165.94317302604168,
@@ -641,7 +788,10 @@
       "disease_cardiovascular": 18220.384546932957,
       "disease_cancer": 13722.98105977025,
       "tobacco_use": 3600.890031737798,
-      "alcohol_consumption": 1791.3423491920814
+      "alcohol_consumption": 1791.3423491920814,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 144.2,
+      "health_inequality": 0.38
     },
     "Egypt": {
       "health_expenditure_per_capita": 106.00288391,
@@ -652,7 +802,10 @@
       "disease_cardiovascular": 253184.03971158405,
       "disease_cancer": 57220.46256053762,
       "tobacco_use": 77033.9443102848,
-      "alcohol_consumption": 2399.5464219277487
+      "alcohol_consumption": 2399.5464219277487,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 182.04,
+      "health_inequality": 0.27
     },
     "El Salvador": {
       "health_expenditure_per_capita": 338.60742188,
@@ -663,7 +816,10 @@
       "disease_cardiovascular": 9877.233068945774,
       "disease_cancer": 6302.692708449985,
       "tobacco_use": 1567.2833284446076,
-      "alcohol_consumption": 2104.371530146038
+      "alcohol_consumption": 2104.371530146038,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 121.75,
+      "health_inequality": 0.47
     },
     "Equatorial Guinea": {
       "health_expenditure_per_capita": 214.52722168,
@@ -674,7 +830,10 @@
       "disease_cardiovascular": 1003.4554740256866,
       "disease_cancer": 688.604588236548,
       "tobacco_use": 244.58522260792375,
-      "alcohol_consumption": 174.99583333515835
+      "alcohol_consumption": 174.99583333515835,
+      "risk_factor_importance": 2.9,
+      "mortality_rate": 31.82,
+      "health_inequality": 0.6
     },
     "Eritrea": {
       "health_expenditure_per_capita": 25.10270691,
@@ -684,7 +843,10 @@
       "disease_cardiovascular": 6413.859316918531,
       "disease_cancer": 4401.711723512504,
       "tobacco_use": 1144.9364481262658,
-      "alcohol_consumption": 516.7483474481443
+      "alcohol_consumption": 516.7483474481443,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 110.96,
+      "health_inequality": 0.46
     },
     "Estonia": {
       "health_expenditure_per_capita": 1350.12646484,
@@ -695,7 +857,10 @@
       "disease_cardiovascular": 7307.211738342651,
       "disease_cancer": 3804.6637868806306,
       "tobacco_use": 1493.0490865815887,
-      "alcohol_consumption": 777.6722747199948
+      "alcohol_consumption": 777.6722747199948,
+      "risk_factor_importance": 1.5,
+      "mortality_rate": 73.6,
+      "health_inequality": 0.6
     },
     "Eswatini": {
       "health_expenditure_per_capita": 265.50152588,
@@ -706,7 +871,10 @@
       "disease_cardiovascular": 1144.6596539375469,
       "disease_cancer": 769.3248635293287,
       "tobacco_use": 284.8596365838857,
-      "alcohol_consumption": 285.10107876072334
+      "alcohol_consumption": 285.10107876072334,
+      "risk_factor_importance": 2.6,
+      "mortality_rate": 41.65,
+      "health_inequality": 0.6
     },
     "Ethiopia": {
       "health_expenditure_per_capita": 24.18239403,
@@ -717,7 +885,10 @@
       "disease_cardiovascular": 76727.46785712379,
       "disease_cancer": 72402.10285232047,
       "tobacco_use": 9539.731383192957,
-      "alcohol_consumption": 10498.906320212052
+      "alcohol_consumption": 10498.906320212052,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 207.64,
+      "health_inequality": 0.17
     },
     "Euro area": {
       "health_expenditure_per_capita": 3754.978799972075,
@@ -768,7 +939,10 @@
       "disease_cardiovascular": 2578.996162252392,
       "disease_cancer": 826.2877740052285,
       "tobacco_use": 992.6700907022199,
-      "alcohol_consumption": 51.83763876964662
+      "alcohol_consumption": 51.83763876964662,
+      "risk_factor_importance": 2.0,
+      "mortality_rate": 50.71,
+      "health_inequality": 0.6
     },
     "Finland": {
       "health_expenditure_per_capita": 4235.75488281,
@@ -779,7 +953,10 @@
       "disease_cardiovascular": 22186.674725397377,
       "disease_cancer": 14340.93899799319,
       "tobacco_use": 4336.728707193004,
-      "alcohol_consumption": 1985.085947424716
+      "alcohol_consumption": 1985.085947424716,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 121.26,
+      "health_inequality": 0.47
     },
     "Fragile and conflict affected situations": {
       "health_expenditure_per_capita": 69.77243122064442,
@@ -797,7 +974,10 @@
       "disease_cardiovascular": 150764.3713468977,
       "disease_cancer": 197328.01525597047,
       "tobacco_use": 57267.94626246508,
-      "alcohol_consumption": 23531.284479197904
+      "alcohol_consumption": 23531.284479197904,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 199.31,
+      "health_inequality": 0.23
     },
     "French Polynesia": {
       "fertility_rate": 1.669,
@@ -813,7 +993,10 @@
       "disease_cardiovascular": 2143.1291016433615,
       "disease_cancer": 1306.2213338619051,
       "tobacco_use": 463.255719157598,
-      "alcohol_consumption": 464.96351782095707
+      "alcohol_consumption": 464.96351782095707,
+      "risk_factor_importance": 1.6,
+      "mortality_rate": 50.46,
+      "health_inequality": 0.53
     },
     "Gambia": {
       "health_expenditure_per_capita": 21.55331612,
@@ -824,7 +1007,10 @@
       "disease_cardiovascular": 2083.6337966567735,
       "disease_cancer": 569.9229593602978,
       "tobacco_use": 627.4030788805152,
-      "alcohol_consumption": 86.41416735854374
+      "alcohol_consumption": 86.41416735854374,
+      "risk_factor_importance": 1.9,
+      "mortality_rate": 56.43,
+      "health_inequality": 0.6
     },
     "Georgia": {
       "health_expenditure_per_capita": 302.26367188,
@@ -835,7 +1021,10 @@
       "disease_cardiovascular": 27387.260828326496,
       "disease_cancer": 9946.631911913833,
       "tobacco_use": 8211.561575264072,
-      "alcohol_consumption": 1366.0904879736413
+      "alcohol_consumption": 1366.0904879736413,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 125.27,
+      "health_inequality": 0.49
     },
     "Germany": {
       "health_expenditure_per_capita": 5065.43164063,
@@ -846,7 +1035,10 @@
       "disease_cardiovascular": 329246.9543554531,
       "disease_cancer": 263392.7659373697,
       "tobacco_use": 106046.15317871679,
-      "alcohol_consumption": 40875.49267639437
+      "alcohol_consumption": 40875.49267639437,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 197.38,
+      "health_inequality": 0.23
     },
     "Ghana": {
       "health_expenditure_per_capita": 54.10602188,
@@ -857,7 +1049,10 @@
       "disease_cardiovascular": 49052.204550359056,
       "disease_cancer": 12222.574615362364,
       "tobacco_use": 5011.8865627309115,
-      "alcohol_consumption": 3601.3121696975636
+      "alcohol_consumption": 3601.3121696975636,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 183.31,
+      "health_inequality": 0.24
     },
     "Gibraltar": {
       "fertility_rate": 1.93,
@@ -872,12 +1067,18 @@
       "disease_cardiovascular": 45635.325908180224,
       "disease_cancer": 34889.006081320505,
       "tobacco_use": 20118.85539708864,
-      "alcohol_consumption": 1804.1471842718654
+      "alcohol_consumption": 1804.1471842718654,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 139.23,
+      "health_inequality": 0.42
     },
     "Greenland": {
       "fertility_rate": 2.09,
       "gdp_per_capita": 50765.74946653718,
-      "life_expectancy": 71.93219512195124
+      "life_expectancy": 71.93219512195124,
+      "risk_factor_importance": 1.8,
+      "mortality_rate": 2.8,
+      "health_inequality": 0.44
     },
     "Grenada": {
       "health_expenditure_per_capita": 454.07266235,
@@ -888,12 +1089,18 @@
       "disease_cardiovascular": 287.68646010372646,
       "disease_cancer": 191.35025607035487,
       "tobacco_use": 55.03026804875907,
-      "alcohol_consumption": 25.955358281206063
+      "alcohol_consumption": 25.955358281206063,
+      "risk_factor_importance": 1.7,
+      "mortality_rate": 4.99,
+      "health_inequality": 0.52
     },
     "Guam": {
       "fertility_rate": 3.088,
       "gdp_per_capita": 36779.00789039085,
-      "life_expectancy": 76.463
+      "life_expectancy": 76.463,
+      "risk_factor_importance": 1.8,
+      "mortality_rate": 6.46,
+      "health_inequality": 0.6
     },
     "Guatemala": {
       "health_expenditure_per_capita": 265.36593628,
@@ -904,7 +1111,10 @@
       "disease_cardiovascular": 14272.008780707447,
       "disease_cancer": 10102.027893009854,
       "tobacco_use": 3412.521803323834,
-      "alcohol_consumption": 3504.033693677313
+      "alcohol_consumption": 3504.033693677313,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 158.81,
+      "health_inequality": 0.35
     },
     "Guinea": {
       "health_expenditure_per_capita": 32.63646317,
@@ -915,7 +1125,10 @@
       "disease_cardiovascular": 16168.707035109368,
       "disease_cancer": 5254.7327046306045,
       "tobacco_use": 3990.2918926480784,
-      "alcohol_consumption": 706.1294249825736
+      "alcohol_consumption": 706.1294249825736,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 149.59,
+      "health_inequality": 0.38
     },
     "Guinea-Bissau": {
       "health_expenditure_per_capita": 54.8225174,
@@ -926,7 +1139,10 @@
       "disease_cardiovascular": 2366.63851201303,
       "disease_cancer": 728.5834088739061,
       "tobacco_use": 328.4515990989714,
-      "alcohol_consumption": 203.85302146453327
+      "alcohol_consumption": 203.85302146453327,
+      "risk_factor_importance": 1.8,
+      "mortality_rate": 59.73,
+      "health_inequality": 0.6
     },
     "Guyana": {
       "health_expenditure_per_capita": 266.86364746,
@@ -948,7 +1164,10 @@
       "disease_cardiovascular": 29920.390055237694,
       "disease_cancer": 8259.480087700278,
       "tobacco_use": 3908.7004562351967,
-      "alcohol_consumption": 3962.259580821941
+      "alcohol_consumption": 3962.259580821941,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 162.86,
+      "health_inequality": 0.33
     },
     "Heavily indebted poor countries (HIPC)": {
       "health_expenditure_per_capita": 44.1804403887853,
@@ -973,7 +1192,10 @@
       "disease_cardiovascular": 12439.799178456353,
       "disease_cancer": 4343.954595455273,
       "tobacco_use": 2301.66251467601,
-      "alcohol_consumption": 1184.2784627303595
+      "alcohol_consumption": 1184.2784627303595,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 125.92,
+      "health_inequality": 0.45
     },
     "Hong Kong": {
       "fertility_rate": 1.128,
@@ -989,7 +1211,10 @@
       "disease_cardiovascular": 62397.450233733325,
       "disease_cancer": 34250.5417977175,
       "tobacco_use": 20360.169769045122,
-      "alcohol_consumption": 5992.495110570033
+      "alcohol_consumption": 5992.495110570033,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 146.43,
+      "health_inequality": 0.4
     },
     "IBRD only": {
       "health_expenditure_per_capita": 323.3143087811983,
@@ -1035,7 +1260,10 @@
       "disease_cardiovascular": 707.5816654180237,
       "disease_cancer": 692.4493618027351,
       "tobacco_use": 255.054239680162,
-      "alcohol_consumption": 36.295482428289354
+      "alcohol_consumption": 36.295482428289354,
+      "risk_factor_importance": 1.8,
+      "mortality_rate": 9.17,
+      "health_inequality": 0.58
     },
     "India": {
       "health_expenditure_per_capita": 56.66844559,
@@ -1046,7 +1274,10 @@
       "disease_cardiovascular": 2980929.94877395,
       "disease_cancer": 807162.9183403954,
       "tobacco_use": 1127033.8195255015,
-      "alcohol_consumption": 142299.26843481197
+      "alcohol_consumption": 142299.26843481197,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 216.88,
+      "health_inequality": 0.1
     },
     "Indonesia": {
       "health_expenditure_per_capita": 110.32610321,
@@ -1057,7 +1288,10 @@
       "disease_cardiovascular": 589289.1786975574,
       "disease_cancer": 189717.70882226952,
       "tobacco_use": 261597.73040914838,
-      "alcohol_consumption": 16484.693604216794
+      "alcohol_consumption": 16484.693604216794,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 210.77,
+      "health_inequality": 0.16
     },
     "伊朗伊斯兰共和国": {
       "health_expenditure_per_capita": 464.12908936,
@@ -1079,7 +1313,10 @@
       "disease_cardiovascular": 68857.98873333662,
       "disease_cancer": 26784.99306211014,
       "tobacco_use": 27715.426506216158,
-      "alcohol_consumption": 412.18521806977327
+      "alcohol_consumption": 412.18521806977327,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 162.52,
+      "health_inequality": 0.33
     },
     "Ireland": {
       "health_expenditure_per_capita": 5010.25634766,
@@ -1090,7 +1327,10 @@
       "disease_cardiovascular": 9144.551526501227,
       "disease_cancer": 9655.708078325826,
       "tobacco_use": 3798.81714349959,
-      "alcohol_consumption": 780.6540363137846
+      "alcohol_consumption": 780.6540363137846,
+      "risk_factor_importance": 1.1,
+      "mortality_rate": 96.21,
+      "health_inequality": 0.52
     },
     "Isle of Man": {
       "fertility_rate": 1.674,
@@ -1106,7 +1346,10 @@
       "disease_cardiovascular": 10537.135819542993,
       "disease_cancer": 13446.742831961583,
       "tobacco_use": 3877.44211310485,
-      "alcohol_consumption": 443.59953004241754
+      "alcohol_consumption": 443.59953004241754,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 108.39,
+      "health_inequality": 0.52
     },
     "Italy": {
       "health_expenditure_per_capita": 2809.72143555,
@@ -1117,7 +1360,10 @@
       "disease_cardiovascular": 219966.60542293597,
       "disease_cancer": 194017.03754927713,
       "tobacco_use": 65571.2544671853,
-      "alcohol_consumption": 14751.840945300217
+      "alcohol_consumption": 14751.840945300217,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 184.35,
+      "health_inequality": 0.28
     },
     "Jamaica": {
       "health_expenditure_per_capita": 323.37380981,
@@ -1128,7 +1374,10 @@
       "disease_cardiovascular": 6120.127370721038,
       "disease_cancer": 4184.8551772990695,
       "tobacco_use": 1285.992898364473,
-      "alcohol_consumption": 378.5274272554273
+      "alcohol_consumption": 378.5274272554273,
+      "risk_factor_importance": 1.3,
+      "mortality_rate": 80.41,
+      "health_inequality": 0.58
     },
     "Japan": {
       "health_expenditure_per_capita": 4135.24316406,
@@ -1139,7 +1388,10 @@
       "disease_cardiovascular": 348055.1676649765,
       "disease_cancer": 446312.3990065425,
       "tobacco_use": 145448.73220114713,
-      "alcohol_consumption": 24911.729600329763
+      "alcohol_consumption": 24911.729600329763,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 206.53,
+      "health_inequality": 0.16
     },
     "Jordan": {
       "health_expenditure_per_capita": 289.04656982,
@@ -1150,7 +1402,10 @@
       "disease_cardiovascular": 11606.763402339224,
       "disease_cancer": 5928.64734759418,
       "tobacco_use": 4958.001568490779,
-      "alcohol_consumption": 43.83865427748786
+      "alcohol_consumption": 43.83865427748786,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 109.18,
+      "health_inequality": 0.54
     },
     "Kazakhstan": {
       "health_expenditure_per_capita": 272.98272705,
@@ -1161,7 +1416,10 @@
       "disease_cardiovascular": 50889.400967392976,
       "disease_cancer": 18069.17981650364,
       "tobacco_use": 18327.293156964257,
-      "alcohol_consumption": 7323.225200582403
+      "alcohol_consumption": 7323.225200582403,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 162.37,
+      "health_inequality": 0.35
     },
     "Kenya": {
       "health_expenditure_per_capita": 66.46552277,
@@ -1172,14 +1430,20 @@
       "disease_cardiovascular": 25689.86842110733,
       "disease_cancer": 26252.40266170688,
       "tobacco_use": 7574.358372489103,
-      "alcohol_consumption": 4116.106585926383
+      "alcohol_consumption": 4116.106585926383,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 206.91,
+      "health_inequality": 0.17
     },
     "Kiribati": {
       "health_expenditure_per_capita": 179.57881165,
       "fertility_rate": 3.339,
       "gdp_per_capita": 1853.0512271331909,
       "life_expectancy": 65.787,
-      "mortality_under5": 59.9
+      "mortality_under5": 59.9,
+      "risk_factor_importance": 1.2,
+      "mortality_rate": 4.03,
+      "health_inequality": 0.43
     },
     "Korea, Dem. People's Rep.": {
       "fertility_rate": 1.848,
@@ -1195,7 +1459,10 @@
       "disease_cardiovascular": 61753.57615780704,
       "disease_cancer": 94024.5514531695,
       "tobacco_use": 33535.7264402438,
-      "alcohol_consumption": 11811.629517748639
+      "alcohol_consumption": 11811.629517748639,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 183.06,
+      "health_inequality": 0.27
     },
     "Kosovo": {
       "fertility_rate": 1.618,
@@ -1212,7 +1479,10 @@
       "disease_cardiovascular": 2845.6187712069245,
       "disease_cancer": 1249.279457107955,
       "tobacco_use": 1099.73684981003,
-      "alcohol_consumption": 10.546168970254204
+      "alcohol_consumption": 10.546168970254204,
+      "risk_factor_importance": 1.3,
+      "mortality_rate": 53.51,
+      "health_inequality": 0.57
     },
     "Kyrgyzstan": {
       "health_expenditure_per_capita": 76.60479736,
@@ -1223,7 +1493,10 @@
       "disease_cardiovascular": 16266.306073108326,
       "disease_cancer": 3999.163937531922,
       "tobacco_use": 4666.389789382602,
-      "alcohol_consumption": 1662.5580966033365
+      "alcohol_consumption": 1662.5580966033365,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 125.47,
+      "health_inequality": 0.46
     },
     "Laos": {
       "health_expenditure_per_capita": 61.42248535,
@@ -1234,7 +1507,10 @@
       "disease_cardiovascular": 15518.437026829724,
       "disease_cancer": 4530.2834804021295,
       "tobacco_use": 7875.094372363113,
-      "alcohol_consumption": 1032.4629572224808
+      "alcohol_consumption": 1032.4629572224808,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 133.34,
+      "health_inequality": 0.43
     },
     "Late-demographic dividend": {
       "health_expenditure_per_capita": 508.061976550792,
@@ -1273,7 +1549,10 @@
       "disease_cardiovascular": 15427.75901950937,
       "disease_cancer": 6083.448153172383,
       "tobacco_use": 3318.904469881173,
-      "alcohol_consumption": 1346.7398247068706
+      "alcohol_consumption": 1346.7398247068706,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 113.77,
+      "health_inequality": 0.53
     },
     "Least developed countries: UN classification": {
       "health_expenditure_per_capita": 42.5794355418802,
@@ -1302,7 +1581,10 @@
       "disease_cardiovascular": 2817.6516344298843,
       "disease_cancer": 1278.8969771427996,
       "tobacco_use": 1119.1018574001207,
-      "alcohol_consumption": 916.9054882623476
+      "alcohol_consumption": 916.9054882623476,
+      "risk_factor_importance": 1.3,
+      "mortality_rate": 83.32,
+      "health_inequality": 0.48
     },
     "Liberia": {
       "health_expenditure_per_capita": 71.56608582,
@@ -1313,7 +1595,10 @@
       "disease_cardiovascular": 5808.861239667701,
       "disease_cancer": 2417.6819248830775,
       "tobacco_use": 910.1691045298985,
-      "alcohol_consumption": 687.6021704104992
+      "alcohol_consumption": 687.6021704104992,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 107.62,
+      "health_inequality": 0.48
     },
     "Libya": {
       "health_expenditure_per_capita": 466.08538818,
@@ -1324,7 +1609,10 @@
       "disease_cardiovascular": 14146.15729483239,
       "disease_cancer": 4783.563001081747,
       "tobacco_use": 4769.403361899603,
-      "alcohol_consumption": 65.42424530737361
+      "alcohol_consumption": 65.42424530737361,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 111.82,
+      "health_inequality": 0.53
     },
     "Liechtenstein": {
       "fertility_rate": 1.44,
@@ -1340,7 +1628,10 @@
       "disease_cardiovascular": 21801.873021026484,
       "disease_cancer": 8599.288518728474,
       "tobacco_use": 4425.483943870374,
-      "alcohol_consumption": 1762.0896430235955
+      "alcohol_consumption": 1762.0896430235955,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 121.78,
+      "health_inequality": 0.49
     },
     "Low & middle income": {
       "health_expenditure_per_capita": 238.578537759955,
@@ -1372,7 +1663,10 @@
       "disease_cardiovascular": 1228.6931076518306,
       "disease_cancer": 1239.6162445281673,
       "tobacco_use": 477.9685697307734,
-      "alcohol_consumption": 187.935479557984
+      "alcohol_consumption": 187.935479557984,
+      "risk_factor_importance": 1.7,
+      "mortality_rate": 16.88,
+      "health_inequality": 0.57
     },
     "Macau": {
       "fertility_rate": 1.021,
@@ -1388,7 +1682,10 @@
       "disease_cardiovascular": 26257.827324883034,
       "disease_cancer": 16376.745613565909,
       "tobacco_use": 7501.609870146177,
-      "alcohol_consumption": 3805.832080666625
+      "alcohol_consumption": 3805.832080666625,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 177.79,
+      "health_inequality": 0.29
     },
     "Malawi": {
       "health_expenditure_per_capita": 37.60110092,
@@ -1399,7 +1696,10 @@
       "disease_cardiovascular": 15033.191010863935,
       "disease_cancer": 12038.167450883268,
       "tobacco_use": 3937.899795654195,
-      "alcohol_consumption": 1674.9413970311455
+      "alcohol_consumption": 1674.9413970311455,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 168.72,
+      "health_inequality": 0.3
     },
     "Malaysia": {
       "health_expenditure_per_capita": 366.36639404,
@@ -1410,7 +1710,10 @@
       "disease_cardiovascular": 56066.39272692925,
       "disease_cancer": 27188.25157964293,
       "tobacco_use": 24108.92680896921,
-      "alcohol_consumption": 1637.1198961361156
+      "alcohol_consumption": 1637.1198961361156,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 162.46,
+      "health_inequality": 0.31
     },
     "Maldives": {
       "health_expenditure_per_capita": 961.57415771,
@@ -1421,7 +1724,10 @@
       "disease_cardiovascular": 622.265009314873,
       "disease_cancer": 200.45774530692088,
       "tobacco_use": 284.8660369663073,
-      "alcohol_consumption": 10.518105408551637
+      "alcohol_consumption": 10.518105408551637,
+      "risk_factor_importance": 1.9,
+      "mortality_rate": 9.3,
+      "health_inequality": 0.59
     },
     "Mali": {
       "health_expenditure_per_capita": 28.49467659,
@@ -1432,7 +1738,10 @@
       "disease_cardiovascular": 17156.5543921678,
       "disease_cancer": 10032.021725660261,
       "tobacco_use": 4228.051639679145,
-      "alcohol_consumption": 877.9003978097952
+      "alcohol_consumption": 877.9003978097952,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 165.8,
+      "health_inequality": 0.33
     },
     "Malta": {
       "health_expenditure_per_capita": 2551.71606445,
@@ -1443,14 +1752,20 @@
       "disease_cardiovascular": 1233.6894650877682,
       "disease_cancer": 980.9099842247725,
       "tobacco_use": 378.45875637129086,
-      "alcohol_consumption": 42.90029971936866
+      "alcohol_consumption": 42.90029971936866,
+      "risk_factor_importance": 1.8,
+      "mortality_rate": 17.47,
+      "health_inequality": 0.59
     },
     "Marshall Islands": {
       "health_expenditure_per_capita": 553.06298828,
       "fertility_rate": 3.064,
       "gdp_per_capita": 4592.834576285757,
       "life_expectancy": 65.673,
-      "mortality_under5": 33.8
+      "mortality_under5": 33.8,
+      "risk_factor_importance": 1.1,
+      "mortality_rate": 3.12,
+      "health_inequality": 0.42
     },
     "Mauritania": {
       "health_expenditure_per_capita": 55.22446442,
@@ -1461,7 +1776,10 @@
       "disease_cardiovascular": 4889.166627225186,
       "disease_cancer": 2177.949120009096,
       "tobacco_use": 986.1218088767596,
-      "alcohol_consumption": 173.4939129617698
+      "alcohol_consumption": 173.4939129617698,
+      "risk_factor_importance": 1.1,
+      "mortality_rate": 97.76,
+      "health_inequality": 0.5
     },
     "Mauritius": {
       "health_expenditure_per_capita": 594.86120605,
@@ -1472,7 +1790,10 @@
       "disease_cardiovascular": 2953.272596661718,
       "disease_cancer": 1451.3763638366913,
       "tobacco_use": 1148.8058269553974,
-      "alcohol_consumption": 210.67851778538895
+      "alcohol_consumption": 210.67851778538895,
+      "risk_factor_importance": 1.8,
+      "mortality_rate": 60.81,
+      "health_inequality": 0.6
     },
     "Mexico": {
       "health_expenditure_per_capita": 512.54974365,
@@ -1483,14 +1804,20 @@
       "disease_cardiovascular": 166735.6064488406,
       "disease_cancer": 97876.32596181745,
       "tobacco_use": 47259.855293998626,
-      "alcohol_consumption": 26715.29412545685
+      "alcohol_consumption": 26715.29412545685,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 210.61,
+      "health_inequality": 0.17
     },
     "Micronesia, Fed. Sts.": {
       "health_expenditure_per_capita": 408.86560059,
       "fertility_rate": 2.957,
       "gdp_per_capita": 3279.1077903928535,
       "life_expectancy": 65.761,
-      "mortality_under5": 27.9
+      "mortality_under5": 27.9,
+      "risk_factor_importance": 1.4,
+      "mortality_rate": 6.05,
+      "health_inequality": 0.53
     },
     "Middle East, North Africa, Afghanistan & Pakistan": {
       "health_expenditure_per_capita": 286.8000897367457,
@@ -1529,7 +1856,10 @@
       "disease_cardiovascular": 23360.755953789965,
       "disease_cancer": 6763.33032115562,
       "tobacco_use": 5867.483691455811,
-      "alcohol_consumption": 2496.44945031103
+      "alcohol_consumption": 2496.44945031103,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 128.78,
+      "health_inequality": 0.48
     },
     "Monaco": {
       "health_expenditure_per_capita": 7098.20507813,
@@ -1540,7 +1870,10 @@
       "disease_cardiovascular": 128.20188867682333,
       "disease_cancer": 215.05227747215972,
       "tobacco_use": 78.399864807738,
-      "alcohol_consumption": 14.48998704872696
+      "alcohol_consumption": 14.48998704872696,
+      "risk_factor_importance": 1.2,
+      "mortality_rate": 2.86,
+      "health_inequality": 0.37
     },
     "Mongolia": {
       "health_expenditure_per_capita": 160.4889679,
@@ -1551,7 +1884,10 @@
       "disease_cardiovascular": 5770.960020640146,
       "disease_cancer": 4332.016767129657,
       "tobacco_use": 2412.511408186369,
-      "alcohol_consumption": 1808.418875724667
+      "alcohol_consumption": 1808.418875724667,
+      "risk_factor_importance": 1.3,
+      "mortality_rate": 84.34,
+      "health_inequality": 0.57
     },
     "Montenegro": {
       "health_expenditure_per_capita": 623.68841553,
@@ -1562,7 +1898,10 @@
       "disease_cardiovascular": 3219.045977467793,
       "disease_cancer": 1498.3028718442606,
       "tobacco_use": 1220.3034733043603,
-      "alcohol_consumption": 205.25063890456542
+      "alcohol_consumption": 205.25063890456542,
+      "risk_factor_importance": 2.0,
+      "mortality_rate": 40.95,
+      "health_inequality": 0.6
     },
     "Morocco": {
       "health_expenditure_per_capita": 166.8500061,
@@ -1573,7 +1912,10 @@
       "disease_cardiovascular": 136020.36835817966,
       "disease_cancer": 21841.95770261295,
       "tobacco_use": 20653.665867139684,
-      "alcohol_consumption": 677.0041886002366
+      "alcohol_consumption": 677.0041886002366,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 173.9,
+      "health_inequality": 0.29
     },
     "Mozambique": {
       "health_expenditure_per_capita": 36.75825882,
@@ -1584,7 +1926,10 @@
       "disease_cardiovascular": 19964.277765259787,
       "disease_cancer": 8460.531069690844,
       "tobacco_use": 4612.2620732446,
-      "alcohol_consumption": 1875.2982949646698
+      "alcohol_consumption": 1875.2982949646698,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 178.99,
+      "health_inequality": 0.28
     },
     "Myanmar": {
       "health_expenditure_per_capita": 59.51782608,
@@ -1595,7 +1940,10 @@
       "disease_cardiovascular": 189127.75317674127,
       "disease_cancer": 42830.88983420518,
       "tobacco_use": 64778.210146256635,
-      "alcohol_consumption": 14300.896798820202
+      "alcohol_consumption": 14300.896798820202,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 205.77,
+      "health_inequality": 0.18
     },
     "Namibia": {
       "health_expenditure_per_capita": 448.58221436,
@@ -1606,14 +1954,20 @@
       "disease_cardiovascular": 2632.9326601932225,
       "disease_cancer": 1353.2772586052167,
       "tobacco_use": 944.5739157951368,
-      "alcohol_consumption": 891.3462525230627
+      "alcohol_consumption": 891.3462525230627,
+      "risk_factor_importance": 1.6,
+      "mortality_rate": 68.59,
+      "health_inequality": 0.52
     },
     "Nauru": {
       "health_expenditure_per_capita": 1127.47509766,
       "fertility_rate": 3.879,
       "gdp_per_capita": 9656.979765714845,
       "life_expectancy": 61.101,
-      "mortality_under5": 14.7
+      "mortality_under5": 14.7,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 1.46,
+      "health_inequality": 0.19
     },
     "Nepal": {
       "health_expenditure_per_capita": 49.63053513,
@@ -1624,7 +1978,10 @@
       "disease_cardiovascular": 39824.28086599275,
       "disease_cancer": 12225.734913157754,
       "tobacco_use": 24409.84571691188,
-      "alcohol_consumption": 2994.2378490952856
+      "alcohol_consumption": 2994.2378490952856,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 178.49,
+      "health_inequality": 0.28
     },
     "Netherlands": {
       "health_expenditure_per_capita": 4934.57519531,
@@ -1635,7 +1992,10 @@
       "disease_cardiovascular": 37705.66724783428,
       "disease_cancer": 53380.466227757075,
       "tobacco_use": 20772.79902529844,
-      "alcohol_consumption": 4262.7514899749
+      "alcohol_consumption": 4262.7514899749,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 156.14,
+      "health_inequality": 0.38
     },
     "New Caledonia": {
       "fertility_rate": 2.043,
@@ -1651,7 +2011,10 @@
       "disease_cardiovascular": 10559.00523838892,
       "disease_cancer": 10341.601069042657,
       "tobacco_use": 3380.9727442955655,
-      "alcohol_consumption": 634.2615371183196
+      "alcohol_consumption": 634.2615371183196,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 103.74,
+      "health_inequality": 0.52
     },
     "Nicaragua": {
       "health_expenditure_per_capita": 181.75810242,
@@ -1662,7 +2025,10 @@
       "disease_cardiovascular": 7500.831498493258,
       "disease_cancer": 4008.1193130273523,
       "tobacco_use": 1662.4041903599639,
-      "alcohol_consumption": 1104.2709509118945
+      "alcohol_consumption": 1104.2709509118945,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 108.89,
+      "health_inequality": 0.49
     },
     "Niger": {
       "health_expenditure_per_capita": 29.09627533,
@@ -1673,7 +2039,10 @@
       "disease_cardiovascular": 17775.6379807923,
       "disease_cancer": 6192.3857776423065,
       "tobacco_use": 3592.7601621485946,
-      "alcohol_consumption": 817.3602998446278
+      "alcohol_consumption": 817.3602998446278,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 156.67,
+      "health_inequality": 0.35
     },
     "Nigeria": {
       "health_expenditure_per_capita": 70.31814575,
@@ -1684,7 +2053,10 @@
       "disease_cardiovascular": 199043.344759095,
       "disease_cancer": 84188.11251672107,
       "tobacco_use": 20408.164738045125,
-      "alcohol_consumption": 13841.63517910659
+      "alcohol_consumption": 13841.63517910659,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 216.88,
+      "health_inequality": 0.1
     },
     "North America": {
       "health_expenditure_per_capita": 9326.952368433644,
@@ -1702,12 +2074,18 @@
       "disease_cardiovascular": 11349.939447135046,
       "disease_cancer": 4574.070357349822,
       "tobacco_use": 3832.4377424310046,
-      "alcohol_consumption": 563.8448804102867
+      "alcohol_consumption": 563.8448804102867,
+      "risk_factor_importance": 1.1,
+      "mortality_rate": 99.29,
+      "health_inequality": 0.57
     },
     "Northern Mariana Islands": {
       "fertility_rate": 2.762,
       "gdp_per_capita": 31225.6049960968,
-      "life_expectancy": 77.47
+      "life_expectancy": 77.47,
+      "risk_factor_importance": 1.1,
+      "mortality_rate": 2.64,
+      "health_inequality": 0.41
     },
     "Norway": {
       "health_expenditure_per_capita": 7815.78710938,
@@ -1718,7 +2096,10 @@
       "disease_cardiovascular": 11035.070062226743,
       "disease_cancer": 12504.091839713734,
       "tobacco_use": 3342.6001823348774,
-      "alcohol_consumption": 769.0162796463615
+      "alcohol_consumption": 769.0162796463615,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 103.84,
+      "health_inequality": 0.49
     },
     "Not classified": {},
     "OECD members": {
@@ -1737,7 +2118,10 @@
       "disease_cardiovascular": 4156.090806627551,
       "disease_cancer": 1216.5156391988817,
       "tobacco_use": 782.8566029100697,
-      "alcohol_consumption": 50.69675607534872
+      "alcohol_consumption": 50.69675607534872,
+      "risk_factor_importance": 1.7,
+      "mortality_rate": 62.42,
+      "health_inequality": 0.6
     },
     "Other small states": {
       "health_expenditure_per_capita": 837.1644807857656,
@@ -1762,14 +2146,20 @@
       "disease_cardiovascular": 276470.72353578114,
       "disease_cancer": 130758.92686306249,
       "tobacco_use": 137581.19259527072,
-      "alcohol_consumption": 5223.958949141631
+      "alcohol_consumption": 5223.958949141631,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 214.47,
+      "health_inequality": 0.12
     },
     "Palau": {
       "health_expenditure_per_capita": 1775.32849121,
       "fertility_rate": 2.019,
       "gdp_per_capita": 16401.784756787056,
       "life_expectancy": 69.019,
-      "mortality_under5": 22.8
+      "mortality_under5": 22.8,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 1.86,
+      "health_inequality": 0.29
     },
     "Panama": {
       "health_expenditure_per_capita": 1126.96154785,
@@ -1780,7 +2170,10 @@
       "disease_cardiovascular": 5308.301988140165,
       "disease_cancer": 3748.4463255030173,
       "tobacco_use": 790.8308439759486,
-      "alcohol_consumption": 486.91912336350214
+      "alcohol_consumption": 486.91912336350214,
+      "risk_factor_importance": 1.3,
+      "mortality_rate": 82.32,
+      "health_inequality": 0.58
     },
     "Papua New Guinea": {
       "health_expenditure_per_capita": 55.24723816,
@@ -1791,7 +2184,10 @@
       "disease_cardiovascular": 16265.497545664432,
       "disease_cancer": 4760.301287886558,
       "tobacco_use": 6866.220491160152,
-      "alcohol_consumption": 342.0852137477578
+      "alcohol_consumption": 342.0852137477578,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 137.45,
+      "health_inequality": 0.41
     },
     "Paraguay": {
       "health_expenditure_per_capita": 406.60488892,
@@ -1802,7 +2198,10 @@
       "disease_cardiovascular": 10771.146183266306,
       "disease_cancer": 6421.089511664414,
       "tobacco_use": 4206.659111038722,
-      "alcohol_consumption": 1334.5590115964617
+      "alcohol_consumption": 1334.5590115964617,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 118.59,
+      "health_inequality": 0.46
     },
     "Peru": {
       "health_expenditure_per_capita": 332.54321289,
@@ -1813,7 +2212,10 @@
       "disease_cardiovascular": 24434.421984514876,
       "disease_cancer": 31144.316185501422,
       "tobacco_use": 6135.3062872692635,
-      "alcohol_consumption": 4377.735129632464
+      "alcohol_consumption": 4377.735129632464,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 168.43,
+      "health_inequality": 0.31
     },
     "Philippines": {
       "health_expenditure_per_capita": 120.32259369,
@@ -1824,7 +2226,10 @@
       "disease_cardiovascular": 206493.79611646538,
       "disease_cancer": 69824.51036672023,
       "tobacco_use": 94591.93364214439,
-      "alcohol_consumption": 17089.67031984628
+      "alcohol_consumption": 17089.67031984628,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 205.66,
+      "health_inequality": 0.19
     },
     "Poland": {
       "health_expenditure_per_capita": 909.57818604,
@@ -1835,7 +2240,10 @@
       "disease_cardiovascular": 166644.27106212336,
       "disease_cancer": 120790.6017888234,
       "tobacco_use": 65167.972040383225,
-      "alcohol_consumption": 18052.20328311798
+      "alcohol_consumption": 18052.20328311798,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 185.51,
+      "health_inequality": 0.27
     },
     "Portugal": {
       "health_expenditure_per_capita": 1998.06469727,
@@ -1846,7 +2254,10 @@
       "disease_cardiovascular": 31823.08276018857,
       "disease_cancer": 31045.343320055774,
       "tobacco_use": 9037.73898577455,
-      "alcohol_consumption": 3894.4443302553927
+      "alcohol_consumption": 3894.4443302553927,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 146.25,
+      "health_inequality": 0.4
     },
     "Post-demographic dividend": {
       "health_expenditure_per_capita": 5445.856887123092,
@@ -1865,7 +2276,10 @@
     "Puerto Rico (US)": {
       "fertility_rate": 1.101,
       "gdp_per_capita": 30328.479490518017,
-      "life_expectancy": 79.07
+      "life_expectancy": 79.07,
+      "risk_factor_importance": 1.2,
+      "mortality_rate": 93.39,
+      "health_inequality": 0.57
     },
     "Qatar": {
       "health_expenditure_per_capita": 1911.95361328,
@@ -1876,7 +2290,10 @@
       "disease_cardiovascular": 645.2128642898061,
       "disease_cancer": 401.9357530048668,
       "tobacco_use": 259.1959952246751,
-      "alcohol_consumption": 17.3284215876836
+      "alcohol_consumption": 17.3284215876836,
+      "risk_factor_importance": 1.2,
+      "mortality_rate": 14.54,
+      "health_inequality": 0.54
     },
     "Romania": {
       "health_expenditure_per_capita": 555.11309814,
@@ -1887,7 +2304,10 @@
       "disease_cardiovascular": 145517.47774719977,
       "disease_cancer": 54312.38125442522,
       "tobacco_use": 33006.0759342634,
-      "alcohol_consumption": 12147.052003068226
+      "alcohol_consumption": 12147.052003068226,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 168.29,
+      "health_inequality": 0.32
     },
     "Russia": {
       "health_expenditure_per_capita": 577.06811523,
@@ -1898,7 +2318,10 @@
       "disease_cardiovascular": 979822.4775410662,
       "disease_cancer": 318511.8345033622,
       "tobacco_use": 267343.69409022364,
-      "alcohol_consumption": 108077.74362289169
+      "alcohol_consumption": 108077.74362289169,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 208.64,
+      "health_inequality": 0.19
     },
     "Rwanda": {
       "health_expenditure_per_capita": 48.27599335,
@@ -1909,28 +2332,40 @@
       "disease_cardiovascular": 11477.643697656657,
       "disease_cancer": 8303.32265365011,
       "tobacco_use": 4308.73842303677,
-      "alcohol_consumption": 1280.2567809806785
+      "alcohol_consumption": 1280.2567809806785,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 140.89,
+      "health_inequality": 0.37
     },
     "Samoa": {
       "health_expenditure_per_capita": 220.82498169,
       "fertility_rate": 4.196,
       "gdp_per_capita": 4307.59381964907,
       "life_expectancy": 70.991,
-      "mortality_under5": 18.1
+      "mortality_under5": 18.1,
+      "risk_factor_importance": 1.4,
+      "mortality_rate": 8.55,
+      "health_inequality": 0.58
     },
     "San Marino": {
       "health_expenditure_per_capita": 3672.30322266,
       "fertility_rate": 1.054,
       "gdp_per_capita": 45192.027976694255,
       "life_expectancy": 84.933,
-      "mortality_under5": 1.8
+      "mortality_under5": 1.8,
+      "risk_factor_importance": 1.1,
+      "mortality_rate": 1.9,
+      "health_inequality": 0.27
     },
     "Sao Tome and Principe": {
       "health_expenditure_per_capita": 117.07767487,
       "fertility_rate": 4.069,
       "gdp_per_capita": 1555.794778128885,
       "life_expectancy": 67.074,
-      "mortality_under5": 19.5
+      "mortality_under5": 19.5,
+      "risk_factor_importance": 1.3,
+      "mortality_rate": 4.86,
+      "health_inequality": 0.44
     },
     "Saudi Arabia": {
       "health_expenditure_per_capita": 1400.90356445,
@@ -1941,7 +2376,10 @@
       "disease_cardiovascular": 32542.542795013305,
       "disease_cancer": 11494.211268491574,
       "tobacco_use": 8047.73638590847,
-      "alcohol_consumption": 177.46730088194434
+      "alcohol_consumption": 177.46730088194434,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 139.51,
+      "health_inequality": 0.41
     },
     "Senegal": {
       "health_expenditure_per_capita": 56.49185944,
@@ -1952,7 +2390,10 @@
       "disease_cardiovascular": 16126.685799863557,
       "disease_cancer": 5444.643344858266,
       "tobacco_use": 2960.6826094346316,
-      "alcohol_consumption": 607.9407923790465
+      "alcohol_consumption": 607.9407923790465,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 145.27,
+      "health_inequality": 0.39
     },
     "Serbia": {
       "health_expenditure_per_capita": 515.84588623,
@@ -1963,14 +2404,20 @@
       "disease_cardiovascular": 64485.46847920029,
       "disease_cancer": 28574.258958297698,
       "tobacco_use": 20762.71858155111,
-      "alcohol_consumption": 3447.832732226424
+      "alcohol_consumption": 3447.832732226424,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 144.21,
+      "health_inequality": 0.41
     },
     "Seychelles": {
       "health_expenditure_per_capita": 667.09515381,
       "fertility_rate": 2.41,
       "gdp_per_capita": 17480.365191137193,
       "life_expectancy": 74.30000000000001,
-      "mortality_under5": 14.7
+      "mortality_under5": 14.7,
+      "risk_factor_importance": 1.7,
+      "mortality_rate": 4.07,
+      "health_inequality": 0.51
     },
     "Sierra Leone": {
       "health_expenditure_per_capita": 47.37737274,
@@ -1981,7 +2428,10 @@
       "disease_cardiovascular": 8898.026585397984,
       "disease_cancer": 3503.968272006986,
       "tobacco_use": 2553.2834585167743,
-      "alcohol_consumption": 846.7966796747993
+      "alcohol_consumption": 846.7966796747993,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 128.24,
+      "health_inequality": 0.42
     },
     "Singapore": {
       "health_expenditure_per_capita": 2645.3293457,
@@ -1992,7 +2442,10 @@
       "disease_cardiovascular": 6016.842012286093,
       "disease_cancer": 6249.991920397296,
       "tobacco_use": 1879.8671229314423,
-      "alcohol_consumption": 200.64753004612763
+      "alcohol_consumption": 200.64753004612763,
+      "risk_factor_importance": 1.4,
+      "mortality_rate": 76.09,
+      "health_inequality": 0.6
     },
     "Sint Maarten (Dutch part)": {
       "fertility_rate": 1.571,
@@ -2008,7 +2461,10 @@
       "disease_cardiovascular": 24480.058876574007,
       "disease_cancer": 14579.78405686963,
       "tobacco_use": 7391.44481749467,
-      "alcohol_consumption": 2433.5052921359656
+      "alcohol_consumption": 2433.5052921359656,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 129.97,
+      "health_inequality": 0.47
     },
     "Slovenia": {
       "health_expenditure_per_capita": 1925.03466797,
@@ -2019,7 +2475,10 @@
       "disease_cardiovascular": 7437.503771015621,
       "disease_cancer": 6369.945125559252,
       "tobacco_use": 2244.039020158614,
-      "alcohol_consumption": 750.2372535206475
+      "alcohol_consumption": 750.2372535206475,
+      "risk_factor_importance": 1.4,
+      "mortality_rate": 78.85,
+      "health_inequality": 0.58
     },
     "Small states": {
       "health_expenditure_per_capita": 740.6696257571464,
@@ -2037,7 +2496,10 @@
       "disease_cardiovascular": 1960.8543177772278,
       "disease_cancer": 567.9792536826881,
       "tobacco_use": 1127.4365335728469,
-      "alcohol_consumption": 41.5935818419376
+      "alcohol_consumption": 41.5935818419376,
+      "risk_factor_importance": 1.7,
+      "mortality_rate": 34.22,
+      "health_inequality": 0.6
     },
     "Somalia": {
       "health_expenditure_per_capita": 13.46292782,
@@ -2048,7 +2510,10 @@
       "disease_cardiovascular": 7890.224668902666,
       "disease_cancer": 5806.088619688649,
       "tobacco_use": 3042.3069890720917,
-      "alcohol_consumption": 523.8268032929362
+      "alcohol_consumption": 523.8268032929362,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 136.26,
+      "health_inequality": 0.41
     },
     "South Africa": {
       "health_expenditure_per_capita": 527.52020264,
@@ -2059,7 +2524,10 @@
       "disease_cardiovascular": 93873.82702333241,
       "disease_cancer": 60632.27378195303,
       "tobacco_use": 39074.16966902802,
-      "alcohol_consumption": 19912.36066686082
+      "alcohol_consumption": 19912.36066686082,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 214.96,
+      "health_inequality": 0.12
     },
     "South Asia": {
       "health_expenditure_per_capita": 56.50308722184365,
@@ -2083,7 +2551,10 @@
       "disease_cardiovascular": 10274.703323959415,
       "disease_cancer": 7048.158325955311,
       "tobacco_use": 1912.8043141380194,
-      "alcohol_consumption": 1165.4927075652972
+      "alcohol_consumption": 1165.4927075652972,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 142.91,
+      "health_inequality": 0.37
     },
     "Spain": {
       "health_expenditure_per_capita": 2525.13964844,
@@ -2094,7 +2565,10 @@
       "disease_cardiovascular": 118677.82447039278,
       "disease_cancer": 123103.0456273376,
       "tobacco_use": 53418.066197487664,
-      "alcohol_consumption": 9693.860429537586
+      "alcohol_consumption": 9693.860429537586,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 178.88,
+      "health_inequality": 0.3
     },
     "Sri Lanka": {
       "health_expenditure_per_capita": 142.32518005,
@@ -2105,7 +2579,10 @@
       "disease_cardiovascular": 52321.21449086887,
       "disease_cancer": 18415.88912193706,
       "tobacco_use": 14898.420443810775,
-      "alcohol_consumption": 2690.775876705608
+      "alcohol_consumption": 2690.775876705608,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 153.28,
+      "health_inequality": 0.32
     },
     "St. Kitts and Nevis": {
       "health_expenditure_per_capita": 1185.9017334,
@@ -2162,7 +2639,10 @@
       "disease_cardiovascular": 95950.66559091643,
       "disease_cancer": 17874.678691632438,
       "tobacco_use": 12190.706813748862,
-      "alcohol_consumption": 433.02945428427734
+      "alcohol_consumption": 433.02945428427734,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 185.32,
+      "health_inequality": 0.27
     },
     "Suriname": {
       "health_expenditure_per_capita": 322.00415039,
@@ -2173,7 +2653,10 @@
       "disease_cardiovascular": 1276.255167316394,
       "disease_cancer": 634.7221857758645,
       "tobacco_use": 391.7295139917278,
-      "alcohol_consumption": 113.19160822031112
+      "alcohol_consumption": 113.19160822031112,
+      "risk_factor_importance": 1.6,
+      "mortality_rate": 19.67,
+      "health_inequality": 0.56
     },
     "Sweden": {
       "health_expenditure_per_capita": 5837.77099609,
@@ -2184,7 +2667,10 @@
       "disease_cardiovascular": 32169.915664588203,
       "disease_cancer": 26671.540677936155,
       "tobacco_use": 9177.277695715004,
-      "alcohol_consumption": 2000.2257298324655
+      "alcohol_consumption": 2000.2257298324655,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 137.51,
+      "health_inequality": 0.41
     },
     "Switzerland": {
       "health_expenditure_per_capita": 9423.64941406,
@@ -2195,7 +2681,10 @@
       "disease_cardiovascular": 20739.25988628224,
       "disease_cancer": 19965.040193958623,
       "tobacco_use": 7437.215065351878,
-      "alcohol_consumption": 2181.5785238888866
+      "alcohol_consumption": 2181.5785238888866,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 139.76,
+      "health_inequality": 0.42
     },
     "Syria": {
       "health_expenditure_per_capita": 33.63182449,
@@ -2206,7 +2695,10 @@
       "disease_cardiovascular": 42651.188775714836,
       "disease_cancer": 8035.629490348118,
       "tobacco_use": 12640.737251127934,
-      "alcohol_consumption": 208.04216029025017
+      "alcohol_consumption": 208.04216029025017,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 130.14,
+      "health_inequality": 0.46
     },
     "Tajikistan": {
       "health_expenditure_per_capita": 56.85092545,
@@ -2217,7 +2709,10 @@
       "disease_cardiovascular": 17571.095110409933,
       "disease_cancer": 3743.869954275993,
       "tobacco_use": 2904.3496847532574,
-      "alcohol_consumption": 625.3044057684441
+      "alcohol_consumption": 625.3044057684441,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 130.6,
+      "health_inequality": 0.47
     },
     "Tanzania": {
       "health_expenditure_per_capita": 39.03560638,
@@ -2228,7 +2723,10 @@
       "disease_cardiovascular": 54796.544829395556,
       "disease_cancer": 29987.981305493195,
       "tobacco_use": 13002.871863111519,
-      "alcohol_consumption": 3617.339180011576
+      "alcohol_consumption": 3617.339180011576,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 199.48,
+      "health_inequality": 0.21
     },
     "Thailand": {
       "health_expenditure_per_capita": 247.08152771,
@@ -2239,7 +2737,10 @@
       "disease_cardiovascular": 101391.09230765246,
       "disease_cancer": 113528.72341573778,
       "tobacco_use": 59971.452725828254,
-      "alcohol_consumption": 21627.038313070447
+      "alcohol_consumption": 21627.038313070447,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 210.72,
+      "health_inequality": 0.16
     },
     "Timor-Leste": {
       "health_expenditure_per_capita": 86.16269684,
@@ -2250,7 +2751,10 @@
       "disease_cardiovascular": 2273.7821397638295,
       "disease_cancer": 676.1486034719954,
       "tobacco_use": 1005.1510324805441,
-      "alcohol_consumption": 72.79498713200074
+      "alcohol_consumption": 72.79498713200074,
+      "risk_factor_importance": 1.8,
+      "mortality_rate": 37.27,
+      "health_inequality": 0.6
     },
     "Togo": {
       "health_expenditure_per_capita": 51.5464592,
@@ -2261,7 +2765,10 @@
       "disease_cardiovascular": 8216.495945340936,
       "disease_cancer": 3020.7206107098136,
       "tobacco_use": 1527.3697432907206,
-      "alcohol_consumption": 589.6070238111998
+      "alcohol_consumption": 589.6070238111998,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 119.63,
+      "health_inequality": 0.43
     },
     "Tonga": {
       "health_expenditure_per_capita": 240.52340698,
@@ -2272,7 +2779,10 @@
       "disease_cardiovascular": 244.9490290297765,
       "disease_cancer": 109.8739794146891,
       "tobacco_use": 108.32814410874498,
-      "alcohol_consumption": 6.390726656176353
+      "alcohol_consumption": 6.390726656176353,
+      "risk_factor_importance": 1.4,
+      "mortality_rate": 5.09,
+      "health_inequality": 0.52
     },
     "Trinidad and Tobago": {
       "health_expenditure_per_capita": 1083.37609863,
@@ -2283,7 +2793,10 @@
       "disease_cardiovascular": 3634.523198132429,
       "disease_cancer": 2058.906877866616,
       "tobacco_use": 1105.8288217337024,
-      "alcohol_consumption": 207.3742376703763
+      "alcohol_consumption": 207.3742376703763,
+      "risk_factor_importance": 1.7,
+      "mortality_rate": 61.97,
+      "health_inequality": 0.6
     },
     "Tunisia": {
       "health_expenditure_per_capita": 223.85903931,
@@ -2294,7 +2807,10 @@
       "disease_cardiovascular": 19034.425819786553,
       "disease_cancer": 14588.469190946525,
       "tobacco_use": 11090.41567003442,
-      "alcohol_consumption": 286.83050568945856
+      "alcohol_consumption": 286.83050568945856,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 138.58,
+      "health_inequality": 0.43
     },
     "Turkey": {
       "health_expenditure_per_capita": 432.13754272,
@@ -2305,7 +2821,10 @@
       "disease_cardiovascular": 188959.37732217758,
       "disease_cancer": 102741.91434895161,
       "tobacco_use": 83819.46115417247,
-      "alcohol_consumption": 1855.5677957868309
+      "alcohol_consumption": 1855.5677957868309,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 181.28,
+      "health_inequality": 0.26
     },
     "Turkmenistan": {
       "health_expenditure_per_capita": 410.81082153,
@@ -2316,7 +2835,10 @@
       "disease_cardiovascular": 16460.891337709123,
       "disease_cancer": 3334.120694580439,
       "tobacco_use": 3733.0002992695795,
-      "alcohol_consumption": 1161.3169644720929
+      "alcohol_consumption": 1161.3169644720929,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 130.2,
+      "health_inequality": 0.47
     },
     "Turks and Caicos Islands": {
       "fertility_rate": 1.704,
@@ -2329,7 +2851,10 @@
       "fertility_rate": 3.301,
       "gdp_per_capita": 4165.663387001063,
       "life_expectancy": 65.683,
-      "mortality_under5": 24.3
+      "mortality_under5": 24.3,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 1.65,
+      "health_inequality": 0.25
     },
     "Uganda": {
       "health_expenditure_per_capita": 31.43818092,
@@ -2340,7 +2865,10 @@
       "disease_cardiovascular": 24877.581951617252,
       "disease_cancer": 25322.74201385288,
       "tobacco_use": 4559.233862363758,
-      "alcohol_consumption": 4184.267496617962
+      "alcohol_consumption": 4184.267496617962,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 186.09,
+      "health_inequality": 0.27
     },
     "Ukraine": {
       "health_expenditure_per_capita": 183.69506836,
@@ -2351,7 +2879,10 @@
       "disease_cardiovascular": 401581.42693066463,
       "disease_cancer": 83328.1318515898,
       "tobacco_use": 83280.3060421086,
-      "alcohol_consumption": 26295.406308805002
+      "alcohol_consumption": 26295.406308805002,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 186.68,
+      "health_inequality": 0.27
     },
     "United Arab Emirates": {
       "health_expenditure_per_capita": 1695.203125,
@@ -2362,7 +2893,10 @@
       "disease_cardiovascular": 3540.0904069516714,
       "disease_cancer": 1866.945409040365,
       "tobacco_use": 912.6292441828799,
-      "alcohol_consumption": 85.12098019872434
+      "alcohol_consumption": 85.12098019872434,
+      "risk_factor_importance": 1.4,
+      "mortality_rate": 59.03,
+      "health_inequality": 0.57
     },
     "United Kingdom": {
       "health_expenditure_per_capita": 3907.82226563,
@@ -2373,7 +2907,10 @@
       "disease_cardiovascular": 165967.0205069532,
       "disease_cancer": 189563.90443306565,
       "tobacco_use": 84552.10426031139,
-      "alcohol_consumption": 17668.16431624166
+      "alcohol_consumption": 17668.16431624166,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 190.85,
+      "health_inequality": 0.24
     },
     "United States": {
       "health_expenditure_per_capita": 9822.37890625,
@@ -2384,7 +2921,10 @@
       "disease_cardiovascular": 866223.3792369878,
       "disease_cancer": 685469.0778572602,
       "tobacco_use": 369264.2371134327,
-      "alcohol_consumption": 87552.12468139324
+      "alcohol_consumption": 87552.12468139324,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 213.43,
+      "health_inequality": 0.14
     },
     "Upper middle income": {
       "health_expenditure_per_capita": 449.4982534309588,
@@ -2402,7 +2942,10 @@
       "disease_cardiovascular": 9531.806733122607,
       "disease_cancer": 9892.599353382542,
       "tobacco_use": 4037.1072208641303,
-      "alcohol_consumption": 762.7084666199588
+      "alcohol_consumption": 762.7084666199588,
+      "risk_factor_importance": 1.1,
+      "mortality_rate": 101.91,
+      "health_inequality": 0.52
     },
     "Uzbekistan": {
       "health_expenditure_per_capita": 93.4151535,
@@ -2413,7 +2956,10 @@
       "disease_cardiovascular": 103447.45124454903,
       "disease_cancer": 18208.46880470694,
       "tobacco_use": 19531.7619784831,
-      "alcohol_consumption": 4533.773355309633
+      "alcohol_consumption": 4533.773355309633,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 167.12,
+      "health_inequality": 0.33
     },
     "Vanuatu": {
       "health_expenditure_per_capita": 91.04128265,
@@ -2424,7 +2970,10 @@
       "disease_cardiovascular": 668.7552100990431,
       "disease_cancer": 126.53356118949525,
       "tobacco_use": 216.15594403427448,
-      "alcohol_consumption": 12.493251492727342
+      "alcohol_consumption": 12.493251492727342,
+      "risk_factor_importance": 1.6,
+      "mortality_rate": 11.32,
+      "health_inequality": 0.6
     },
     "Venezuela": {
       "fertility_rate": 2.183,
@@ -2434,7 +2983,10 @@
       "disease_cardiovascular": 55997.5329347519,
       "disease_cancer": 31453.398644600726,
       "tobacco_use": 13932.747446593537,
-      "alcohol_consumption": 5000.617746386601
+      "alcohol_consumption": 5000.617746386601,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 175.2,
+      "health_inequality": 0.28
     },
     "Vietnam": {
       "health_expenditure_per_capita": 147.51425171,
@@ -2445,19 +2997,28 @@
       "disease_cardiovascular": 197528.98251440283,
       "disease_cancer": 93684.27019712767,
       "tobacco_use": 89322.08221934497,
-      "alcohol_consumption": 20805.6939390923
+      "alcohol_consumption": 20805.6939390923,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 211.57,
+      "health_inequality": 0.16
     },
     "Virgin Islands (U.S.)": {
       "fertility_rate": 2.08,
       "gdp_per_capita": 35365.069303977405,
-      "life_expectancy": 79.36829268292684
+      "life_expectancy": 79.36829268292684,
+      "risk_factor_importance": 1.8,
+      "mortality_rate": 4.58,
+      "health_inequality": 0.54
     },
     "Palestine": {
       "health_expenditure_per_capita": 310.2114563,
       "fertility_rate": 3.771,
       "gdp_per_capita": 3620.36048715937,
       "life_expectancy": 75.216,
-      "mortality_under5": 16.9
+      "mortality_under5": 16.9,
+      "risk_factor_importance": 1.3,
+      "mortality_rate": 82.57,
+      "health_inequality": 0.6
     },
     "World": {
       "health_expenditure_per_capita": 1027.1405589288415,
@@ -2471,7 +3032,10 @@
       "fertility_rate": 4.61,
       "gdp_per_capita": 811.165970405745,
       "life_expectancy": 67.12,
-      "mortality_under5": 46.6
+      "mortality_under5": 46.6,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 155.06,
+      "health_inequality": 0.38
     },
     "Zambia": {
       "health_expenditure_per_capita": 70.93283844,
@@ -2482,7 +3046,10 @@
       "disease_cardiovascular": 16307.07248174796,
       "disease_cancer": 8999.947564378319,
       "tobacco_use": 3603.1039553233472,
-      "alcohol_consumption": 1925.4358649611545
+      "alcohol_consumption": 1925.4358649611545,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 170.48,
+      "health_inequality": 0.3
     },
     "Zimbabwe": {
       "health_expenditure_per_capita": 91.87199402,
@@ -2493,7 +3060,10 @@
       "disease_cardiovascular": 15068.130673836862,
       "disease_cancer": 7904.096870978649,
       "tobacco_use": 5644.688358349125,
-      "alcohol_consumption": 4390.224271917933
+      "alcohol_consumption": 4390.224271917933,
+      "risk_factor_importance": 1.0,
+      "mortality_rate": 169.41,
+      "health_inequality": 0.31
     }
   },
   "statistics": {
@@ -2756,6 +3326,93 @@
         "Kuwait",
         "Maldives",
         "Tonga"
+      ]
+    },
+    "risk_factor_importance": {
+      "max": 2.9,
+      "min": 1.0,
+      "avg": 1.1857894736842105,
+      "top10": [
+        "Equatorial Guinea",
+        "Eswatini",
+        "Comoros",
+        "Fiji",
+        "Montenegro",
+        "Djibouti",
+        "Gambia",
+        "Maldives",
+        "Barbados",
+        "Botswana"
+      ],
+      "bottom10": [
+        "Uganda",
+        "Ukraine",
+        "United Kingdom",
+        "United States",
+        "Uzbekistan",
+        "Venezuela",
+        "Vietnam",
+        "Yemen",
+        "Zambia",
+        "Zimbabwe"
+      ]
+    },
+    "mortality_rate": {
+      "max": 216.88,
+      "min": 1.46,
+      "avg": 115.55068421052631,
+      "top10": [
+        "Brazil",
+        "China",
+        "India",
+        "Nigeria",
+        "South Africa",
+        "Pakistan",
+        "Bangladesh",
+        "United States",
+        "Vietnam",
+        "Democratic Republic of the Congo"
+      ],
+      "bottom10": [
+        "Bermuda",
+        "American Samoa",
+        "Monaco",
+        "Andorra",
+        "Greenland",
+        "Northern Mariana Islands",
+        "San Marino",
+        "Palau",
+        "Tuvalu",
+        "Nauru"
+      ]
+    },
+    "health_inequality": {
+      "max": 0.6,
+      "min": 0.1,
+      "avg": 0.40678947368421053,
+      "top10": [
+        "Barbados",
+        "Comoros",
+        "Cyprus",
+        "Djibouti",
+        "Equatorial Guinea",
+        "Estonia",
+        "Eswatini",
+        "Fiji",
+        "Gambia",
+        "Guam"
+      ],
+      "bottom10": [
+        "Thailand",
+        "Vietnam",
+        "United States",
+        "Bangladesh",
+        "Pakistan",
+        "South Africa",
+        "Brazil",
+        "China",
+        "India",
+        "Nigeria"
       ]
     }
   }
