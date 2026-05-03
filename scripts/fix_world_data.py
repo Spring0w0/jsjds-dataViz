@@ -430,12 +430,17 @@ def process_year_data(year: int, disease_data: Dict, tobacco_data: Dict, alcohol
             metric_values = [v[metric] for v in values_with_metric.values()]
             sorted_values = sorted(metric_values)
 
+            # 按指标值排序，获取前10和后10的国家名称
+            sorted_countries = sorted(values_with_metric.items(), key=lambda x: x[1][metric], reverse=True)
+            top10_countries = [c[0] for c in sorted_countries[:10]]
+            bottom10_countries = [c[0] for c in sorted_countries[-10:]]
+
             result['statistics'][metric] = {
                 'max': max(metric_values),
                 'min': min(metric_values),
                 'avg': statistics.mean(metric_values),
-                'top10': list(sorted_values[-10:]),
-                'bottom10': list(sorted_values[:10])
+                'top10': top10_countries,
+                'bottom10': bottom10_countries
             }
 
     return result
