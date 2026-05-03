@@ -213,6 +213,27 @@ export const METRICS_CONFIG: {
           unit: "分",
           description: "卫生投入产出效率综合评分",
           colorRange: ["#FFE8E6", "#1A365D"]
+        },
+        {
+          id: "risk_factor_importance",
+          name: "风险因素重要性",
+          unit: "分",
+          description: "各风险因素对疾病负担影响程度的量化评估（1.0-9.9分制）",
+          colorRange: ["#FFF5F5", "#991B1B"]
+        },
+        {
+          id: "mortality_rate",
+          name: "死亡率",
+          unit: "‰",
+          description: "每1000人口的死亡人数（0.18-24.04‰）",
+          colorRange: ["#F0FDF4", "#166534"]
+        },
+        {
+          id: "health_inequality",
+          name: "健康不平等指数",
+          unit: "",
+          description: "衡量不同社会群体之间健康状况差异的综合指标（0.1-0.59）",
+          colorRange: ["#FAF5FF", "#6B21A8"]
         }
       ]
     }

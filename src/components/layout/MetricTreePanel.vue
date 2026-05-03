@@ -36,7 +36,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, watch } from 'vue'
+import { ref, computed, watch, onMounted } from 'vue'
 import { useAppStore } from '../../stores/app'
 import { useDataStore } from '../../stores/data'
 import { METRICS_CONFIG, type Metric } from '../../config/metrics-config'
@@ -54,8 +54,8 @@ const currentLayerMetrics = computed(() => {
 
 const currentMetricId = computed(() => dataStore.currentMetricId)
 
-const handleLayerChange = (layer: string) => {
-  dataStore.setLayer(layer)
+// 自动选择当前层的第一个指标
+const selectFirstMetric = () => {
   const metrics = currentLayerMetrics.value
   const firstCategory = Object.keys(metrics)[0]
   if (firstCategory && metrics[firstCategory]?.[0]) {
@@ -63,17 +63,25 @@ const handleLayerChange = (layer: string) => {
   }
 }
 
+const handleLayerChange = (layer: string) => {
+  dataStore.setLayer(layer)
+  selectFirstMetric()
+}
+
 const handleSelectMetric = (metric: Metric) => {
   dataStore.setMetric(appStore.mode, metric.id)
 }
 
-watch(() => appStore.mode, () => {
-  const mode = appStore.mode
-  const metrics = METRICS_CONFIG[mode][currentLayer.value]
-  const firstCategory = Object.keys(metrics)[0]
-  if (firstCategory && metrics[firstCategory]?.[0]) {
-    handleSelectMetric(metrics[firstCategory][0])
+// 初始化时选择默认指标
+onMounted(() => {
+  if (!dataStore.currentMetric) {
+    selectFirstMetric()
   }
+})
+
+// 切换模式时选择默认指标
+watch(() => appStore.mode, () => {
+  selectFirstMetric()
 })
 </script>
 
