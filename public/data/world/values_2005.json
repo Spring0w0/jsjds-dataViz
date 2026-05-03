@@ -57,7 +57,11 @@
       "fertility_rate": 1.224,
       "gdp_per_capita": 40829.81163995376,
       "life_expectancy": 83.086,
-      "mortality_under5": 6.0
+      "mortality_under5": 6.0,
+      "disease_cardiovascular": 136.40077026967086,
+      "disease_cancer": 162.19339059579602,
+      "tobacco_use": 70.57356623589251,
+      "alcohol_consumption": 17.951252207814182
     },
     "Angola": {
       "health_expenditure_per_capita": 54.66142273,
@@ -156,12 +160,16 @@
       "fertility_rate": 2.67,
       "gdp_per_capita": 17966.165783762463,
       "life_expectancy": 76.125,
-      "mortality_under5": 10.6
+      "mortality_under5": 10.6,
+      "disease_cardiovascular": 931.4331315588354,
+      "disease_cancer": 385.6358711348386,
+      "tobacco_use": 344.8050589722159,
+      "alcohol_consumption": 21.594570046297655
     },
     "Bangladesh": {
       "health_expenditure_per_capita": 11.31403732,
       "fertility_rate": 2.846,
-      "gdp_per_capita": 480.0858507545197,
+      "gdp_per_capita": 480.08585075451964,
       "life_expectancy": 65.509,
       "mortality_under5": 63.2,
       "disease_cardiovascular": 252556.48096760342,
@@ -174,7 +182,11 @@
       "fertility_rate": 1.738,
       "gdp_per_capita": 14214.420221357172,
       "life_expectancy": 74.96,
-      "mortality_under5": 14.8
+      "mortality_under5": 14.8,
+      "disease_cardiovascular": 682.946065096651,
+      "disease_cancer": 518.0340687019567,
+      "tobacco_use": 113.11271888223715,
+      "alcohol_consumption": 35.493949176066906
     },
     "Belarus": {
       "health_expenditure_per_capita": 196.13806152,
@@ -203,7 +215,11 @@
       "fertility_rate": 3.173,
       "gdp_per_capita": 5270.4147913531215,
       "life_expectancy": 70.335,
-      "mortality_under5": 21.0
+      "mortality_under5": 21.0,
+      "disease_cardiovascular": 312.197721319211,
+      "disease_cancer": 177.57381569942228,
+      "tobacco_use": 88.61107137695417,
+      "alcohol_consumption": 39.36824633607377
     },
     "Benin": {
       "health_expenditure_per_capita": 25.12485313,
@@ -226,14 +242,22 @@
       "fertility_rate": 2.726,
       "gdp_per_capita": 1299.9493857835896,
       "life_expectancy": 65.875,
-      "mortality_under5": 57.1
+      "mortality_under5": 57.1,
+      "disease_cardiovascular": 1064.8242124507503,
+      "disease_cancer": 341.4809049526842,
+      "tobacco_use": 346.3410766552882,
+      "alcohol_consumption": 77.33901853862146
     },
     "Bolivia": {
       "health_expenditure_per_capita": 51.76200867,
       "fertility_rate": 3.558,
       "gdp_per_capita": 1020.1232620073686,
       "life_expectancy": 64.182,
-      "mortality_under5": 56.4
+      "mortality_under5": 56.4,
+      "disease_cardiovascular": 11893.127713573982,
+      "disease_cancer": 8056.794729657019,
+      "tobacco_use": 2285.8240239327756,
+      "alcohol_consumption": 1593.707526294764
     },
     "Bosnia and Herzegovina": {
       "health_expenditure_per_capita": 241.64047241,
@@ -283,7 +307,7 @@
     "Bulgaria": {
       "health_expenditure_per_capita": 267.74139404,
       "fertility_rate": 1.37,
-      "gdp_per_capita": 3899.825963328784,
+      "gdp_per_capita": 3899.8259633287844,
       "life_expectancy": 72.5609756097561,
       "mortality_under5": 13.3,
       "disease_cardiovascular": 72783.44595426717,
@@ -318,7 +342,11 @@
       "fertility_rate": 2.726,
       "gdp_per_capita": 2004.1468041756325,
       "life_expectancy": 70.936,
-      "mortality_under5": 28.0
+      "mortality_under5": 28.0,
+      "disease_cardiovascular": 668.6606429391289,
+      "disease_cancer": 337.75949003820284,
+      "tobacco_use": 84.87318208615841,
+      "alcohol_consumption": 70.12836842238119
     },
     "Cambodia": {
       "health_expenditure_per_capita": 32.33904266,
@@ -334,7 +362,7 @@
     "Cameroon": {
       "health_expenditure_per_capita": 43.10830688,
       "fertility_rate": 5.421,
-      "gdp_per_capita": 1142.624662521058,
+      "gdp_per_capita": 1142.6246625210579,
       "life_expectancy": 54.904,
       "mortality_under5": 128.1,
       "disease_cardiovascular": 17767.54138812035,
@@ -367,7 +395,7 @@
     "Central African Republic": {
       "health_expenditure_per_capita": 13.93517494,
       "fertility_rate": 5.812,
-      "gdp_per_capita": 311.9500231386868,
+      "gdp_per_capita": 311.95002313868673,
       "life_expectancy": 48.207,
       "mortality_under5": 148.4,
       "disease_cardiovascular": 3943.504085860762,
@@ -436,7 +464,11 @@
       "fertility_rate": 5.012,
       "gdp_per_capita": 1105.7879686678848,
       "life_expectancy": 60.883,
-      "mortality_under5": 65.5
+      "mortality_under5": 65.5,
+      "disease_cardiovascular": 364.47034912522247,
+      "disease_cancer": 218.1901326870658,
+      "tobacco_use": 147.56005615431675,
+      "alcohol_consumption": 19.58563755876857
     },
     "Democratic Republic of the Congo": {
       "health_expenditure_per_capita": 8.55065727,
@@ -454,7 +486,11 @@
       "fertility_rate": 4.669,
       "gdp_per_capita": 1799.0515836615414,
       "life_expectancy": 58.73,
-      "mortality_under5": 86.6
+      "mortality_under5": 86.6,
+      "disease_cardiovascular": 3976.880263312269,
+      "disease_cancer": 1614.4238008140505,
+      "tobacco_use": 907.8517025547426,
+      "alcohol_consumption": 420.06073002792203
     },
     "Costa Rica": {
       "health_expenditure_per_capita": 313.48355103,
@@ -472,12 +508,16 @@
       "fertility_rate": 5.499,
       "gdp_per_capita": 1197.746169794149,
       "life_expectancy": 52.432,
-      "mortality_under5": 121.6
+      "mortality_under5": 121.6,
+      "disease_cardiovascular": 14290.112716101816,
+      "disease_cancer": 5763.529383773119,
+      "tobacco_use": 4103.8593312506,
+      "alcohol_consumption": 1568.1085613885168
     },
     "Croatia": {
       "health_expenditure_per_capita": 727.13104248,
       "fertility_rate": 1.5,
-      "gdp_per_capita": 10443.527835329449,
+      "gdp_per_capita": 10443.527835329447,
       "life_expectancy": 75.24463414634147,
       "mortality_under5": 6.7,
       "disease_cardiovascular": 24496.665172575427,
@@ -488,7 +528,7 @@
     "Cuba": {
       "health_expenditure_per_capita": 331.50354004,
       "fertility_rate": 1.486,
-      "gdp_per_capita": 3786.337992252912,
+      "gdp_per_capita": 3786.3379922529116,
       "life_expectancy": 77.54,
       "mortality_under5": 7.1,
       "disease_cardiovascular": 33155.284180259616,
@@ -546,7 +586,11 @@
       "fertility_rate": 1.998,
       "gdp_per_capita": 5695.224423946745,
       "life_expectancy": 72.016,
-      "mortality_under5": 21.6
+      "mortality_under5": 21.6,
+      "disease_cardiovascular": 171.39782398130257,
+      "disease_cancer": 115.76077294079747,
+      "tobacco_use": 31.182170201533946,
+      "alcohol_consumption": 14.969141836980363
     },
     "Dominican Republic": {
       "health_expenditure_per_capita": 168.85827637,
@@ -625,14 +669,22 @@
       "fertility_rate": 5.559,
       "gdp_per_capita": 8673.902608653496,
       "life_expectancy": 55.766,
-      "mortality_under5": 133.2
+      "mortality_under5": 133.2,
+      "disease_cardiovascular": 800.1421645910896,
+      "disease_cancer": 379.1673500727933,
+      "tobacco_use": 200.83020196087236,
+      "alcohol_consumption": 159.918116569088
     },
     "Eritrea": {
       "health_expenditure_per_capita": 21.92651939,
       "fertility_rate": 4.934,
       "gdp_per_capita": 412.7530791994235,
       "life_expectancy": 60.628,
-      "mortality_under5": 67.5
+      "mortality_under5": 67.5,
+      "disease_cardiovascular": 4169.750448081486,
+      "disease_cancer": 2753.9485113446676,
+      "tobacco_use": 875.8553032037381,
+      "alcohol_consumption": 394.9335262088191
     },
     "Estonia": {
       "health_expenditure_per_capita": 549.63024902,
@@ -650,7 +702,11 @@
       "fertility_rate": 3.704,
       "gdp_per_capita": 2871.0687743744857,
       "life_expectancy": 43.958,
-      "mortality_under5": 115.5
+      "mortality_under5": 115.5,
+      "disease_cardiovascular": 1327.9601508574876,
+      "disease_cancer": 881.2249822557097,
+      "tobacco_use": 380.4130246633067,
+      "alcohol_consumption": 412.3287519592676
     },
     "Ethiopia": {
       "health_expenditure_per_capita": 6.4820013,
@@ -708,7 +764,11 @@
       "fertility_rate": 2.917,
       "gdp_per_capita": 3377.6912695349274,
       "life_expectancy": 65.983,
-      "mortality_under5": 23.3
+      "mortality_under5": 23.3,
+      "disease_cardiovascular": 2094.236136605122,
+      "disease_cancer": 613.5878066512479,
+      "tobacco_use": 893.4771236926625,
+      "alcohol_consumption": 34.670232893231734
     },
     "Finland": {
       "health_expenditure_per_capita": 3236.85839844,
@@ -791,7 +851,7 @@
     "Ghana": {
       "health_expenditure_per_capita": 38.4290123,
       "fertility_rate": 4.496,
-      "gdp_per_capita": 478.6119091910279,
+      "gdp_per_capita": 478.61190919102785,
       "life_expectancy": 59.638,
       "mortality_under5": 82.2,
       "disease_cardiovascular": 31510.951817476784,
@@ -824,7 +884,11 @@
       "fertility_rate": 2.242,
       "gdp_per_capita": 6338.560114053579,
       "life_expectancy": 73.7,
-      "mortality_under5": 14.8
+      "mortality_under5": 14.8,
+      "disease_cardiovascular": 276.73779837184486,
+      "disease_cancer": 160.0844270410573,
+      "tobacco_use": 55.46228430919325,
+      "alcohol_consumption": 19.043506737481053
     },
     "Guam": {
       "fertility_rate": 2.638,
@@ -869,7 +933,11 @@
       "fertility_rate": 2.648,
       "gdp_per_capita": 1084.06541388904,
       "life_expectancy": 64.392,
-      "mortality_under5": 41.4
+      "mortality_under5": 41.4,
+      "disease_cardiovascular": 1740.7757774061963,
+      "disease_cancer": 520.3920314057603,
+      "tobacco_use": 399.7650243998782,
+      "alcohol_consumption": 170.0902379473156
     },
     "Haiti": {
       "health_expenditure_per_capita": 25.25854683,
@@ -1016,7 +1084,7 @@
     "Ireland": {
       "health_expenditure_per_capita": 3938.19116211,
       "fertility_rate": 1.86,
-      "gdp_per_capita": 50933.02160955888,
+      "gdp_per_capita": 50933.021609558884,
       "life_expectancy": 78.9439024390244,
       "mortality_under5": 5.2,
       "disease_cardiovascular": 9844.177146730644,
@@ -1150,7 +1218,11 @@
       "fertility_rate": 2.5,
       "gdp_per_capita": 476.5481936400767,
       "life_expectancy": 67.95609756097562,
-      "mortality_under5": 39.3
+      "mortality_under5": 39.3,
+      "disease_cardiovascular": 17573.355770130922,
+      "disease_cancer": 3294.299705853978,
+      "tobacco_use": 5725.561308742942,
+      "alcohol_consumption": 2000.0259935628058
     },
     "Laos": {
       "health_expenditure_per_capita": 17.33082581,
@@ -1309,7 +1381,7 @@
     "Madagascar": {
       "health_expenditure_per_capita": 15.9498682,
       "fertility_rate": 5.195,
-      "gdp_per_capita": 305.812074924388,
+      "gdp_per_capita": 305.81207492438796,
       "life_expectancy": 60.664,
       "mortality_under5": 84.6,
       "disease_cardiovascular": 18102.32618354891,
@@ -1344,7 +1416,11 @@
       "fertility_rate": 2.199,
       "gdp_per_capita": 3796.5154652464357,
       "life_expectancy": 74.785,
-      "mortality_under5": 21.6
+      "mortality_under5": 21.6,
+      "disease_cardiovascular": 484.81959259175903,
+      "disease_cancer": 126.05931276066896,
+      "tobacco_use": 213.014637211344,
+      "alcohol_consumption": 7.503943979386956
     },
     "Mali": {
       "health_expenditure_per_capita": 23.9734993,
@@ -1362,7 +1438,11 @@
       "fertility_rate": 1.38,
       "gdp_per_capita": 15831.344048672005,
       "life_expectancy": 79.30000000000001,
-      "mortality_under5": 6.9
+      "mortality_under5": 6.9,
+      "disease_cardiovascular": 1328.8509498490366,
+      "disease_cancer": 827.2453803065201,
+      "tobacco_use": 424.7674605313156,
+      "alcohol_consumption": 34.34125244122306
     },
     "Marshall Islands": {
       "health_expenditure_per_capita": 490.59927368,
@@ -1374,7 +1454,7 @@
     "Mauritania": {
       "health_expenditure_per_capita": 34.00539017,
       "fertility_rate": 5.376,
-      "gdp_per_capita": 998.96583416747,
+      "gdp_per_capita": 998.9658341674699,
       "life_expectancy": 63.92,
       "mortality_under5": 71.8,
       "disease_cardiovascular": 3945.9772280901257,
@@ -1442,21 +1522,29 @@
     "Moldova": {
       "health_expenditure_per_capita": 79.33213043,
       "fertility_rate": 1.528,
-      "gdp_per_capita": 1034.391977469929,
+      "gdp_per_capita": 1034.3919774699293,
       "life_expectancy": 68.197,
-      "mortality_under5": 20.1
+      "mortality_under5": 20.1,
+      "disease_cardiovascular": 26422.26776596513,
+      "disease_cancer": 5661.452713280589,
+      "tobacco_use": 6999.702745045187,
+      "alcohol_consumption": 3251.3844961726572
     },
     "Monaco": {
       "health_expenditure_per_capita": 5876.08105469,
       "fertility_rate": 2.006,
       "gdp_per_capita": 130538.74258711666,
       "life_expectancy": 84.34,
-      "mortality_under5": 4.5
+      "mortality_under5": 4.5,
+      "disease_cardiovascular": 230.2028426990756,
+      "disease_cancer": 188.58925330128127,
+      "tobacco_use": 91.6643339058546,
+      "alcohol_consumption": 17.119144691927442
     },
     "Mongolia": {
       "health_expenditure_per_capita": 38.04277039,
       "fertility_rate": 2.0,
-      "gdp_per_capita": 994.9001091324096,
+      "gdp_per_capita": 994.9001091324097,
       "life_expectancy": 65.28073170731709,
       "mortality_under5": 40.7,
       "disease_cardiovascular": 6293.693404381668,
@@ -1468,7 +1556,11 @@
       "fertility_rate": 1.69,
       "gdp_per_capita": 3674.617924279698,
       "life_expectancy": 73.9829268292683,
-      "mortality_under5": 10.6
+      "mortality_under5": 10.6,
+      "disease_cardiovascular": 2938.02985302346,
+      "disease_cancer": 1321.940989473593,
+      "tobacco_use": 1345.5906756955378,
+      "alcohol_consumption": 176.60169534595065
     },
     "Morocco": {
       "health_expenditure_per_capita": 97.19748688,
@@ -1495,7 +1587,7 @@
     "Myanmar": {
       "health_expenditure_per_capita": 7.65254498,
       "fertility_rate": 2.515,
-      "gdp_per_capita": 252.6851930607284,
+      "gdp_per_capita": 252.68519306072838,
       "life_expectancy": 61.72,
       "mortality_under5": 77.1,
       "disease_cardiovascular": 163823.47873043257,
@@ -1506,7 +1598,7 @@
     "Namibia": {
       "health_expenditure_per_capita": 374.68215942,
       "fertility_rate": 3.571,
-      "gdp_per_capita": 3685.772999915872,
+      "gdp_per_capita": 3685.7729999158723,
       "life_expectancy": 52.557,
       "mortality_under5": 70.5,
       "disease_cardiovascular": 2278.8946192792578,
@@ -1604,7 +1696,11 @@
       "fertility_rate": 1.5,
       "gdp_per_capita": 3120.9840139423313,
       "life_expectancy": 73.69756097560976,
-      "mortality_under5": 13.7
+      "mortality_under5": 13.7,
+      "disease_cardiovascular": 10991.358617771284,
+      "disease_cancer": 3811.351813653324,
+      "tobacco_use": 3742.218397193691,
+      "alcohol_consumption": 470.67142678141886
     },
     "Northern Mariana Islands": {
       "fertility_rate": 2.256,
@@ -1698,7 +1794,7 @@
     "Paraguay": {
       "health_expenditure_per_capita": 95.1805954,
       "fertility_rate": 2.973,
-      "gdp_per_capita": 1970.87169852378,
+      "gdp_per_capita": 1970.8716985237797,
       "life_expectancy": 71.317,
       "mortality_under5": 29.9,
       "disease_cardiovascular": 7780.457327658333,
@@ -1742,7 +1838,7 @@
     "Portugal": {
       "health_expenditure_per_capita": 1814.35449219,
       "fertility_rate": 1.41,
-      "gdp_per_capita": 18780.12751241,
+      "gdp_per_capita": 18780.127512409996,
       "life_expectancy": 78.0707317073171,
       "mortality_under5": 4.7,
       "disease_cardiovascular": 35778.25623392058,
@@ -1796,7 +1892,11 @@
       "fertility_rate": 1.294,
       "gdp_per_capita": 5323.455078125,
       "life_expectancy": 65.52975609756099,
-      "mortality_under5": 13.9
+      "mortality_under5": 13.9,
+      "disease_cardiovascular": 1326180.5504002192,
+      "disease_cancer": 300727.98895853455,
+      "tobacco_use": 392440.45778901316,
+      "alcohol_consumption": 227942.79748934496
     },
     "Rwanda": {
       "health_expenditure_per_capita": 25.02086639,
@@ -1855,7 +1955,7 @@
     "Serbia": {
       "health_expenditure_per_capita": 307.54705811,
       "fertility_rate": 1.45,
-      "gdp_per_capita": 3807.974173217865,
+      "gdp_per_capita": 3807.9741732178645,
       "life_expectancy": 72.83414634146342,
       "mortality_under5": 9.0,
       "disease_cardiovascular": 71492.1932229482,
@@ -1884,7 +1984,7 @@
     "Singapore": {
       "health_expenditure_per_capita": 908.3760376,
       "fertility_rate": 1.26,
-      "gdp_per_capita": 29961.31728127316,
+      "gdp_per_capita": 29961.317281273157,
       "life_expectancy": 79.99024390243903,
       "mortality_under5": 3.0,
       "disease_cardiovascular": 5233.567799110508,
@@ -1901,7 +2001,11 @@
       "fertility_rate": 1.27,
       "gdp_per_capita": 11641.54103217625,
       "life_expectancy": 73.90487804878049,
-      "mortality_under5": 8.3
+      "mortality_under5": 8.3,
+      "disease_cardiovascular": 27727.533650995643,
+      "disease_cancer": 12595.528337422033,
+      "tobacco_use": 7828.187165015386,
+      "alcohol_consumption": 2204.536080465116
     },
     "Slovenia": {
       "health_expenditure_per_capita": 1449.18920898,
@@ -1936,7 +2040,11 @@
       "fertility_rate": 7.527,
       "gdp_per_capita": 439.97990780547764,
       "life_expectancy": 50.894,
-      "mortality_under5": 172.3
+      "mortality_under5": 172.3,
+      "disease_cardiovascular": 4836.700053361913,
+      "disease_cancer": 3891.9865478033703,
+      "tobacco_use": 2374.6975454107273,
+      "alcohol_consumption": 394.99502697066623
     },
     "South Africa": {
       "health_expenditure_per_capita": 400.5355835,
@@ -1975,7 +2083,7 @@
     "Spain": {
       "health_expenditure_per_capita": 2062.40625,
       "fertility_rate": 1.33,
-      "gdp_per_capita": 26450.95301303824,
+      "gdp_per_capita": 26450.953013038234,
       "life_expectancy": 80.17073170731709,
       "mortality_under5": 4.7,
       "disease_cardiovascular": 124785.64360972546,
@@ -1986,7 +2094,7 @@
     "Sri Lanka": {
       "health_expenditure_per_capita": 55.40001297,
       "fertility_rate": 2.263,
-      "gdp_per_capita": 1207.219947641648,
+      "gdp_per_capita": 1207.2199476416479,
       "life_expectancy": 73.073,
       "mortality_under5": 14.0,
       "disease_cardiovascular": 43160.34931381307,
@@ -2098,7 +2206,7 @@
     "Tajikistan": {
       "health_expenditure_per_capita": 17.38472557,
       "fertility_rate": 3.398,
-      "gdp_per_capita": 333.9271509416837,
+      "gdp_per_capita": 333.92715094168375,
       "life_expectancy": 66.531,
       "mortality_under5": 52.2,
       "disease_cardiovascular": 14370.924784186152,
@@ -2111,7 +2219,11 @@
       "fertility_rate": 5.579,
       "gdp_per_capita": 483.334869384766,
       "life_expectancy": 57.675,
-      "mortality_under5": 92.4
+      "mortality_under5": 92.4,
+      "disease_cardiovascular": 38767.23293983655,
+      "disease_cancer": 21418.13723997637,
+      "tobacco_use": 11933.952294089935,
+      "alcohol_consumption": 2748.1442066248906
     },
     "Thailand": {
       "health_expenditure_per_capita": 90.61147308,
@@ -2129,7 +2241,11 @@
       "fertility_rate": 5.611,
       "gdp_per_capita": 487.4645069292226,
       "life_expectancy": 61.272,
-      "mortality_under5": 87.5
+      "mortality_under5": 87.5,
+      "disease_cardiovascular": 1309.5368051251335,
+      "disease_cancer": 399.33314339187143,
+      "tobacco_use": 727.3225594409074,
+      "alcohol_consumption": 54.446106579122095
     },
     "Togo": {
       "health_expenditure_per_capita": 16.95772171,
@@ -2158,7 +2274,11 @@
       "fertility_rate": 1.625,
       "gdp_per_capita": 12346.437309407496,
       "life_expectancy": 70.185,
-      "mortality_under5": 26.8
+      "mortality_under5": 26.8,
+      "disease_cardiovascular": 3376.260563994052,
+      "disease_cancer": 1548.357827615712,
+      "tobacco_use": 979.4142238561071,
+      "alcohol_consumption": 190.9243132100346
     },
     "Tunisia": {
       "health_expenditure_per_capita": 169.84550476,
@@ -2176,7 +2296,11 @@
       "fertility_rate": 2.197,
       "gdp_per_capita": 7331.854294302553,
       "life_expectancy": 73.51,
-      "mortality_under5": 25.7
+      "mortality_under5": 25.7,
+      "disease_cardiovascular": 138764.79400693145,
+      "disease_cancer": 70954.76223862945,
+      "tobacco_use": 66447.36921194685,
+      "alcohol_consumption": 1445.0726164353848
     },
     "Turkmenistan": {
       "health_expenditure_per_capita": 324.81155396,
@@ -2249,9 +2373,13 @@
     "United States": {
       "health_expenditure_per_capita": 6428.60205078,
       "fertility_rate": 2.057,
-      "gdp_per_capita": 44123.40706790552,
+      "gdp_per_capita": 44123.407067905515,
       "life_expectancy": 77.48780487804878,
-      "mortality_under5": 8.0
+      "mortality_under5": 8.0,
+      "disease_cardiovascular": 844291.6530859772,
+      "disease_cancer": 621123.9376611563,
+      "tobacco_use": 370944.6628576751,
+      "alcohol_consumption": 64506.967413599195
     },
     "Upper middle income": {
       "health_expenditure_per_capita": 144.44828815000957,
@@ -2308,7 +2436,11 @@
       "fertility_rate": 1.887,
       "gdp_per_capita": 710.7467599948609,
       "life_expectancy": 73.198,
-      "mortality_under5": 25.0
+      "mortality_under5": 25.0,
+      "disease_cardiovascular": 157031.5023991492,
+      "disease_cancer": 57189.95115343968,
+      "tobacco_use": 71380.32055315422,
+      "alcohol_consumption": 9396.504956572337
     },
     "Virgin Islands (U.S.)": {
       "fertility_rate": 2.24,
@@ -2466,12 +2598,12 @@
         147.23461929422513,
         158.24345808246497,
         214.5397404735186,
-        252.6851930607284,
+        252.68519306072838,
         254.18424914933624,
         287.4873334413809,
-        305.812074924388,
+        305.81207492438796,
         309.0241683393721,
-        311.9500231386868,
+        311.95002313868673,
         318.64312191827327
       ]
     },
@@ -2506,118 +2638,118 @@
     },
     "disease_cardiovascular": {
       "max": 3257514.8495462616,
-      "min": 218.5580608564657,
-      "avg": 85830.19939802996,
+      "min": 136.40077026967086,
+      "avg": 84759.44866420496,
       "top10": [
-        211130.4275178667,
-        212378.81092693473,
         252556.48096760342,
         300044.0356321884,
         301143.79920117813,
         333887.6906849287,
         416272.70071693737,
         497216.7397844929,
+        844291.6530859772,
+        1326180.5504002192,
         1751423.8324045932,
         3257514.8495462616
       ],
       "bottom10": [
+        136.40077026967086,
+        171.39782398130257,
         218.5580608564657,
+        230.2028426990756,
+        276.73779837184486,
+        312.197721319211,
+        364.47034912522247,
         421.6532477950383,
         428.94911724665405,
-        522.1866020020841,
-        684.8334980497251,
-        965.8793299352084,
-        1033.1447202383704,
-        1332.6232902828074,
-        1337.3040621291423,
-        1658.6551382501286
+        484.81959259175903
       ]
     },
     "disease_cancer": {
       "max": 2021921.5444054122,
       "min": 75.65105978993607,
-      "avg": 44357.397787950096,
+      "avg": 42416.85776912936,
       "top10": [
-        111429.97686680972,
-        115653.953492878,
         165465.0207780512,
         174755.01605359677,
         176061.77434170453,
         176964.81424868424,
         234942.97864175824,
+        300727.98895853455,
         364702.4914317583,
         519864.33078343695,
+        621123.9376611563,
         2021921.5444054122
       ],
       "bottom10": [
         75.65105978993607,
         96.09342976628261,
-        223.74605671724265,
-        288.31555309950494,
-        336.84295403696166,
-        367.709018130414,
-        433.5863509703484,
-        465.92618417545833,
-        559.4162695086043,
-        564.7994790676661
+        115.76077294079747,
+        126.05931276066896,
+        160.0844270410573,
+        162.19339059579602,
+        177.57381569942228,
+        188.58925330128127,
+        218.1901326870658,
+        223.74605671724265
       ]
     },
     "tobacco_use": {
       "max": 1990196.9055593254,
-      "min": 110.88486925025494,
-      "avg": 39819.52895553532,
+      "min": 31.182170201533946,
+      "avg": 37743.718811869396,
       "top10": [
-        100601.2702449397,
-        109673.79327168303,
         123791.88896964931,
         124155.36306527797,
         132264.3647642193,
         147267.58488316037,
         153176.23415195118,
         191125.71936524974,
+        370944.6628576751,
+        392440.45778901316,
         940198.3562459019,
         1990196.9055593254
       ],
       "bottom10": [
+        31.182170201533946,
+        55.46228430919325,
+        70.57356623589251,
+        84.87318208615841,
+        88.61107137695417,
+        91.6643339058546,
         110.88486925025494,
-        163.70403362155898,
-        176.82522486541072,
-        222.7848039922682,
-        224.37702232522292,
-        265.32474829826407,
-        282.21437751348145,
-        349.4113881540072,
-        525.1061982491676,
-        538.7384474681114
+        113.11271888223715,
+        147.56005615431675,
+        163.70403362155898
       ]
     },
     "alcohol_consumption": {
       "max": 251612.93169327098,
       "min": 6.285849630258447,
-      "avg": 6981.219976864762,
+      "avg": 7498.740602878574,
       "top10": [
-        16741.045814346304,
-        19776.863919061445,
         20320.812408192636,
         23225.643640460017,
         28404.804822732352,
         40179.79504725909,
         41020.3229890104,
         50573.01867379673,
+        64506.967413599195,
         137871.39560164695,
+        227942.79748934496,
         251612.93169327098
       ],
       "bottom10": [
         6.285849630258447,
         6.71872615836356,
+        7.503943979386956,
         7.840782400917178,
+        14.969141836980363,
         15.397813034861954,
-        26.360067058968223,
-        27.47603153814468,
-        33.60101900148031,
-        39.470970208719955,
-        52.1700957296244,
-        55.613101221949194
+        17.119144691927442,
+        17.951252207814182,
+        19.043506737481053,
+        19.58563755876857
       ]
     }
   }
