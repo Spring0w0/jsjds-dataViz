@@ -207,13 +207,7 @@ export const METRICS_CONFIG: {
     },
     "分析衍生层": {
       "效率指标": [
-        {
-          id: "health_efficiency",
-          name: "卫生效率指数",
-          unit: "分",
-          description: "卫生投入产出效率综合评分",
-          colorRange: ["#FFE8E6", "#1A365D"]
-        },
+        
         {
           id: "risk_factor_importance",
           name: "风险因素重要性",
@@ -234,6 +228,13 @@ export const METRICS_CONFIG: {
           unit: "",
           description: "衡量不同社会群体之间健康状况差异的综合指标（0.1-0.59）",
           colorRange: ["#FAF5FF", "#6B21A8"]
+        },
+        {
+          id: "health_efficiency",
+          name: "卫生效率指数",
+          unit: "分",
+          description: "卫生投入产出效率综合评分",
+          colorRange: ["#FFE8E6", "#1A365D"]
         }
       ]
     }
