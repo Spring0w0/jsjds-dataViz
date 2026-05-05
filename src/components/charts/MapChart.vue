@@ -61,12 +61,31 @@ const getVisualMapConfig = () => {
   const metric = dataStore.currentMetric
   const dataSet = mode === 'china' ? dataStore.chinaData : dataStore.worldData
   const year = appStore.currentYear
-  
+
   if (!dataSet || !metric) return null
-  
+
   const stats = dataSet.statistics[year]?.[metric.id]
   if (!stats) return null
-  
+
+  // 判断是否为分类数据（resource_type, quadrant 等）
+  const categoricalMetrics = ['resource_type', 'quadrant', 'new_quadrant']
+  const isCategorical = categoricalMetrics.includes(metric.id)
+
+  if (isCategorical) {
+    // 分类数据的处理
+    if (stats.unique_values) {
+      return {
+        type: 'piecewise',
+        categories: stats.unique_values.map((v: string) => ({ name: v })),
+        inRange: {
+          color: metric.colorRange
+        }
+      }
+    }
+    return null
+  }
+
+  // 数值型数据的处理
   return {
     min: stats.min,
     max: stats.max,
@@ -95,13 +114,10 @@ const chartOption = computed<EChartsOption>(() => {
       }
     },
     visualMap: visualMap ? {
-      type: 'continuous',
-      min: visualMap.min,
-      max: visualMap.max,
+      ...visualMap,
       left: 'left',
       top: 'bottom',
-      inRange: visualMap.inRange,
-      text: ['高', '低'],
+      text: visualMap.type === 'piecewise' ? undefined : ['高', '低'],
       calculable: true
     } : undefined,
     series: [
