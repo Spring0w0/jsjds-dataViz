@@ -35,15 +35,24 @@ const chartOption = computed<EChartsOption>(() => {
     }
   }
   
+  // 分类指标不显示趋势图
+  const categoricalMetrics = ['resource_type', 'quadrant', 'new_quadrant']
+  if (categoricalMetrics.includes(metricId)) {
+    return {
+      title: { text: '该指标为分类指标，无趋势数据' }
+    }
+  }
+  
   const years = dataSet.metadata.years
   let trendData: number[] = []
-  
+
   if (selectedRegion && dataSet.trends[selectedRegion]?.[metricId]) {
     const regionTrends = dataSet.trends[selectedRegion][metricId]
     trendData = years.map(year => regionTrends[year] ?? null)
   } else {
     trendData = years.map(year => {
       const yearData = dataSet.values[year]
+      if (!yearData) return null
       const values = Object.values(yearData).map(v => v[metricId] as number).filter(v => v != null)
       if (values.length === 0) return null
       return values.reduce((a, b) => a + b, 0) / values.length

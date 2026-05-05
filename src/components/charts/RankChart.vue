@@ -28,27 +28,34 @@ const chartOption = computed<EChartsOption>(() => {
   const metricId = dataStore.currentMetricId
   const metric = dataStore.currentMetric
   const dataSet = mode === 'china' ? dataStore.chinaData : dataStore.worldData
-  
-  if (!dataSet || !metric || !dataSet.statistics[year]) {
+
+  if (!dataSet || !metric) {
     return {
       title: { text: '暂无数据' }
     }
   }
-  
-  const stats = dataSet.statistics[year][metricId]
+
+  const stats = dataSet.statistics[year]?.[metricId]
   if (!stats) {
     return {
       title: { text: '暂无数据' }
     }
   }
-  
-  const regions = props.showTop ? stats.top10 : stats.bottom10
+
+  // 分类指标不显示排名图
+  if (stats.unique_values && !stats.top10) {
+    return {
+      title: { text: '该指标为分类指标，无排名数据' }
+    }
+  }
+
+  const regions = stats.top10 || stats.bottom10 || []
   const yearData = dataSet.values[year]
-  
+
   const chartData = regions
     .map(name => ({
       name,
-      value: yearData[name]?.[metricId] as number
+      value: yearData?.[name]?.[metricId] as number
     }))
     .filter(item => item.value != null)
   

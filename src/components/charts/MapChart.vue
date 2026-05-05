@@ -46,9 +46,9 @@ const getMapData = () => {
   const year = appStore.currentYear
   const metricId = dataStore.currentMetricId
   const dataSet = mode === 'china' ? dataStore.chinaData : dataStore.worldData
-  
+
   if (!dataSet || !dataSet.values[year]) return []
-  
+
   const yearData = dataSet.values[year]
   return Object.entries(yearData).map(([name, values]) => ({
     name,
@@ -67,31 +67,43 @@ const getVisualMapConfig = () => {
   const stats = dataSet.statistics[year]?.[metric.id]
   if (!stats) return null
 
-  // 判断是否为分类数据（resource_type, quadrant 等）
+  // 判断是否为分类数据
   const categoricalMetrics = ['resource_type', 'quadrant', 'new_quadrant']
   const isCategorical = categoricalMetrics.includes(metric.id)
 
   if (isCategorical) {
-    // 分类数据的处理
-    if (stats.unique_values) {
+    if (stats.unique_values && stats.unique_values.length > 0) {
+      const categories = stats.unique_values
+      // 为每个分类分配不同的颜色
+      const categoryColors = ['#36A2EB', '#FF6384', '#FFCE56', '#4BC0C0', '#9966FF']
+      const pieces = categories.map((category, index) => ({
+        value: category,
+        label: category,
+        color: categoryColors[index % categoryColors.length]
+      }))
+      
       return {
         type: 'piecewise',
-        categories: stats.unique_values.map((v: string) => ({ name: v })),
-        inRange: {
-          color: metric.colorRange
-        }
+        pieces: pieces,
+        left: 'left',
+        top: 'bottom',
+        calculable: false
       }
     }
     return null
   }
 
-  // 数值型数据的处理
   return {
+    type: 'continuous',
     min: stats.min,
     max: stats.max,
     inRange: {
       color: metric.colorRange
-    }
+    },
+    left: 'left',
+    top: 'bottom',
+    text: ['高', '低'],
+    calculable: true
   }
 }
 
@@ -101,25 +113,23 @@ const chartOption = computed<EChartsOption>(() => {
   const metric = dataStore.currentMetric
   
   const visualMap = getVisualMapConfig()
-  
+  const mapData = getMapData()
+
   return {
     backgroundColor: '#F5F8FA',
     tooltip: {
       trigger: 'item',
       formatter: (params: any) => {
         if (params.value != null) {
+          if (typeof params.value === 'string') {
+            return `${params.name}<br/>${metric?.name || ''}: ${params.value}`
+          }
           return `${params.name}<br/>${metric?.name || ''}: ${params.value}${metric?.unit || ''}`
         }
         return params.name
       }
     },
-    visualMap: visualMap ? {
-      ...visualMap,
-      left: 'left',
-      top: 'bottom',
-      text: visualMap.type === 'piecewise' ? undefined : ['高', '低'],
-      calculable: true
-    } : undefined,
+    visualMap: visualMap,
     series: [
       {
         name: metric?.name || '',
@@ -142,7 +152,7 @@ const chartOption = computed<EChartsOption>(() => {
             areaColor: '#FF8C00'
           }
         },
-        data: getMapData()
+        data: mapData
       }
     ]
   }

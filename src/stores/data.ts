@@ -12,11 +12,13 @@ interface YearData {
 
 interface Statistics {
   [metricId: string]: {
-    max: number
-    min: number
-    avg: number
-    top10: string[]
-    bottom10: string[]
+    max?: number
+    min?: number
+    avg?: number
+    top10?: string[]
+    bottom10?: string[]
+    unique_values?: string[]
+    count?: number
   }
 }
 
