@@ -115,7 +115,7 @@ export const METRICS_CONFIG: {
           colorRange: ["#E8F4FD", "#003366"]
         },
         {
-          id: "quadrant",
+          id: "new_quadrant",
           name: "所属象限",
           unit: "",
           description: "基于投入-产出分析的四象限分类",

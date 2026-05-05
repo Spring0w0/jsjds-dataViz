@@ -37,14 +37,14 @@
             </div>
           </template>
           <!-- 分类指标的统计信息 -->
-          <template v-else-if="currentStats && Array.isArray(currentStats.unique_values)">
+          <template v-else-if="isCategorical">
             <div class="info-item">
               <span class="label">分类数量</span>
-              <span class="value">{{ currentStats.unique_values.length }}</span>
+              <span class="value">{{ categoryConfig?.categories.length || currentStats?.unique_values?.length || 0 }}</span>
             </div>
             <div class="info-item">
               <span class="label">分类示例</span>
-              <span class="value">{{ currentStats.unique_values.join('、') }}</span>
+              <span class="value">{{ (categoryConfig?.categories || currentStats?.unique_values || []).join('、') }}</span>
             </div>
           </template>
         </div>
@@ -57,7 +57,7 @@
         <div class="card-content">
           <div class="info-item" v-if="currentRegionValue != null">
             <span class="label">{{ currentMetric?.name || '当前值' }}</span>
-            <span class="value">{{ currentRegionValue }}{{ currentMetric?.unit }}</span>
+            <span class="value">{{ currentRegionValue }}</span>
           </div>
           <div class="info-item" v-if="currentRegionData.rank">
             <span class="label">排名</span>
@@ -67,9 +67,9 @@
             <span class="label">资源类型</span>
             <span class="value">{{ currentRegionData.resource_type }}</span>
           </div>
-          <div class="info-item" v-if="currentRegionData.quadrant">
+          <div class="info-item" v-if="currentRegionData.quadrant || currentRegionData.new_quadrant">
             <span class="label">所属象限</span>
-            <span class="value">{{ currentRegionData.quadrant }}</span>
+            <span class="value">{{ currentRegionData.new_quadrant || currentRegionData.quadrant }}</span>
           </div>
         </div>
       </div>
@@ -110,23 +110,60 @@ const appStore = useAppStore()
 const dataStore = useDataStore()
 const mapStore = useMapStore()
 
+const QUADRANT_CATEGORIES = [
+  '低投入-低产出（匮乏型）',
+  '高投入-低产出（低效型）',
+  '低投入-高产出（高效型）',
+  '高投入-高产出（协同型）'
+]
+
+const RESOURCE_TYPE_CATEGORIES = [
+  '资源缺口区',
+  '冗余/高效区'
+]
+
+const getCategoryConfig = (metricId: string) => {
+  if (metricId === 'quadrant' || metricId === 'new_quadrant') {
+    const colors = ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
+    const colorMap: Record<string, string> = {}
+    QUADRANT_CATEGORIES.forEach((cat, idx) => {
+      colorMap[cat] = colors[idx % colors.length]
+    })
+    return { colors: colorMap, categories: QUADRANT_CATEGORIES }
+  }
+
+  if (metricId === 'resource_type') {
+    const colors = ['#FF6384', '#36A2EB']
+    const colorMap: Record<string, string> = {}
+    RESOURCE_TYPE_CATEGORIES.forEach((cat, idx) => {
+      colorMap[cat] = colors[idx % colors.length]
+    })
+    return { colors: colorMap, categories: RESOURCE_TYPE_CATEGORIES }
+  }
+
+  return null
+}
+
 const currentMetric = computed(() => dataStore.currentMetric)
 const selectedRegion = computed(() => mapStore.selectedRegion)
+const metricId = computed(() => dataStore.currentMetricId)
+const categoricalMetrics = ['resource_type', 'quadrant', 'new_quadrant']
+
+const isCategorical = computed(() => categoricalMetrics.includes(metricId.value))
+const categoryConfig = computed(() => getCategoryConfig(metricId.value))
 
 const currentStats = computed(() => {
   const mode = appStore.mode
   const year = appStore.currentYear
-  const metricId = dataStore.currentMetricId
   const dataSet = mode === 'china' ? dataStore.chinaData : dataStore.worldData
 
   if (!dataSet) return null
   
-  const categoricalMetrics = ['resource_type', 'quadrant', 'new_quadrant']
-  if (categoricalMetrics.includes(metricId)) {
-    return dataSet.statistics?.[metricId]
+  if (categoricalMetrics.includes(metricId.value)) {
+    return dataSet.statistics?.[metricId.value]
   }
   
-  return dataSet.statistics?.[year]?.[metricId] || dataSet.statistics?.[metricId]
+  return dataSet.statistics?.[year]?.[metricId.value] || dataSet.statistics?.[metricId.value]
 })
 
 const currentRegionData = computed(() => {
@@ -139,8 +176,8 @@ const currentRegionData = computed(() => {
 })
 
 const currentRegionValue = computed(() => {
-  if (!currentRegionData.value || !dataStore.currentMetricId) return null
-  return currentRegionData.value[dataStore.currentMetricId]
+  if (!currentRegionData.value || !metricId.value) return null
+  return currentRegionData.value[metricId.value]
 })
 </script>
 
