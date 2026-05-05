@@ -65,10 +65,13 @@ const getMapData = () => {
   if (!dataSet || !dataSet.values[year]) return []
 
   const yearData = dataSet.values[year]
-  return Object.entries(yearData).map(([name, values]) => ({
-    name,
-    value: values[metricId]
-  })).filter(item => item.value != null)
+  return Object.entries(yearData).map(([name, values]) => {
+    const rawValue = values[metricId]
+    return {
+      name,
+      value: (rawValue === undefined || rawValue === null || Number.isNaN(rawValue)) ? undefined : rawValue
+    }
+  }).filter(item => item.value !== undefined && item.value !== '')
 }
 
 const getCategoryConfig = (metricId: string) => {
@@ -124,7 +127,7 @@ const chartOption = computed(() => {
     tooltip: {
       trigger: 'item',
       formatter: (params: any) => {
-        if (params.value != null) {
+        if (params.value != null && params.value !== '' && !Number.isNaN(params.value)) {
           if (typeof params.value === 'string') {
             return `${params.name}<br/>${metric?.name || ''}: ${params.value}`
           }
