@@ -47,7 +47,7 @@ const categoricalMetrics = ['resource_type', 'quadrant', 'new_quadrant']
 const QUADRANT_CATEGORIES = [
   '低投入-低产出（匮乏型）',
   '高投入-低产出（低效型）',
-  '低投入-高产出（高效型）',
+  '低投入-高产出（模范型）',
   '高投入-高产出（协同型）'
 ]
 
