@@ -5,7 +5,7 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted, watch, computed } from 'vue'
 import * as echarts from 'echarts'
-import type { ECharts, EChartsOption } from 'echarts'
+import type { ECharts } from 'echarts'
 import { useAppStore } from '../../stores/app'
 import { useDataStore } from '../../stores/data'
 import { useMapStore } from '../../stores/map'
@@ -41,6 +41,8 @@ const loadWorldMap = async () => {
   mapStore.setMapLoaded('world', true)
 }
 
+const categoricalMetrics = ['resource_type', 'quadrant', 'new_quadrant']
+
 const getMapData = () => {
   const mode = appStore.mode
   const year = appStore.currentYear
@@ -52,75 +54,57 @@ const getMapData = () => {
   const yearData = dataSet.values[year]
   return Object.entries(yearData).map(([name, values]) => ({
     name,
-    value: values[metricId] as any
-  })).filter((item: { name: string; value: any }) => item.value != null)
+    value: values[metricId]
+  })).filter(item => item.value != null)
 }
 
-const getVisualMapConfig = () => {
-  const mode = appStore.mode
-  const metric = dataStore.currentMetric
-  const dataSet = mode === 'china' ? dataStore.chinaData : dataStore.worldData
-  const year = appStore.currentYear
+const getCategoryConfig = (): Record<string, string> | null => {
+  const metricId = dataStore.currentMetricId
+  const dataSet = appStore.mode === 'china' ? dataStore.chinaData : dataStore.worldData
 
-  if (!dataSet || !metric) return undefined
+  if (!dataSet) return null
 
-  const categoricalMetrics = ['resource_type', 'quadrant', 'new_quadrant']
-  const isCategorical = categoricalMetrics.includes(metric.id)
-
-  let stats: any = undefined
-
-  if (isCategorical) {
-    stats = dataSet.statistics?.[metric.id]
-  } else {
-    stats = dataSet.statistics?.[year]?.[metric.id] || dataSet.statistics?.[metric.id]
-  }
-
-  if (!stats) return undefined
-
-  if (isCategorical) {
-    const uniqueValues = stats.unique_values || []
-    if (uniqueValues.length > 0) {
-      const categoryColors = ['#36A2EB', '#FF6384', '#FFCE56', '#4BC0C0', '#9966FF']
-      const pieces = uniqueValues.map((category: string, index: number) => ({
-        value: category,
-        label: category,
-        color: categoryColors[index % categoryColors.length]
-      }))
-
-      return {
-        type: 'piecewise',
-        pieces: pieces,
-        left: 'left',
-        top: 'bottom',
-        calculable: false
-      }
+  if (categoricalMetrics.includes(metricId)) {
+    const stats: any = dataSet.statistics?.[metricId]
+    if (stats && stats.unique_values) {
+      const colors = ['#36A2EB', '#FF6384', '#FFCE56', '#4BC0C0', '#9966FF']
+      const colorMap: Record<string, string> = {}
+      stats.unique_values.forEach((val: string, idx: number) => {
+        colorMap[val] = colors[idx % colors.length]
+      })
+      return colorMap
     }
-    return undefined
   }
-
-  return {
-    type: 'continuous',
-    min: stats.min,
-    max: stats.max,
-    inRange: {
-      color: metric.colorRange
-    },
-    left: 'left',
-    top: 'bottom',
-    text: ['高', '低'],
-    calculable: true
-  }
+  return null
 }
 
-const chartOption = computed<EChartsOption>(() => {
+const chartOption = computed(() => {
   const mode = appStore.mode
   const mapName = mode === 'china' ? 'china' : 'world'
   const metric = dataStore.currentMetric
+  const metricId = dataStore.currentMetricId
 
-  const visualMap = getVisualMapConfig()
   const mapData = getMapData()
+  const categoryConfig = getCategoryConfig()
+  const isCategorical = categoricalMetrics.includes(metricId)
 
-  return {
+  let seriesData: any[] = []
+  if (isCategorical && categoryConfig) {
+    seriesData = mapData.map((item: any) => ({
+      name: item.name,
+      value: item.value,
+      itemStyle: {
+        areaColor: categoryConfig[item.value] || '#CCCCCC'
+      }
+    }))
+  } else {
+    seriesData = mapData.map((item: any) => ({
+      name: item.name,
+      value: item.value
+    }))
+  }
+
+  const option: any = {
     backgroundColor: '#F5F8FA',
     tooltip: {
       trigger: 'item',
@@ -134,7 +118,6 @@ const chartOption = computed<EChartsOption>(() => {
         return params.name
       }
     },
-    visualMap: visualMap,
     series: [
       {
         name: metric?.name || '',
@@ -157,10 +140,42 @@ const chartOption = computed<EChartsOption>(() => {
             areaColor: '#FF8C00'
           }
         },
-        data: mapData
+        data: seriesData
       }
     ]
   }
+
+  if (isCategorical && categoryConfig) {
+    option.visualMap = {
+      type: 'piecewise',
+      pieces: Object.entries(categoryConfig).map(([value, color]) => ({
+        value,
+        label: value,
+        color
+      })),
+      left: 'left',
+      top: 'bottom',
+      calculable: false
+    }
+  } else if (metric) {
+    const dataSet = mode === 'china' ? dataStore.chinaData : dataStore.worldData
+    const year = appStore.currentYear
+    const stats = dataSet?.statistics?.[year]?.[metricId]
+    option.visualMap = {
+      type: 'continuous',
+      min: stats?.min || 0,
+      max: stats?.max || 100,
+      inRange: {
+        color: metric.colorRange || ['#E8F4FD', '#003366']
+      },
+      left: 'left',
+      top: 'bottom',
+      text: ['高', '低'],
+      calculable: true
+    }
+  }
+
+  return option
 })
 
 const initChart = async () => {
