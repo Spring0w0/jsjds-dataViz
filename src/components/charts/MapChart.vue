@@ -43,11 +43,12 @@ const loadWorldMap = async () => {
 
 const categoricalMetrics = ['resource_type', 'quadrant', 'new_quadrant']
 
+// 固定的四个象限分类
 const QUADRANT_CATEGORIES = [
   '低投入-低产出（匮乏型）',
   '高投入-低产出（低效型）',
   '低投入-高产出（高效型）',
-  '高投入-高产出（优质型）'
+  '高投入-高产出（协同型）'
 ]
 
 const RESOURCE_TYPE_CATEGORIES = [
@@ -66,17 +67,11 @@ const getMapData = () => {
   const yearData = dataSet.values[year]
   return Object.entries(yearData).map(([name, values]) => ({
     name,
-    value: values[metricId],
-    rawValue: values[metricId]
+    value: values[metricId]
   })).filter(item => item.value != null)
 }
 
-const getCategoryConfig = (): { colors: Record<string, string>, categories: string[] } | null => {
-  const metricId = dataStore.currentMetricId
-  const dataSet = appStore.mode === 'china' ? dataStore.chinaData : dataStore.worldData
-
-  if (!dataSet) return null
-
+const getCategoryConfig = (metricId: string) => {
   if (metricId === 'quadrant' || metricId === 'new_quadrant') {
     const colors = ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
     const colorMap: Record<string, string> = {}
@@ -105,16 +100,16 @@ const chartOption = computed(() => {
   const metricId = dataStore.currentMetricId
 
   const mapData = getMapData()
-  const categoryConfig = getCategoryConfig()
+  const categoryConfig = getCategoryConfig(metricId)
   const isCategorical = categoricalMetrics.includes(metricId)
 
   let seriesData: any[] = []
   if (isCategorical && categoryConfig) {
     seriesData = mapData.map((item: any) => ({
       name: item.name,
-      value: item.rawValue,
+      value: item.value,
       itemStyle: {
-        areaColor: categoryConfig.colors[item.rawValue] || '#CCCCCC'
+        areaColor: categoryConfig.colors[item.value] || '#CCCCCC'
       }
     }))
   } else {

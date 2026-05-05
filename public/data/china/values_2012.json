@@ -138,7 +138,7 @@
       "theoretical_demand": 68.18721171018281,
       "residual": -1.3923399153110123,
       "resource_type": "资源缺口区",
-      "new_quadrant": "低投入-低产出（匮乏型）"
+      "new_quadrant": "高投入-低产出（低效型）"
     },
     "宁夏回族自治区": {
       "health_personnel": 4.4,
@@ -418,7 +418,7 @@
       "theoretical_demand": 68.18721171018281,
       "residual": -1.566522055010395,
       "resource_type": "资源缺口区",
-      "new_quadrant": "低投入-低产出（匮乏型）"
+      "new_quadrant": "高投入-低产出（低效型）"
     },
     "湖南省": {
       "health_personnel": 40.35,
@@ -598,7 +598,7 @@
       "theoretical_demand": 68.18721171018281,
       "residual": -0.1872117101828081,
       "resource_type": "资源缺口区",
-      "new_quadrant": "低投入-低产出（匮乏型）"
+      "new_quadrant": "高投入-低产出（低效型）"
     },
     "黑龙江省": {
       "health_personnel": 27.07,
@@ -975,14 +975,14 @@
         "低投入-低产出（匮乏型）",
         "高投入-低产出（低效型）"
       ],
-      "count": 31
+      "count": 2
     },
     "resource_type": {
       "unique_values": [
-        "资源缺口区",
-        "冗余/高效区"
+        "冗余/高效区",
+        "资源缺口区"
       ],
-      "count": 31
+      "count": 2
     },
     "theoretical_demand": {
       "max": 68.18721171018281,
@@ -1047,7 +1047,7 @@
         "低投入-低产出（匮乏型）",
         "高投入-低产出（低效型）"
       ],
-      "count": 31
+      "count": 2
     },
     "population": {
       "max": 12700.0,

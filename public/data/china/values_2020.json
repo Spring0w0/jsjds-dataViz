@@ -18,7 +18,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -2.7604996861501547,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "高投入-高产出（协同型）"
     },
     "云南省": {
       "health_personnel": 45.89,
@@ -38,7 +38,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -12.5595588259351,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "低投入-高产出（模范型）"
     },
     "内蒙古自治区": {
       "health_personnel": 25.48,
@@ -58,7 +58,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -6.243725492601769,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "高投入-高产出（协同型）"
     },
     "北京市": {
       "health_personnel": 34.81,
@@ -78,7 +78,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": 53.74325125158427,
       "resource_type": "冗余/高效区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "高投入-高产出（协同型）"
     },
     "吉林省": {
       "health_personnel": 27.29,
@@ -98,7 +98,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": 5.544607840731558,
       "resource_type": "冗余/高效区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "高投入-高产出（协同型）"
     },
     "四川省": {
       "health_personnel": 82.45,
@@ -118,7 +118,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -8.826376095011412,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "高投入-高产出（协同型）"
     },
     "天津市": {
       "health_personnel": 14.32,
@@ -138,7 +138,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -16.368853697729975,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "低投入-高产出（模范型）"
     },
     "宁夏回族自治区": {
       "health_personnel": 7.2,
@@ -158,7 +158,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -5.306582635458909,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "高投入-高产出（协同型）"
     },
     "安徽省": {
       "health_personnel": 50.32,
@@ -178,7 +178,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -25.67192221391325,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "低投入-高产出（模范型）"
     },
     "山东省": {
       "health_personnel": 102.79,
@@ -198,7 +198,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -7.389215688680196,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "高投入-高产出（协同型）"
     },
     "山西省": {
       "health_personnel": 35.14,
@@ -218,7 +218,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -13.190752519628802,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "低投入-高产出（模范型）"
     },
     "广东省": {
       "health_personnel": 100.62,
@@ -238,7 +238,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -28.93537903590885,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "低投入-高产出（模范型）"
     },
     "广西壮族自治区": {
       "health_personnel": 47.22,
@@ -258,7 +258,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -13.723725492601773,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "低投入-高产出（模范型）"
     },
     "新疆维吾尔自治区": {
       "health_personnel": 24.45,
@@ -278,7 +278,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -10.363725492601771,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "低投入-高产出（模范型）"
     },
     "江苏省": {
       "health_personnel": 82.33,
@@ -298,7 +298,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -11.304901963190003,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "低投入-高产出（模范型）"
     },
     "江西省": {
       "health_personnel": 36.78,
@@ -318,7 +318,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -28.207203753471333,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "低投入-高产出（模范型）"
     },
     "河北省": {
       "health_personnel": 67.5,
@@ -338,7 +338,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -16.94750927638556,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "低投入-高产出（模范型）"
     },
     "河南省": {
       "health_personnel": 94.05,
@@ -358,7 +358,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -13.16372549260177,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "低投入-高产出（模范型）"
     },
     "浙江省": {
       "health_personnel": 65.98,
@@ -378,7 +378,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -6.656033184909461,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "高投入-高产出（协同型）"
     },
     "海南省": {
       "health_personnel": 9.41,
@@ -398,7 +398,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -14.063725492601776,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "低投入-高产出（模范型）"
     },
     "湖北省": {
       "health_personnel": 53.8,
@@ -418,7 +418,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -15.405104802946596,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "低投入-高产出（模范型）"
     },
     "湖南省": {
       "health_personnel": 61.45,
@@ -438,7 +438,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -16.44730758215401,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "低投入-高产出（模范型）"
     },
     "甘肃省": {
       "health_personnel": 22.9,
@@ -458,7 +458,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -20.08680241567869,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "低投入-高产出（模范型）"
     },
     "福建省": {
       "health_personnel": 35.1,
@@ -478,7 +478,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -22.553969395040795,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "低投入-高产出（模范型）"
     },
     "西藏自治区": {
       "health_personnel": 4.1,
@@ -498,7 +498,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": 5.725163396287115,
       "resource_type": "冗余/高效区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "高投入-高产出（协同型）"
     },
     "贵州省": {
       "health_personnel": 36.69,
@@ -518,7 +518,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -11.6110939136544,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "低投入-高产出（模范型）"
     },
     "辽宁省": {
       "health_personnel": 40.15,
@@ -538,7 +538,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -12.568487397363668,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "低投入-高产出（模范型）"
     },
     "重庆市": {
       "health_personnel": 30.16,
@@ -558,7 +558,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -13.91372549260177,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "低投入-高产出（模范型）"
     },
     "陕西省": {
       "health_personnel": 44.53,
@@ -578,7 +578,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": 6.015761686885412,
       "resource_type": "冗余/高效区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "高投入-高产出（协同型）"
     },
     "青海省": {
       "health_personnel": 6.43,
@@ -598,7 +598,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -0.997058825935099,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "高投入-高产出（协同型）"
     },
     "黑龙江省": {
       "health_personnel": 31.04,
@@ -618,7 +618,7 @@
       "theoretical_demand": 108.16372549260176,
       "residual": -8.034693234537258,
       "resource_type": "资源缺口区",
-      "new_quadrant": "高投入-低产出（低效型）"
+      "new_quadrant": "高投入-高产出（协同型）"
     }
   },
   "statistics": {
@@ -974,14 +974,14 @@
       "unique_values": [
         "高投入-低产出（低效型）"
       ],
-      "count": 31
+      "count": 1
     },
     "resource_type": {
       "unique_values": [
-        "资源缺口区",
-        "冗余/高效区"
+        "冗余/高效区",
+        "资源缺口区"
       ],
-      "count": 31
+      "count": 2
     },
     "theoretical_demand": {
       "max": 108.16372549260176,
@@ -1043,9 +1043,10 @@
     },
     "new_quadrant": {
       "unique_values": [
-        "高投入-低产出（低效型）"
+        "低投入-高产出（模范型）",
+        "高投入-高产出（协同型）"
       ],
-      "count": 31
+      "count": 2
     },
     "population": {
       "max": 12700.0,

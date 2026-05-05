@@ -138,7 +138,7 @@
       "theoretical_demand": 63.35030980221399,
       "residual": 0.8804594285552412,
       "resource_type": "冗余/高效区",
-      "new_quadrant": "低投入-低产出（匮乏型）"
+      "new_quadrant": "高投入-低产出（低效型）"
     },
     "宁夏回族自治区": {
       "health_personnel": 4.18,
@@ -198,7 +198,7 @@
       "theoretical_demand": 63.35030980221399,
       "residual": 4.257533335040904,
       "resource_type": "冗余/高效区",
-      "new_quadrant": "低投入-低产出（匮乏型）"
+      "new_quadrant": "高投入-低产出（低效型）"
     },
     "山西省": {
       "health_personnel": 27.16,
@@ -278,7 +278,7 @@
       "theoretical_demand": 63.35030980221399,
       "residual": 3.7696901977860193,
       "resource_type": "冗余/高效区",
-      "new_quadrant": "低投入-低产出（匮乏型）"
+      "new_quadrant": "高投入-低产出（低效型）"
     },
     "江苏省": {
       "health_personnel": 48.18,
@@ -598,7 +598,7 @@
       "theoretical_demand": 63.35030980221399,
       "residual": 1.3163568644526862,
       "resource_type": "冗余/高效区",
-      "new_quadrant": "低投入-低产出（匮乏型）"
+      "new_quadrant": "高投入-低产出（低效型）"
     },
     "黑龙江省": {
       "health_personnel": 26.61,
@@ -975,14 +975,14 @@
         "低投入-低产出（匮乏型）",
         "高投入-低产出（低效型）"
       ],
-      "count": 31
+      "count": 2
     },
     "resource_type": {
       "unique_values": [
-        "资源缺口区",
-        "冗余/高效区"
+        "冗余/高效区",
+        "资源缺口区"
       ],
-      "count": 31
+      "count": 2
     },
     "theoretical_demand": {
       "max": 63.35030980221399,
@@ -1047,7 +1047,7 @@
         "低投入-低产出（匮乏型）",
         "高投入-低产出（低效型）"
       ],
-      "count": 31
+      "count": 2
     },
     "population": {
       "max": 12700.0,
