@@ -43,6 +43,18 @@ const loadWorldMap = async () => {
 
 const categoricalMetrics = ['resource_type', 'quadrant', 'new_quadrant']
 
+const QUADRANT_CATEGORIES = [
+  '低投入-低产出（匮乏型）',
+  '高投入-低产出（低效型）',
+  '低投入-高产出（高效型）',
+  '高投入-高产出（优质型）'
+]
+
+const RESOURCE_TYPE_CATEGORIES = [
+  '资源缺口区',
+  '冗余/高效区'
+]
+
 const getMapData = () => {
   const mode = appStore.mode
   const year = appStore.currentYear
@@ -54,27 +66,35 @@ const getMapData = () => {
   const yearData = dataSet.values[year]
   return Object.entries(yearData).map(([name, values]) => ({
     name,
-    value: values[metricId]
+    value: values[metricId],
+    rawValue: values[metricId]
   })).filter(item => item.value != null)
 }
 
-const getCategoryConfig = (): Record<string, string> | null => {
+const getCategoryConfig = (): { colors: Record<string, string>, categories: string[] } | null => {
   const metricId = dataStore.currentMetricId
   const dataSet = appStore.mode === 'china' ? dataStore.chinaData : dataStore.worldData
 
   if (!dataSet) return null
 
-  if (categoricalMetrics.includes(metricId)) {
-    const stats: any = dataSet.statistics?.[metricId]
-    if (stats && stats.unique_values) {
-      const colors = ['#36A2EB', '#FF6384', '#FFCE56', '#4BC0C0', '#9966FF']
-      const colorMap: Record<string, string> = {}
-      stats.unique_values.forEach((val: string, idx: number) => {
-        colorMap[val] = colors[idx % colors.length]
-      })
-      return colorMap
-    }
+  if (metricId === 'quadrant' || metricId === 'new_quadrant') {
+    const colors = ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56']
+    const colorMap: Record<string, string> = {}
+    QUADRANT_CATEGORIES.forEach((cat, idx) => {
+      colorMap[cat] = colors[idx % colors.length]
+    })
+    return { colors: colorMap, categories: QUADRANT_CATEGORIES }
   }
+
+  if (metricId === 'resource_type') {
+    const colors = ['#FF6384', '#36A2EB']
+    const colorMap: Record<string, string> = {}
+    RESOURCE_TYPE_CATEGORIES.forEach((cat, idx) => {
+      colorMap[cat] = colors[idx % colors.length]
+    })
+    return { colors: colorMap, categories: RESOURCE_TYPE_CATEGORIES }
+  }
+
   return null
 }
 
@@ -92,9 +112,9 @@ const chartOption = computed(() => {
   if (isCategorical && categoryConfig) {
     seriesData = mapData.map((item: any) => ({
       name: item.name,
-      value: item.value,
+      value: item.rawValue,
       itemStyle: {
-        areaColor: categoryConfig[item.value] || '#CCCCCC'
+        areaColor: categoryConfig.colors[item.rawValue] || '#CCCCCC'
       }
     }))
   } else {
@@ -148,10 +168,10 @@ const chartOption = computed(() => {
   if (isCategorical && categoryConfig) {
     option.visualMap = {
       type: 'piecewise',
-      pieces: Object.entries(categoryConfig).map(([value, color]) => ({
-        value,
-        label: value,
-        color
+      pieces: categoryConfig.categories.map((cat) => ({
+        value: cat,
+        label: cat,
+        color: categoryConfig.colors[cat]
       })),
       left: 'left',
       top: 'bottom',
