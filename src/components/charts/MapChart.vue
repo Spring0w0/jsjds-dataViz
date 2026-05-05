@@ -52,8 +52,8 @@ const getMapData = () => {
   const yearData = dataSet.values[year]
   return Object.entries(yearData).map(([name, values]) => ({
     name,
-    value: values[metricId]
-  })).filter(item => item.value != null)
+    value: values[metricId] as any
+  })).filter((item: { name: string; value: any }) => item.value != null)
 }
 
 const getVisualMapConfig = () => {
@@ -62,26 +62,31 @@ const getVisualMapConfig = () => {
   const dataSet = mode === 'china' ? dataStore.chinaData : dataStore.worldData
   const year = appStore.currentYear
 
-  if (!dataSet || !metric) return null
+  if (!dataSet || !metric) return undefined
 
-  const stats = dataSet.statistics[year]?.[metric.id]
-  if (!stats) return null
-
-  // 判断是否为分类数据
   const categoricalMetrics = ['resource_type', 'quadrant', 'new_quadrant']
   const isCategorical = categoricalMetrics.includes(metric.id)
 
+  let stats: any = undefined
+
   if (isCategorical) {
-    if (stats.unique_values && stats.unique_values.length > 0) {
-      const categories = stats.unique_values
-      // 为每个分类分配不同的颜色
+    stats = dataSet.statistics?.[metric.id]
+  } else {
+    stats = dataSet.statistics?.[year]?.[metric.id] || dataSet.statistics?.[metric.id]
+  }
+
+  if (!stats) return undefined
+
+  if (isCategorical) {
+    const uniqueValues = stats.unique_values || []
+    if (uniqueValues.length > 0) {
       const categoryColors = ['#36A2EB', '#FF6384', '#FFCE56', '#4BC0C0', '#9966FF']
-      const pieces = categories.map((category, index) => ({
+      const pieces = uniqueValues.map((category: string, index: number) => ({
         value: category,
         label: category,
         color: categoryColors[index % categoryColors.length]
       }))
-      
+
       return {
         type: 'piecewise',
         pieces: pieces,
@@ -90,7 +95,7 @@ const getVisualMapConfig = () => {
         calculable: false
       }
     }
-    return null
+    return undefined
   }
 
   return {
@@ -111,7 +116,7 @@ const chartOption = computed<EChartsOption>(() => {
   const mode = appStore.mode
   const mapName = mode === 'china' ? 'china' : 'world'
   const metric = dataStore.currentMetric
-  
+
   const visualMap = getVisualMapConfig()
   const mapData = getMapData()
 
@@ -160,36 +165,36 @@ const chartOption = computed<EChartsOption>(() => {
 
 const initChart = async () => {
   if (!chartRef.value) return
-  
+
   const mode = appStore.mode
-  
+
   if (mode === 'china' && !mapStore.mapLoaded.china) {
     await loadChinaMap()
   } else if (mode === 'world' && !mapStore.mapLoaded.world) {
     await loadWorldMap()
   }
-  
+
   chartInstance = echarts.init(chartRef.value)
   chartInstance.setOption(chartOption.value)
-  
+
   chartInstance.on('click', (params: any) => {
     if (params.name) {
       mapStore.selectRegion(params.name)
       emit('region-click', params.name)
     }
   })
-  
+
   chartInstance.on('mouseover', (params: any) => {
     if (params.name) {
       mapStore.hoverRegion(params.name)
       emit('region-hover', params.name)
     }
   })
-  
+
   chartInstance.on('mouseout', () => {
     mapStore.hoverRegion(null)
   })
-  
+
   window.addEventListener('resize', handleResize)
 }
 
@@ -199,15 +204,15 @@ const handleResize = () => {
 
 const updateChart = async () => {
   if (!chartInstance) return
-  
+
   const mode = appStore.mode
-  
+
   if (mode === 'china' && !mapStore.mapLoaded.china) {
     await loadChinaMap()
   } else if (mode === 'world' && !mapStore.mapLoaded.world) {
     await loadWorldMap()
   }
-  
+
   chartInstance.setOption(chartOption.value, true)
 }
 

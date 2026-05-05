@@ -1,25 +1,19 @@
 import { defineStore } from 'pinia'
 import { getMetricById, type Metric, METRICS_CONFIG } from '../config/metrics-config'
 
+interface RegionData {
+  [metricId: string]: number | string | undefined
+  rank?: number
+  resource_type?: string
+  quadrant?: string
+}
+
 interface YearData {
-  [region: string]: {
-    [metricId: string]: number | string
-    rank?: number
-    resource_type?: string
-    quadrant?: string
-  }
+  [region: string]: RegionData
 }
 
 interface Statistics {
-  [metricId: string]: {
-    max?: number
-    min?: number
-    avg?: number
-    top10?: string[]
-    bottom10?: string[]
-    unique_values?: string[]
-    count?: number
-  }
+  [metricId: string]: any
 }
 
 interface Trends {
@@ -40,7 +34,7 @@ interface DataSet {
   }
   statistics: {
     [year: string]: Statistics
-  }
+  } & Statistics
   trends: Trends
 }
 
@@ -74,14 +68,20 @@ export const useDataStore = defineStore('data', {
         const trends = await trendsResponse.json();
 
         const values: { [year: string]: YearData } = {};
-        const statistics: { [year: string]: Statistics } = {};
+        const statisticsByYear: { [year: string]: Statistics } = {};
+        let crossYearStats: Statistics = {};
 
         for (const year of metadata.years) {
           const valuesRes = await fetch(`/data/china/values_${year}.json`);
           const data = await valuesRes.json();
           values[year] = data.values;
-          statistics[year] = data.statistics;
+          statisticsByYear[year] = data.statistics;
+          crossYearStats = { ...crossYearStats, ...data.statistics };
         }
+
+        const statistics = { ...statisticsByYear, ...crossYearStats } as {
+          [year: string]: Statistics
+        } & Statistics;
 
         this.chinaData = {
           metadata,
@@ -108,14 +108,20 @@ export const useDataStore = defineStore('data', {
         const trends = await trendsResponse.json();
 
         const values: { [year: string]: YearData } = {};
-        const statistics: { [year: string]: Statistics } = {};
+        const statisticsByYear: { [year: string]: Statistics } = {};
+        let crossYearStats: Statistics = {};
 
         for (const year of metadata.years) {
           const valuesRes = await fetch(`/data/world/values_${year}.json`);
           const data = await valuesRes.json();
           values[year] = data.values;
-          statistics[year] = data.statistics;
+          statisticsByYear[year] = data.statistics;
+          crossYearStats = { ...crossYearStats, ...data.statistics };
         }
+
+        const statistics = { ...statisticsByYear, ...crossYearStats } as {
+          [year: string]: Statistics
+        } & Statistics;
 
         this.worldData = {
           metadata,

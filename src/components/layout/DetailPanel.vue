@@ -22,7 +22,7 @@
             <span class="value">{{ currentMetric.description }}</span>
           </div>
           <!-- 数值型指标的统计信息 -->
-          <template v-if="currentStats && currentStats.max != null">
+          <template v-if="currentStats && typeof currentStats.max === 'number'">
             <div class="info-item">
               <span class="label">最大值</span>
               <span class="value">{{ currentStats.max }}{{ currentMetric.unit }}</span>
@@ -33,11 +33,11 @@
             </div>
             <div class="info-item">
               <span class="label">平均值</span>
-              <span class="value">{{ currentStats.avg?.toFixed(2) }}{{ currentMetric.unit }}</span>
+              <span class="value">{{ typeof currentStats.avg === 'number' ? currentStats.avg.toFixed(2) : '' }}{{ currentMetric.unit }}</span>
             </div>
           </template>
           <!-- 分类指标的统计信息 -->
-          <template v-else-if="currentStats && currentStats.unique_values">
+          <template v-else-if="currentStats && Array.isArray(currentStats.unique_values)">
             <div class="info-item">
               <span class="label">分类数量</span>
               <span class="value">{{ currentStats.unique_values.length }}</span>
@@ -120,8 +120,13 @@ const currentStats = computed(() => {
   const dataSet = mode === 'china' ? dataStore.chinaData : dataStore.worldData
 
   if (!dataSet) return null
-  // 中国和世界数据的统计信息都按年份组织
-  return dataSet.statistics[year]?.[metricId]
+  
+  const categoricalMetrics = ['resource_type', 'quadrant', 'new_quadrant']
+  if (categoricalMetrics.includes(metricId)) {
+    return dataSet.statistics?.[metricId]
+  }
+  
+  return dataSet.statistics?.[year]?.[metricId] || dataSet.statistics?.[metricId]
 })
 
 const currentRegionData = computed(() => {

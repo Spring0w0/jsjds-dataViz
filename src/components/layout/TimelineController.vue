@@ -38,7 +38,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
+import { computed, onMounted, onUnmounted, watch } from 'vue'
 import { VideoPlay, VideoPause } from '@element-plus/icons-vue'
 import { useAppStore } from '../../stores/app'
 import { useDataStore } from '../../stores/data'

@@ -35,7 +35,17 @@ const chartOption = computed<EChartsOption>(() => {
     }
   }
 
-  const stats = dataSet.statistics[year]?.[metricId]
+  const categoricalMetrics = ['resource_type', 'quadrant', 'new_quadrant']
+  const isCategorical = categoricalMetrics.includes(metricId)
+
+  let stats: any = undefined
+
+  if (isCategorical) {
+    stats = dataSet.statistics?.[metricId]
+  } else {
+    stats = dataSet.statistics?.[year]?.[metricId] || dataSet.statistics?.[metricId]
+  }
+
   if (!stats) {
     return {
       title: { text: '暂无数据' }
@@ -53,16 +63,16 @@ const chartOption = computed<EChartsOption>(() => {
   const yearData = dataSet.values[year]
 
   const chartData = regions
-    .map(name => ({
+    .map((name: string) => ({
       name,
       value: yearData?.[name]?.[metricId] as number
     }))
-    .filter(item => item.value != null)
-  
+    .filter((item: { name: string; value: number | null }) => item.value != null)
+
   if (!props.showTop) {
     chartData.reverse()
   }
-  
+
   return {
     backgroundColor: '#F5F8FA',
     title: {
@@ -91,13 +101,13 @@ const chartOption = computed<EChartsOption>(() => {
     },
     yAxis: {
       type: 'category',
-      data: chartData.map(item => item.name)
+      data: chartData.map((item: { name: string; value: number }) => item.name)
     },
     series: [
       {
         name: metric.name,
         type: 'bar',
-        data: chartData.map(item => item.value),
+        data: chartData.map((item: { name: string; value: number }) => item.value),
         itemStyle: {
           color: {
             type: 'linear',

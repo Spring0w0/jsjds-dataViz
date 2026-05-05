@@ -44,7 +44,7 @@ const chartOption = computed<EChartsOption>(() => {
   }
   
   const years = dataSet.metadata.years
-  let trendData: number[] = []
+  let trendData: (number | null)[] = []
 
   if (selectedRegion && dataSet.trends[selectedRegion]?.[metricId]) {
     const regionTrends = dataSet.trends[selectedRegion][metricId]
@@ -55,7 +55,7 @@ const chartOption = computed<EChartsOption>(() => {
       if (!yearData) return null
       const values = Object.values(yearData).map(v => v[metricId] as number).filter(v => v != null)
       if (values.length === 0) return null
-      return values.reduce((a, b) => a + b, 0) / values.length
+      return values.reduce((a: number, b: number) => a + b, 0) / values.length
     })
   }
   
