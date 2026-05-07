@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "jsjds-dataViz",
+			"path": "../../.."
+		},
+		{
+			"name": "数据集",
+			"path": "../../../../数据集"
+		}
+	],
+	"settings": {}
+}
